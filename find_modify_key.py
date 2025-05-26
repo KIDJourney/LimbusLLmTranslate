@@ -19,16 +19,18 @@ cn_name_map = {os.path.basename(f): f for f in cn_json_files}
 
 changed_keys = {}
 
-for kr_file in kr_json_files:
-    print(f"Processing file: {kr_file}")
-    kr_file_name = os.path.basename(kr_file)
-    cn_file_name = kr_file_name.replace("KR_", "")
+for kr_file_path in kr_json_files:
+    kr_file_path_name = os.path.basename(kr_file_path)
+    cn_file_name = kr_file_path_name.replace("KR_", "")
 
     if cn_file_name not in cn_name_map:
-        print(f"Warning: Corresponding CN file not found for {kr_file_name}")
+        print(f"Warning: Corresponding CN file not found for {kr_file_path_name}")
         continue
     cn_file_path = cn_name_map[cn_file_name]
-    with open(kr_file, 'r', encoding='utf-8') as kr_f, open(cn_file_path, 'r', encoding='utf-8') as cn_f:
+    with open(kr_file_path, 'r', encoding='utf-8') as kr_f, open(cn_file_path, 'r', encoding='utf-8') as cn_f:
+        print(f"Processing file: '{kr_file_path}'")
+        print(f"Corresponding CN file: '{cn_file_path}'")
+
         kr_data = json.load(kr_f)['dataList']
         cn_data = json.load(cn_f)['dataList']
 
@@ -50,7 +52,7 @@ for kr_file in kr_json_files:
                 if key in cn_item and kr_item[key] != cn_item[key]:
                     modify_keys.add(key)
 
-    changed_keys[kr_file_name] = list(modify_keys)
+    changed_keys[kr_file_path_name] = list(modify_keys)
 
 with open("./database/modify_keys.json", 'w', encoding='utf-8') as f:
     json.dump(changed_keys, f, ensure_ascii=False, indent=4)
