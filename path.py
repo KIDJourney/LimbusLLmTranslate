@@ -33,9 +33,8 @@ def write_file_data(file_path, data):
     data = {
         "dataList": data
     }
-    print(file_path, data)
-    # with open(file_path, 'w', encoding='utf-8') as f:
-    #     f.write(json.dumps(data, ensure_ascii=False, indent=4))
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(json.dumps(data, ensure_ascii=False, indent=4))
 
 
 

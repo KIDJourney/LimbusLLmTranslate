@@ -9,7 +9,7 @@ from path import (
     read_file_data,
     AutoSavingDict
 )
-from keywords_const import STATIC_KEYWORDS_KEYS
+from keywords_const import STATIC_KEYWORDS_KEYS, LLM_KEYWORDS_MAPPING
 from llm import USE_LLM
 
 MODIFY_KEYS = json.loads(open("./database/modify_keys.json", "r").read())
