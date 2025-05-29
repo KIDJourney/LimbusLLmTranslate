@@ -2,7 +2,7 @@ import os
 import json 
 import glob
 
-from path import BASE_PATH, KR_LANGE_PATH, CN_LANGE_PATH, KR_JSON_FILES, CN_JSON_FILES
+from path import KR_JSON_FILES, CN_JSON_FILES, AutoSavingDict
 
 
 
@@ -12,11 +12,11 @@ if __name__ == "__main__":
     cn_json_files = CN_JSON_FILES
     cn_name_map = {os.path.basename(f): f for f in cn_json_files}
 
-    changed_keys = {}
+    changed_keys = AutoSavingDict("./database/modify_keys.json")
 
     for kr_file_path in kr_json_files:
         kr_file_path_name = os.path.basename(kr_file_path)
-        cn_file_name = kr_file_path_name.replace("KR_", "")
+        cn_file_name= kr_file_path_name
 
         if cn_file_name not in cn_name_map:
             print(f"Warning: Corresponding CN file not found for {kr_file_path_name}")
@@ -45,11 +45,4 @@ if __name__ == "__main__":
 
         # 保留最后两位的path作为key
         rel_path = os.path.basename(kr_file_path)
-        dir_name = os.path.basename(os.path.dirname(kr_file_path))
-        if dir_name != "kr":
-            rel_path = os.path.join(dir_name, kr_file_path_name)
-        
         changed_keys[rel_path] = sorted(list(modify_keys))
-
-    with open("./database/modify_keys.json", 'w', encoding='utf-8') as f:
-        json.dump(changed_keys, f, ensure_ascii=False, indent=4)
