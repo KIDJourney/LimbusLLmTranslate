@@ -18,4 +18,4 @@ STATIC_KEYWORDS_KEYS = [
 ]
 
 
-STATIC_KEYWORDS_MAPPING = json.load(open("./database/keywords_static.json"))
+STATIC_KEYWORDS_MAPPING = json.load(open("./database/keywords_static.json", encoding="utf-8"))

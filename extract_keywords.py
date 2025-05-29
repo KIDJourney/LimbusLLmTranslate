@@ -58,9 +58,9 @@ def handle_llm_keywords():
     s8_file = [i for i in KR_FILES_BASE_NAME_MAPPING.keys() if i.startswith("S8")]
     handle_files = sorted(list(set(s8_file) & set(CN_FILES_BASE_NAME_MAPPING.keys())))
 
-    llm_keywords_mapping = AutoSavingDict("./database/keywords_llm.json")
+    llm_mapping = AutoSavingDict("./database/keywords_llm.json")
 
-    for f in handle_files:
+    def handle_file(f, llm_keywords_mapping):
         kr_file_path = KR_FILES_BASE_NAME_MAPPING[f]
         cn_file_path = CN_FILES_BASE_NAME_MAPPING[f]
 
@@ -89,6 +89,7 @@ def handle_llm_keywords():
             if kr_content and cn_content:
                 msg = f"原文:\n{kr_content}\n\n译文:\n{cn_content}"
                 keywords = chat_with_coze(BOT_ID_KEYWORD, msg)
+                print(f"Keywords for {kr_id} in {f}: {msg} {keywords}")
 
                 try:
                     keywords = json.loads(keywords)
@@ -105,6 +106,11 @@ def handle_llm_keywords():
                         print(f"Invalid keyword item for {kr_id} in {f}: {item}")
                         continue
                     llm_keywords_mapping[item[0]] = item[1]
+
+    import concurrent.futures
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+        list(executor.map(handle_file, handle_files))
 
 
 if __name__ == "__main__":
