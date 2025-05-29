@@ -55,10 +55,10 @@ def handle_static_keywords():
 
 def handle_llm_keywords():
     # 本次只处理S8的文件
-    s8_file = [i for i in KR_FILES_BASE_NAME_MAPPING.keys() if i.startswith("S8")][0]
-    handle_files = set(s8_file) & set(CN_FILES_BASE_NAME_MAPPING.keys())
+    s8_file = [i for i in KR_FILES_BASE_NAME_MAPPING.keys() if i.startswith("S8")]
+    handle_files = sorted(list(set(s8_file) & set(CN_FILES_BASE_NAME_MAPPING.keys())))
 
-    llm_keywords_mapping = {}
+    llm_keywords_mapping = AutoSavingDict("./database/keywords_llm.json")
 
     for f in handle_files:
         kr_file_path = KR_FILES_BASE_NAME_MAPPING[f]
@@ -71,7 +71,7 @@ def handle_llm_keywords():
 
         for kr_item in kr_data:
             kr_id = kr_item.get("id")
-            if not kr_id:
+            if kr_id is None:
                 print("No kr id for item: ", kr_item)
                 continue
             cn_item = cn_item_map.get(kr_id)
@@ -81,8 +81,12 @@ def handle_llm_keywords():
 
             kr_content = kr_item.get("content", "")
             cn_content = cn_item.get("content", "")
+
+            if kr_content == cn_content:
+                print(f"Content is the same for {kr_id} in {f}, skipping...")
+                continue
+
             if kr_content and cn_content:
-                # 处理静态关键词
                 msg = f"原文:\n{kr_content}\n\n译文:\n{cn_content}"
                 keywords = chat_with_coze(BOT_ID_KEYWORD, msg)
 
@@ -92,7 +96,11 @@ def handle_llm_keywords():
                     print(f"Error parsing keywords for {kr_id} in {f}: {keywords}")
                     continue
 
+                print(f"Keywords for {kr_id} in {f}: {keywords}")
+
                 for item in keywords:
+                    if not item:
+                        continue    
                     if len(item) != 2:
                         print(f"Invalid keyword item for {kr_id} in {f}: {item}")
                         continue
@@ -100,6 +108,5 @@ def handle_llm_keywords():
 
 
 if __name__ == "__main__":
-    handle_static_keywords()
-    if USE_LLM:
-        chat_with_coze("S832B.json", BOT_ID_KEYWORD)
+    # handle_static_keywords()
+    handle_llm_keywords()
