@@ -48,60 +48,60 @@
         "teller"
     ],
     "KR_AbEvents-a1c5p3.json": [
-        "prevDesc",
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
-        "title",
         "failureDesc",
-        "behaveDesc"
+        "prevDesc",
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents-a1c6p2.json": [
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
         "failureDesc",
-        "title",
-        "behaveDesc"
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents-a1c6p3.json": [
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
         "failureDesc",
-        "title",
-        "behaveDesc"
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents-a1c7p3.json": [
-        "prevDesc",
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
         "failureDesc",
-        "title",
-        "behaveDesc"
+        "prevDesc",
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents-a1c8p2.json": [
-        "failureDesc",
-        "successDesc",
         "behaveDesc",
-        "eventDesc"
+        "eventDesc",
+        "failureDesc",
+        "successDesc"
     ],
     "KR_AbEvents-walpu4.json": [
-        "failureDesc",
-        "successDesc",
         "behaveDesc",
-        "eventDesc"
+        "eventDesc",
+        "failureDesc",
+        "successDesc"
     ],
     "KR_AbEvents-walpu5.json": [
-        "failureDesc",
-        "successDesc",
         "behaveDesc",
-        "eventDesc"
+        "eventDesc",
+        "failureDesc",
+        "successDesc"
     ],
     "KR_AbEvents.json": [
-        "prevDesc",
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
-        "title",
         "failureDesc",
-        "behaveDesc"
+        "prevDesc",
+        "successDesc",
+        "title"
     ],
     "KR_AbEventsResultLog-a1c5p3.json": [
         "content"
@@ -137,160 +137,160 @@
         "content"
     ],
     "KR_AbEvents_lcbcheckup.json": [
+        "behaveDesc",
         "failureDesc",
-        "title",
         "successDesc",
-        "behaveDesc"
+        "title"
     ],
     "KR_AbEvents_Mirror.json": [
+        "behaveDesc",
         "failureDesc",
-        "successDesc",
-        "behaveDesc"
+        "successDesc"
     ],
     "KR_AbEvents_Mirror3.json": [
+        "behaveDesc",
         "failureDesc",
-        "successDesc",
-        "behaveDesc"
+        "successDesc"
     ],
     "KR_AbEvents_Mirror4.json": [
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
         "failureDesc",
-        "title",
-        "behaveDesc"
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents_mowe.json": [
+        "behaveDesc",
         "failureDesc",
-        "successDesc",
-        "behaveDesc"
+        "successDesc"
     ],
     "KR_AbEvents_night-clean-up.json": [
+        "behaveDesc",
         "failureDesc",
-        "successDesc",
-        "behaveDesc"
+        "successDesc"
     ],
     "KR_AbEvents_Refraction2.json": [
-        "prevDesc",
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
-        "title",
         "failureDesc",
-        "behaveDesc"
+        "prevDesc",
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents_Refraction3.json": [
-        "prevDesc",
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
-        "title",
         "failureDesc",
-        "behaveDesc"
+        "prevDesc",
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents_Refraction4.json": [
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
         "failureDesc",
-        "title",
-        "behaveDesc"
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents_Refraction5.json": [
-        "prevDesc",
+        "behaveDesc",
         "eventDesc",
-        "successDesc",
         "failureDesc",
-        "title",
-        "behaveDesc"
+        "prevDesc",
+        "successDesc",
+        "title"
     ],
     "KR_AbEvents_tkt.json": [
+        "behaveDesc",
         "failureDesc",
-        "title",
         "successDesc",
-        "behaveDesc"
+        "title"
     ],
     "KR_AbEvents_Ycgd.json": [
+        "behaveDesc",
         "failureDesc",
-        "title",
         "successDesc",
-        "behaveDesc"
+        "title"
     ],
     "KR_AbnormalityGuides-a1c5p3.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-a1c6p2.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-a1c6p3.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-a1c7p3.json": [
-        "storyList",
         "clue",
         "codeName",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-a1c9114.json": [
-        "storyList",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-mowe.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-tkt.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides-walpu4.json": [
-        "storyList",
-        "clue"
+        "clue",
+        "storyList"
     ],
     "KR_AbnormalityGuides-ycgd.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides.json": [
-        "storyList",
         "clue",
         "desc",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides_Mirror.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides_Refraction2.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides_Refraction3.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides_Refraction4.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_AbnormalityGuides_Refraction5.json": [
-        "storyList",
         "clue",
-        "name"
+        "name",
+        "storyList"
     ],
     "KR_ActionEvents-a1c5p3.json": [
-        "options",
         "desc",
-        "name"
+        "name",
+        "options"
     ],
     "KR_ActionEvents-a1c6p3.json": [
         "desc",
@@ -305,8 +305,8 @@
         "options"
     ],
     "KR_ActionEvents-walpu4.json": [
-        "name",
         "desc",
+        "name",
         "options"
     ],
     "KR_ActionEvents-walpu5.json": [
@@ -314,10 +314,10 @@
         "options"
     ],
     "KR_ActionEvents.json": [
-        "options",
-        "subDesc",
         "desc",
-        "name"
+        "name",
+        "options",
+        "subDesc"
     ],
     "KR_ActionEvents_a1c971.json": [
         "desc",
@@ -336,9 +336,9 @@
         "options"
     ],
     "KR_ActionEvents_Mirror4.json": [
-        "options",
         "desc",
-        "name"
+        "name",
+        "options"
     ],
     "KR_ActionEvents_mowe.json": [
         "desc",
@@ -349,10 +349,10 @@
         "options"
     ],
     "KR_ActionEvents_Refraction2.json": [
-        "options",
-        "subDesc",
         "desc",
-        "name"
+        "name",
+        "options",
+        "subDesc"
     ],
     "KR_ActionEvents_Refraction3.json": [
         "desc",
@@ -367,14 +367,14 @@
         "options"
     ],
     "KR_ActionEvents_tkt.json": [
-        "options",
         "desc",
-        "name"
+        "name",
+        "options"
     ],
     "KR_ActionEvents_Ycgd.json": [
-        "options",
         "desc",
-        "name"
+        "name",
+        "options"
     ],
     "KR_Announcer-a1c8p1.json": [
         "name"
@@ -412,38 +412,38 @@
         "content"
     ],
     "KR_BattleKeywords-a1c5p1.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c5p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c5p3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c6p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c6p3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c7p1.json": [
         "desc",
         "name"
     ],
     "KR_BattleKeywords-a1c7p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c7p3.json": [
         "desc",
@@ -462,9 +462,9 @@
         "name"
     ],
     "KR_BattleKeywords-a1c9116.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-a1c951.json": [
         "desc",
@@ -475,18 +475,18 @@
         "name"
     ],
     "KR_BattleKeywords-fools.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-mowe.json": [
         "desc",
         "name"
     ],
     "KR_BattleKeywords-tkt.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords-walpu4.json": [
         "desc",
@@ -501,9 +501,9 @@
         "name"
     ],
     "KR_BattleKeywords.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords_Mirror3.json": [
         "desc",
@@ -518,14 +518,14 @@
         "name"
     ],
     "KR_BattleKeywords_Refraction2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords_Refraction3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_BattleKeywords_Refraction4.json": [
         "desc",
@@ -575,43 +575,43 @@
         "variation2"
     ],
     "KR_Bufs-a1c5p1.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c5p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c5p3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c6p1.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c6p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c6p3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c7p1.json": [
         "desc",
         "name"
     ],
     "KR_Bufs-a1c7p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c7p3.json": [
         "desc",
@@ -630,9 +630,9 @@
         "name"
     ],
     "KR_Bufs-a1c9116.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-a1c951.json": [
         "desc",
@@ -643,18 +643,18 @@
         "name"
     ],
     "KR_Bufs-fools.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-mowe.json": [
         "desc",
         "name"
     ],
     "KR_Bufs-tkt.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs-walpu4.json": [
         "desc",
@@ -669,9 +669,9 @@
         "name"
     ],
     "KR_Bufs.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs_Mirror3.json": [
         "desc",
@@ -686,14 +686,14 @@
         "name"
     ],
     "KR_Bufs_Refraction2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs_Refraction3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Bufs_Refraction4.json": [
         "desc",
@@ -795,74 +795,74 @@
         "name"
     ],
     "KR_EGOgift_a1c8p2.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon-EventTheme.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon-EventTheme_2.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon-mowe.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon-StoryTheme.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon-StoryTheme_2.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon-ycgd.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_MirrorDungeon_2.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_StoryDungeon-a1c5p3.json": [
         "desc",
         "name"
     ],
     "KR_EGOgift_StoryDungeon-a1c7p3.json": [
-        "simpleDesc",
-        "desc",
-        "name"
-    ],
-    "KR_EGOgift_StoryDungeon-tkt.json": [
-        "simpleDesc",
-        "desc",
-        "name"
-    ],
-    "KR_EGOgift_StoryDungeon.json": [
-        "simpleDesc",
         "desc",
         "name",
-        "abnormalityName"
+        "simpleDesc"
+    ],
+    "KR_EGOgift_StoryDungeon-tkt.json": [
+        "desc",
+        "name",
+        "simpleDesc"
+    ],
+    "KR_EGOgift_StoryDungeon.json": [
+        "abnormalityName",
+        "desc",
+        "name",
+        "simpleDesc"
     ],
     "KR_EGOgift_walpu4.json": [
-        "simpleDesc",
         "desc",
-        "name"
+        "name",
+        "simpleDesc"
     ],
     "KR_Egos.json": [
         "desc",
@@ -1015,8 +1015,8 @@
         "content"
     ],
     "KR_FileDownloadDesc.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_Filter.json": [
         "content"
@@ -1040,8 +1040,8 @@
         "content"
     ],
     "KR_HellsChickenDungeonNode.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_IAPProduct-a1c7.json": [
         "desc",
@@ -1062,36 +1062,36 @@
         "content"
     ],
     "KR_IntroduceCharacter.json": [
-        "name",
-        "description"
+        "description",
+        "name"
     ],
     "KR_IntroductionPreset.json": [
         "content"
     ],
     "KR_Items-a1c6.json": [
         "desc",
-        "name",
-        "flavor"
+        "flavor",
+        "name"
     ],
     "KR_Items-a1c7p1.json": [
         "desc",
-        "name",
-        "flavor"
+        "flavor",
+        "name"
     ],
     "KR_Items-a1c8p1.json": [
         "desc",
-        "name",
-        "flavor"
+        "flavor",
+        "name"
     ],
     "KR_Items-fools.json": [
         "desc",
-        "name",
-        "flavor"
+        "flavor",
+        "name"
     ],
     "KR_Items.json": [
         "desc",
-        "name",
-        "flavor"
+        "flavor",
+        "name"
     ],
     "KR_KeywordDictionary.json": [
         "desc",
@@ -1113,12 +1113,12 @@
         "content"
     ],
     "KR_MentalCondition-a1c6p3.json": [
-        "min",
-        "add"
+        "add",
+        "min"
     ],
     "KR_MentalCondition.json": [
-        "min",
-        "add"
+        "add",
+        "min"
     ],
     "KR_MirrorDungeonAbName.json": [
         "content"
@@ -1136,8 +1136,8 @@
         "content"
     ],
     "KR_MirrorDungeonNode1-1.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_MirrorDungeonTheme-1.json": [
         "name"
@@ -1257,36 +1257,36 @@
         "name"
     ],
     "KR_Passives.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Abnormality-a1c5p3.json": [
         "desc",
         "name"
     ],
     "KR_Passives_Abnormality-a1c6p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Abnormality-a1c6p3.json": [
         "desc",
         "name"
     ],
     "KR_Passives_Abnormality-a1c7p1.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Abnormality-a1c7p2.json": [
         "desc",
         "name"
     ],
     "KR_Passives_Abnormality-a1c7p3.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Abnormality-a1c8p2.json": [
         "desc",
@@ -1317,9 +1317,9 @@
         "name"
     ],
     "KR_Passives_Abnormality.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Abnormality91-4.json": [
         "desc",
@@ -1354,9 +1354,9 @@
         "name"
     ],
     "KR_Passives_check4.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Enemy-a1c5p1.json": [
         "desc",
@@ -1371,14 +1371,14 @@
         "name"
     ],
     "KR_Passives_Enemy-a1c6p1.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Enemy-a1c6p2.json": [
-        "summary",
         "desc",
-        "name"
+        "name",
+        "summary"
     ],
     "KR_Passives_Enemy-a1c6p3.json": [
         "desc",
@@ -1425,15 +1425,15 @@
         "name"
     ],
     "KR_Passive_Ego.json": [
-        "summary",
-        "desc",
-        "name"
-    ],
-    "KR_Personalities.json": [
-        "title",
         "desc",
         "name",
-        "nameWithTitle"
+        "summary"
+    ],
+    "KR_Personalities.json": [
+        "desc",
+        "name",
+        "nameWithTitle",
+        "title"
     ],
     "KR_Personality_Get_Condition.json": [
         "content"
@@ -1442,23 +1442,23 @@
         "content"
     ],
     "KR_RailwayDungeon.json": [
-        "name",
-        "longName"
+        "longName",
+        "name"
     ],
     "KR_RailwayDungeonBuff.json": [
         "content"
     ],
     "KR_RailwayDungeonNode1-1.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_RailwayDungeonNode2.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_RailwayDungeonNode3.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_RailwayDungeonNode4.json": [
         "title"
@@ -1506,8 +1506,8 @@
         "content"
     ],
     "KR_ScenarioModelCodes-AutoCreated.json": [
-        "nickName",
-        "name"
+        "name",
+        "nickName"
     ],
     "KR_SeasonTitle-a1c7.json": [
         "content"
@@ -1759,31 +1759,31 @@
         "name"
     ],
     "KR_StageChapterText-a1c7p1.json": [
-        "company",
-        "chaptertitle",
+        "area",
         "chapter",
-        "area"
+        "chaptertitle",
+        "company"
     ],
     "KR_StageChapterText.json": [
-        "company",
-        "chaptertitle",
+        "area",
         "chapter",
-        "area"
+        "chaptertitle",
+        "company"
     ],
     "KR_StageNode-a1c5p1.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode-a1c5p2.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode-a1c5p3.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode-a1c6p1.json": [
         "title"
@@ -1810,29 +1810,29 @@
         "title"
     ],
     "KR_StageNode1-0.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode1-1.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode1-2.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode1-3.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode1-4.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode91-10.json": [
         "title"
@@ -1850,34 +1850,34 @@
         "title"
     ],
     "KR_StageNode91-3.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode91-4.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode91-5.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode91-6.json": [
         "title"
     ],
     "KR_StageNode91-7.json": [
-        "title",
         "desc",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StageNode91-8.json": [
         "title"
     ],
     "KR_StageNode91-9.json": [
-        "title",
-        "place"
+        "place",
+        "title"
     ],
     "KR_StagePartText.json": [
         "parttitle"
@@ -1949,8 +1949,8 @@
         "content"
     ],
     "KR_StoryTheaterMain.json": [
-        "title",
-        "desc"
+        "desc",
+        "title"
     ],
     "KR_StoryTheaterMirrorWorld.json": [
         "content"
@@ -2116,4210 +2116,4210 @@
     "KR_Walpu5EventText.json": [
         "content"
     ],
-    "KR_Announcer_Aengdu_26.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Aengdu_26.json": [
         "dlg"
     ],
-    "KR_Announcer_Angela_12.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Angela_12.json": [
         "dlg"
     ],
-    "KR_Announcer_Charon_3.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Charon_3.json": [
         "dlg"
     ],
-    "KR_Announcer_Charon_90002.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Charon_90002.json": [
         "dlg"
     ],
-    "KR_Announcer_Dante_1.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Dante_1.json": [
         "dlg"
     ],
-    "KR_Announcer_Dawn_19.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Dawn_19.json": [
         "dlg"
     ],
-    "KR_Announcer_DonQuixote_21.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_DonQuixote_21.json": [
         "dlg"
     ],
-    "KR_Announcer_EpiSode_7.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_EpiSode_7.json": [
         "dlg"
     ],
-    "KR_Announcer_FullStop_25.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_FullStop_25.json": [
         "dlg"
     ],
-    "KR_Announcer_Gnome_23.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Gnome_23.json": [
         "dlg"
     ],
-    "KR_Announcer_Gregor_2.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Gregor_2.json": [
         "dlg"
     ],
-    "KR_Announcer_Heathcliff_14.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Heathcliff_14.json": [
         "dlg"
     ],
-    "KR_Announcer_Hod_18.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Hod_18.json": [
         "dlg"
     ],
-    "KR_Announcer_Hohenheim_90001.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Hohenheim_90001.json": [
         "dlg"
     ],
-    "KR_Announcer_Ishmael_8.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Ishmael_8.json": [
         "dlg"
     ],
-    "KR_Announcer_JackPierre_11.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_JackPierre_11.json": [
         "dlg"
     ],
-    "KR_Announcer_Jun_27.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Jun_27.json": [
         "dlg"
     ],
-    "KR_Announcer_LaMancha_22.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_LaMancha_22.json": [
         "dlg"
     ],
-    "KR_Announcer_Malkuth_10.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Malkuth_10.json": [
         "dlg"
     ],
-    "KR_Announcer_Molar_17.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Molar_17.json": [
         "dlg"
     ],
-    "KR_Announcer_Nellie_13.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Nellie_13.json": [
         "dlg"
     ],
-    "KR_Announcer_Netzach_24.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Netzach_24.json": [
         "dlg"
     ],
-    "KR_Announcer_Ricardo_29.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Ricardo_29.json": [
         "dlg"
     ],
-    "KR_Announcer_Rodion_5.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Rodion_5.json": [
         "dlg"
     ],
-    "KR_Announcer_Samjo_15.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Samjo_15.json": [
         "dlg"
     ],
-    "KR_Announcer_Sancho_20.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Sancho_20.json": [
         "dlg"
     ],
-    "KR_Announcer_Sinclair_4.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Sinclair_4.json": [
         "dlg"
     ],
-    "KR_Announcer_Vergilius_28.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Vergilius_28.json": [
         "dlg"
     ],
-    "KR_Announcer_Yesod_16.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Yesod_16.json": [
         "dlg"
     ],
-    "KR_Announcer_Yisang_6.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Yisang_6.json": [
         "dlg"
     ],
-    "KR_Announcer_Yuri_9.json": [
+    "BattleAnnouncerDlg\\KR_Announcer_Yuri_9.json": [
         "dlg"
     ],
-    "KR_BgmLyrics_Ahab.json": [
+    "BgmLyrics\\KR_BgmLyrics_Ahab.json": [
         "content"
     ],
-    "KR_BgmLyrics_Credit.json": [
+    "BgmLyrics\\KR_BgmLyrics_Credit.json": [
         "content"
     ],
-    "KR_BgmLyrics_Credit4.json": [
+    "BgmLyrics\\KR_BgmLyrics_Credit4.json": [
         "content"
     ],
-    "KR_BgmLyrics_Credit7.json": [
+    "BgmLyrics\\KR_BgmLyrics_Credit7.json": [
         "content"
     ],
-    "KR_BgmLyrics_Cromer1.json": [
+    "BgmLyrics\\KR_BgmLyrics_Cromer1.json": [
         "content"
     ],
-    "KR_BgmLyrics_Cromer2.json": [
+    "BgmLyrics\\KR_BgmLyrics_Cromer2.json": [
         "content"
     ],
-    "KR_BgmLyrics_DistHeath.json": [
+    "BgmLyrics\\KR_BgmLyrics_DistHeath.json": [
         "content"
     ],
-    "KR_BgmLyrics_DongLang.json": [
+    "BgmLyrics\\KR_BgmLyrics_DongLang.json": [
         "content"
     ],
-    "KR_BgmLyrics_DonQuixote.json": [
+    "BgmLyrics\\KR_BgmLyrics_DonQuixote.json": [
         "content"
     ],
-    "KR_BgmLyrics_MaouHeath.json": [
+    "BgmLyrics\\KR_BgmLyrics_MaouHeath.json": [
         "content"
     ],
-    "KR_BgmLyrics_Pv.json": [
+    "BgmLyrics\\KR_BgmLyrics_Pv.json": [
         "content"
     ],
-    "KR_Voice_EGO_DonQuixote_3.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Enemy_999.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Faust_2.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Gregor_12.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Heathcliff_7.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_HongLu_6.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Ishmael_8.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Meursault_5.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Outis_11.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Rodion_9.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Ryoshu_4.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_Sinclair_10.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_EGO_YiSang_1.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_DonQuixote_Bloodfiend_10310.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_DonQuixote_CinqEast_10311.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_Cinq_10305.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_LCB_10301.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_LEGO_10307.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_MiddleFinger_10306.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_Ncorp_10304.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_Shi_10303.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_SwordGroup_10308.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_Tcorp_10309.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Donquixote_WCorp5_10302.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Blackwater_10212.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Butler_10209.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_LCB_10201.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_LCE_10211.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_LEGO_10207.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Meca_10210.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Ncorp_10204.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Seven_10206.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_SwordGroup_10208.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_WCorp6_10202.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Yuri_10203.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Faust_Zwei_10205.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_23GuCooker_11204.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Blackwater_11212.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Bloodfiend_11210.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Firepunch_11211.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_GCorp_11203.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Hook_11207.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Kcorp_11205.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Kurokumo_11208.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_LCB_11201.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Linton_11209.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_LiuAsso6_11202.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Gregor_Zwei_11206.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Erlking_10710.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Erlking_10710A.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Fullstop_10711.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Kurokumo_10712.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_LCB_10701.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_LEGO_10705.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Meca_10709.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Ncorp_10704.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Oufi_10708.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Qui_10707.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_RCorp4_10703.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_Seven_10706.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Heathcliff_ShiAsso4_10702.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Bloodhunter_10610.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Dieci_10608.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_FullStop_10611.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Hook_10607.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Kcorp_10605.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Kongkong_10603.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Kurokumo_10602.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_LCB_10601.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_LiuAsso5_10604.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_RCorp_10612.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Wcorp_10606.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Honglu_Yurodivy_10609.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_Ahab_10808.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_Butler_10809.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_Kurokumo_10811.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_LCB_10801.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_LEGO_10805.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_LiuAsso4_10806.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_RCorp4_10802.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_ShiAsso5_10803.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_Sode_10804.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_Ucorp_10807.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ishmael_Zwei_10810.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_Cinq_10511.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_DeadRabbit_10509.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_Dieci_10510.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_Kcorp_10505.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_LCB_10501.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_LiuAsso6_10502.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_MiddleFinger_10507.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_Ncorp_10504.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_Rcorp_10506.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_SwordGroup_10508.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Meursault_Wcorp_10503.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outist_SevenAsso6_11104.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Blackwater_11112.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Bloodfiend_11111.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Butler_11108.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Cinq_11106.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_GCorpBoss_11103.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_LCB_11101.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_LEGO_11107.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Molar_11105.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Rings_11109.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_SwordGroup_11102.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Outis_Wcorp_11110.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Blackwater_10912.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Bloodfiend_10911.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Devjat_10910.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Dieci_10907.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Epi_10903.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Kcorp_10905.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Kurokumo_10902.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_LCB_10901.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_LiuAsso4_10908.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Ncorp_10904.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Tcorp_10909.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Rodion_Zwei_10906.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_23GuCooker_10404.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Blackwater_10411.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Butler_10408.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Kurokumo_10403.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_LCB_10401.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_LCCB_10406.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_LiuAsso4_10407.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Seven6_10402.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Spider_10410.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Wcorp_10405.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Ryoshu_Yurodivy_10409.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Cinq_11008.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Devjat_11011.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_LCB_11001.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_LEGO_11006.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Mariachi_11004.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_MiddleFinger_11012.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Ncorp_11005.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Philip_11009.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_SwordGroup_11002.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Ucorp_11007.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_ZweiWest_11010.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Sinclair_Zwei_11003.json": [
-        "dlg",
-        "desc"
-    ],
-    "KR_Voice_Special_999.json": [
+    "EGOVoiceDig\\KR_Voice_EGO_DonQuixote_3.json": [
+        "desc",
         "dlg"
     ],
-    "KR_Voice_Yisang_Dieci_10108.json": [
-        "dlg",
-        "desc"
+    "EGOVoiceDig\\KR_Voice_EGO_Enemy_999.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Faust_2.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Gregor_12.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Heathcliff_7.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_HongLu_6.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Ishmael_8.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Meursault_5.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Outis_11.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Rodion_9.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Ryoshu_4.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_Sinclair_10.json": [
+        "desc",
+        "dlg"
+    ],
+    "EGOVoiceDig\\KR_Voice_EGO_YiSang_1.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_DonQuixote_Bloodfiend_10310.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_DonQuixote_CinqEast_10311.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_Cinq_10305.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_LCB_10301.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_LEGO_10307.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_MiddleFinger_10306.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_Ncorp_10304.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_Shi_10303.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_SwordGroup_10308.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_Tcorp_10309.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Donquixote_WCorp5_10302.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Blackwater_10212.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Butler_10209.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_LCB_10201.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_LCE_10211.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_LEGO_10207.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Meca_10210.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Ncorp_10204.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Seven_10206.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_SwordGroup_10208.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_WCorp6_10202.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Yuri_10203.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Faust_Zwei_10205.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_23GuCooker_11204.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Blackwater_11212.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Bloodfiend_11210.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Firepunch_11211.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_GCorp_11203.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Hook_11207.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Kcorp_11205.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Kurokumo_11208.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_LCB_11201.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Linton_11209.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_LiuAsso6_11202.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Gregor_Zwei_11206.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Erlking_10710.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Erlking_10710A.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Fullstop_10711.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Kurokumo_10712.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_LCB_10701.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_LEGO_10705.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Meca_10709.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Ncorp_10704.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Oufi_10708.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Qui_10707.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_RCorp4_10703.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_Seven_10706.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Heathcliff_ShiAsso4_10702.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Bloodhunter_10610.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Dieci_10608.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_FullStop_10611.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Hook_10607.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Kcorp_10605.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Kongkong_10603.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Kurokumo_10602.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_LCB_10601.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_LiuAsso5_10604.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_RCorp_10612.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Wcorp_10606.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Honglu_Yurodivy_10609.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_Ahab_10808.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_Butler_10809.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_Kurokumo_10811.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_LCB_10801.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_LEGO_10805.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_LiuAsso4_10806.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_RCorp4_10802.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_ShiAsso5_10803.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_Sode_10804.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_Ucorp_10807.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Ishmael_Zwei_10810.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_Cinq_10511.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_DeadRabbit_10509.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_Dieci_10510.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_Kcorp_10505.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_LCB_10501.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_LiuAsso6_10502.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_MiddleFinger_10507.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_Ncorp_10504.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_Rcorp_10506.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_SwordGroup_10508.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Meursault_Wcorp_10503.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outist_SevenAsso6_11104.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Blackwater_11112.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Bloodfiend_11111.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Butler_11108.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Cinq_11106.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_GCorpBoss_11103.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_LCB_11101.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_LEGO_11107.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Molar_11105.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Rings_11109.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_SwordGroup_11102.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Outis_Wcorp_11110.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Blackwater_10912.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Bloodfiend_10911.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Devjat_10910.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Dieci_10907.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Epi_10903.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Kcorp_10905.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Kurokumo_10902.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_LCB_10901.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_LiuAsso4_10908.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Ncorp_10904.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Tcorp_10909.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_Funeral_10110.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Rodion_Zwei_10906.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_LCB_10101.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_23GuCooker_10404.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_LCE_10111.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Blackwater_10411.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_LEGO_10104.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Butler_10408.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_LiuAssoc_10112.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Kurokumo_10403.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_Molar_10105.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_LCB_10401.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_Rings_10109.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_LCCB_10406.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_Seven6_10102.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_LiuAsso4_10407.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_Starb_10107.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Seven6_10402.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_SwordGroup_10103.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Spider_10410.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_Voice_Yisang_Wcorp_10106.json": [
-        "dlg",
-        "desc"
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Wcorp_10405.json": [
+        "desc",
+        "dlg"
     ],
-    "KR_1D101A.json": [
-        "title",
+    "PersonalityVoiceDlg\\KR_Voice_Ryoshu_Yurodivy_10409.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Cinq_11008.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Devjat_11011.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_LCB_11001.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_LEGO_11006.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Mariachi_11004.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_MiddleFinger_11012.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Ncorp_11005.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Philip_11009.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_SwordGroup_11002.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Ucorp_11007.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_ZweiWest_11010.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Sinclair_Zwei_11003.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Special_999.json": [
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Dieci_10108.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Funeral_10110.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_LCB_10101.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_LCE_10111.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_LEGO_10104.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_LiuAssoc_10112.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Molar_10105.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Rings_10109.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Seven6_10102.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Starb_10107.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_SwordGroup_10103.json": [
+        "desc",
+        "dlg"
+    ],
+    "PersonalityVoiceDlg\\KR_Voice_Yisang_Wcorp_10106.json": [
+        "desc",
+        "dlg"
+    ],
+    "StoryData\\KR_1D101A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D102A.json": [
-        "title",
+    "StoryData\\KR_1D102A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D103A.json": [
-        "title",
+    "StoryData\\KR_1D103A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D104B.json": [
-        "title",
+    "StoryData\\KR_1D104B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D105A.json": [
-        "title",
+    "StoryData\\KR_1D105A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D105B.json": [
-        "title",
+    "StoryData\\KR_1D105B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D201B.json": [
-        "title",
+    "StoryData\\KR_1D201B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D202A.json": [
-        "title",
+    "StoryData\\KR_1D202A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D202B.json": [
-        "title",
+    "StoryData\\KR_1D202B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D203B.json": [
-        "title",
+    "StoryData\\KR_1D203B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D204B.json": [
-        "title",
+    "StoryData\\KR_1D204B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D301B.json": [
-        "title",
+    "StoryData\\KR_1D301B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D302B.json": [
-        "title",
+    "StoryData\\KR_1D302B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D303B.json": [
-        "title",
+    "StoryData\\KR_1D303B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D304B.json": [
-        "title",
+    "StoryData\\KR_1D304B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D305B.json": [
-        "title",
+    "StoryData\\KR_1D305B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D306A.json": [
-        "title",
+    "StoryData\\KR_1D306A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D306B.json": [
-        "title",
+    "StoryData\\KR_1D306B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_1D306I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_1D306I.json": [
+        "content",
+        "place"
     ],
-    "KR_1D306I2.json": [
-        "title",
+    "StoryData\\KR_1D306I2.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_2D102B.json": [
-        "title",
+    "StoryData\\KR_2D102B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_2D107A.json": [
-        "title",
+    "StoryData\\KR_2D107A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_2D202B.json": [
-        "title",
+    "StoryData\\KR_2D202B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_2D301B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_2D301B.json": [
+        "content",
+        "place"
     ],
-    "KR_2D306A.json": [
-        "title",
+    "StoryData\\KR_2D306A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_2D306B.json": [
-        "title",
+    "StoryData\\KR_2D306B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_2D306I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_2D306I.json": [
+        "content",
+        "place"
     ],
-    "KR_3D101A.json": [
-        "title",
+    "StoryData\\KR_3D101A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D102A.json": [
-        "title",
+    "StoryData\\KR_3D102A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D103B.json": [
-        "title",
+    "StoryData\\KR_3D103B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D301B.json": [
-        "title",
+    "StoryData\\KR_3D301B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D302B.json": [
-        "title",
+    "StoryData\\KR_3D302B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D303B.json": [
-        "title",
+    "StoryData\\KR_3D303B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D304B.json": [
-        "title",
+    "StoryData\\KR_3D304B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D305B.json": [
-        "title",
+    "StoryData\\KR_3D305B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D306B.json": [
-        "title",
+    "StoryData\\KR_3D306B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D307B.json": [
-        "title",
+    "StoryData\\KR_3D307B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D308B.json": [
-        "title",
+    "StoryData\\KR_3D308B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D309A.json": [
-        "title",
+    "StoryData\\KR_3D309A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D309B.json": [
-        "title",
+    "StoryData\\KR_3D309B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D309I1.json": [
-        "title",
+    "StoryData\\KR_3D309I1.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_3D309I2.json": [
-        "title",
+    "StoryData\\KR_3D309I2.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D102A.json": [
-        "title",
+    "StoryData\\KR_4D102A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D103B.json": [
-        "title",
+    "StoryData\\KR_4D103B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D104B.json": [
-        "title",
+    "StoryData\\KR_4D104B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D105B.json": [
-        "title",
+    "StoryData\\KR_4D105B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D106B.json": [
-        "title",
+    "StoryData\\KR_4D106B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D107B.json": [
-        "title",
+    "StoryData\\KR_4D107B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D201B.json": [
-        "title",
+    "StoryData\\KR_4D201B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D202B.json": [
-        "title",
+    "StoryData\\KR_4D202B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D203B.json": [
-        "title",
+    "StoryData\\KR_4D203B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D204B.json": [
-        "title",
+    "StoryData\\KR_4D204B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D205B.json": [
-        "title",
+    "StoryData\\KR_4D205B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D206A.json": [
-        "title",
+    "StoryData\\KR_4D206A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D206B.json": [
-        "title",
+    "StoryData\\KR_4D206B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D207B.json": [
-        "title",
+    "StoryData\\KR_4D207B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D208B.json": [
-        "title",
+    "StoryData\\KR_4D208B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D301B.json": [
-        "title",
+    "StoryData\\KR_4D301B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D302B.json": [
-        "title",
+    "StoryData\\KR_4D302B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D303B.json": [
-        "title",
+    "StoryData\\KR_4D303B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D304B.json": [
-        "title",
+    "StoryData\\KR_4D304B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D305A.json": [
-        "title",
+    "StoryData\\KR_4D305A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D305B.json": [
-        "title",
+    "StoryData\\KR_4D305B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D305I.json": [
-        "title",
+    "StoryData\\KR_4D305I.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_4D305I2.json": [
-        "title",
+    "StoryData\\KR_4D305I2.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D101B.json": [
-        "title",
+    "StoryData\\KR_5D101B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D102A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D102A.json": [
+        "content",
+        "place"
     ],
-    "KR_5D102B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D102B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D103B.json": [
-        "title",
+    "StoryData\\KR_5D103B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D104B.json": [
-        "title",
+    "StoryData\\KR_5D104B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D105A.json": [
-        "title",
+    "StoryData\\KR_5D105A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D105B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D105B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D106B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D106B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D107B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D107B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D108B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D108B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D201B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D201B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D202A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D202A.json": [
+        "content",
+        "place"
     ],
-    "KR_5D202B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D202B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D203B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D203B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D204B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D204B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D205A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D205A.json": [
+        "content",
+        "place"
     ],
-    "KR_5D205B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D205B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D206B.json": [
-        "title",
+    "StoryData\\KR_5D206B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D301A.json": [
-        "title",
+    "StoryData\\KR_5D301A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D301B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D301B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D302B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D302B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D303B.json": [
-        "title",
+    "StoryData\\KR_5D303B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304A.json": [
-        "title",
+    "StoryData\\KR_5D304A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D304B.json": [
+        "content",
+        "place"
     ],
-    "KR_5D304I.json": [
-        "title",
+    "StoryData\\KR_5D304I.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304I2.json": [
-        "title",
+    "StoryData\\KR_5D304I2.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304I3.json": [
-        "title",
+    "StoryData\\KR_5D304I3.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304I4.json": [
-        "title",
+    "StoryData\\KR_5D304I4.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304I5.json": [
-        "place",
-        "content"
+    "StoryData\\KR_5D304I5.json": [
+        "content",
+        "place"
     ],
-    "KR_5D304I6.json": [
-        "title",
+    "StoryData\\KR_5D304I6.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304I7.json": [
-        "title",
+    "StoryData\\KR_5D304I7.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_5D304I8.json": [
-        "title",
+    "StoryData\\KR_5D304I8.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_5D304I9.json": [
+    "StoryData\\KR_5D304I9.json": [
         "content"
     ],
-    "KR_7D101B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D101B.json": [
+        "content",
+        "place"
     ],
-    "KR_7D102A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D102A.json": [
+        "content",
+        "place"
     ],
-    "KR_7D102B.json": [
-        "title",
+    "StoryData\\KR_7D102B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D103A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D103A.json": [
+        "content",
+        "place"
     ],
-    "KR_7D103B.json": [
-        "title",
+    "StoryData\\KR_7D103B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_7D104B.json": [
-        "title",
+    "StoryData\\KR_7D104B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_7D105B.json": [
-        "title",
+    "StoryData\\KR_7D105B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D106B.json": [
+    "StoryData\\KR_7D106B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_7D107B.json": [
+    "StoryData\\KR_7D107B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_7D108B.json": [
-        "title",
+    "StoryData\\KR_7D108B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D109B.json": [
-        "title",
+    "StoryData\\KR_7D109B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D110B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D110B.json": [
+        "content",
+        "place"
     ],
-    "KR_7D111A.json": [
-        "title",
+    "StoryData\\KR_7D111A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D111B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D111B.json": [
+        "content",
+        "place"
     ],
-    "KR_7D111I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D111I.json": [
+        "content",
+        "place"
     ],
-    "KR_7D111I2.json": [
-        "title",
+    "StoryData\\KR_7D111I2.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D111I3.json": [
-        "place",
-        "content"
+    "StoryData\\KR_7D111I3.json": [
+        "content",
+        "place"
     ],
-    "KR_7D112A.json": [
-        "title",
+    "StoryData\\KR_7D112A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D112I.json": [
-        "title",
-        "content"
+    "StoryData\\KR_7D112I.json": [
+        "content",
+        "title"
     ],
-    "KR_7D112I2.json": [
-        "title",
+    "StoryData\\KR_7D112I2.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_7D112I3.json": [
+    "StoryData\\KR_7D112I3.json": [
         "content"
     ],
-    "KR_7D112I4.json": [
+    "StoryData\\KR_7D112I4.json": [
         "content"
     ],
-    "KR_7D112I5.json": [
+    "StoryData\\KR_7D112I5.json": [
         "content"
     ],
-    "KR_8D101B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D101B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D102B.json": [
-        "title",
+    "StoryData\\KR_8D102B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D103B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D103B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D104A.json": [
-        "title",
+    "StoryData\\KR_8D104A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D104B.json": [
-        "title",
+    "StoryData\\KR_8D104B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_8D105B.json": [
-        "title",
+    "StoryData\\KR_8D105B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D106A.json": [
-        "title",
+    "StoryData\\KR_8D106A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D106B.json": [
-        "title",
+    "StoryData\\KR_8D106B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D107A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D107A.json": [
+        "content",
+        "place"
     ],
-    "KR_8D107B.json": [
-        "title",
+    "StoryData\\KR_8D107B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D108B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D108B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D201A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D201A.json": [
+        "content",
+        "place"
     ],
-    "KR_8D201B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D201B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D202A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D202A.json": [
+        "content",
+        "place"
     ],
-    "KR_8D202B.json": [
-        "title",
+    "StoryData\\KR_8D202B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D203A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D203A.json": [
+        "content",
+        "place"
     ],
-    "KR_8D203B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D203B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D204A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D204A.json": [
+        "content",
+        "place"
     ],
-    "KR_8D204B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D204B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D205B.json": [
-        "title",
+    "StoryData\\KR_8D205B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D206B.json": [
-        "title",
+    "StoryData\\KR_8D206B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_8D207A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D207A.json": [
+        "content",
+        "place"
     ],
-    "KR_8D207B.json": [
+    "StoryData\\KR_8D207B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_8D208B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_8D208B.json": [
+        "content",
+        "place"
     ],
-    "KR_8D209A.json": [
-        "title",
+    "StoryData\\KR_8D209A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_8D209I.json": [
-        "title",
+    "StoryData\\KR_8D209I.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_E000X.json": [
-        "title",
+    "StoryData\\KR_E000X.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E001X.json": [
+    "StoryData\\KR_E001X.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_E002X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E002X.json": [
+        "content",
+        "place"
     ],
-    "KR_E010X.json": [
+    "StoryData\\KR_E010X.json": [
         "content"
     ],
-    "KR_E020X.json": [
+    "StoryData\\KR_E020X.json": [
         "content"
     ],
-    "KR_E030X.json": [
+    "StoryData\\KR_E030X.json": [
         "content"
     ],
-    "KR_E041X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E041X.json": [
+        "content",
+        "place"
     ],
-    "KR_E042X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E042X.json": [
+        "content",
+        "place"
     ],
-    "KR_E050X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E050X.json": [
+        "content",
+        "place"
     ],
-    "KR_E051X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E051X.json": [
+        "content",
+        "place"
     ],
-    "KR_E052X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E052X.json": [
+        "content",
+        "place"
     ],
-    "KR_E053X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E053X.json": [
+        "content",
+        "place"
     ],
-    "KR_E054X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E054X.json": [
+        "content",
+        "place"
     ],
-    "KR_E061X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E061X.json": [
+        "content",
+        "place"
     ],
-    "KR_E062X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E062X.json": [
+        "content",
+        "place"
     ],
-    "KR_E063X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E063X.json": [
+        "content",
+        "place"
     ],
-    "KR_E064X.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E064X.json": [
+        "content",
+        "place"
     ],
-    "KR_E065X.json": [
-        "title",
+    "StoryData\\KR_E065X.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E070X.json": [
-        "title",
+    "StoryData\\KR_E070X.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E071X.json": [
-        "title",
+    "StoryData\\KR_E071X.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E301A.json": [
-        "title",
+    "StoryData\\KR_E301A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E301B.json": [
-        "title",
+    "StoryData\\KR_E301B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E302A.json": [
-        "title",
+    "StoryData\\KR_E302A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E302B.json": [
-        "title",
+    "StoryData\\KR_E302B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E303A.json": [
-        "title",
+    "StoryData\\KR_E303A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E303B.json": [
-        "title",
+    "StoryData\\KR_E303B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E304A.json": [
-        "title",
+    "StoryData\\KR_E304A.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E304B.json": [
-        "title",
+    "StoryData\\KR_E304B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E305A.json": [
-        "title",
+    "StoryData\\KR_E305A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E306A.json": [
-        "title",
+    "StoryData\\KR_E306A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E306B.json": [
-        "title",
+    "StoryData\\KR_E306B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E401B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E401B.json": [
+        "content",
+        "place"
     ],
-    "KR_E402A.json": [
-        "title",
+    "StoryData\\KR_E402A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E402B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E402B.json": [
+        "content",
+        "place"
     ],
-    "KR_E403B.json": [
-        "title",
+    "StoryData\\KR_E403B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E404B.json": [
-        "title",
+    "StoryData\\KR_E404B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E405A.json": [
-        "title",
+    "StoryData\\KR_E405A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E405B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E405B.json": [
+        "content",
+        "place"
     ],
-    "KR_E406B.json": [
-        "title",
+    "StoryData\\KR_E406B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E407A.json": [
-        "title",
+    "StoryData\\KR_E407A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E407B.json": [
-        "title",
+    "StoryData\\KR_E407B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E501B.json": [
+    "StoryData\\KR_E501B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_E502B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E502B.json": [
+        "content",
+        "place"
     ],
-    "KR_E503A.json": [
-        "title",
+    "StoryData\\KR_E503A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E503B.json": [
-        "title",
+    "StoryData\\KR_E503B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E504B.json": [
-        "title",
+    "StoryData\\KR_E504B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E505A.json": [],
-    "KR_E505B.json": [
-        "title",
+    "StoryData\\KR_E505A.json": [],
+    "StoryData\\KR_E505B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E506A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E506A.json": [
+        "content",
+        "place"
     ],
-    "KR_E506B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E506B.json": [
+        "content",
+        "place"
     ],
-    "KR_E507A.json": [
-        "title",
+    "StoryData\\KR_E507A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E507B.json": [
-        "title",
+    "StoryData\\KR_E507B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E508A.json": [
-        "title",
+    "StoryData\\KR_E508A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E509B.json": [
+    "StoryData\\KR_E509B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_E510B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E510B.json": [
+        "content",
+        "place"
     ],
-    "KR_E511A.json": [
-        "title",
+    "StoryData\\KR_E511A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E511B.json": [
-        "title",
+    "StoryData\\KR_E511B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E512A.json": [
-        "title",
+    "StoryData\\KR_E512A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E512B.json": [
-        "title",
+    "StoryData\\KR_E512B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E513A.json": [
-        "title",
+    "StoryData\\KR_E513A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E513B.json": [
-        "title",
+    "StoryData\\KR_E513B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E514B.json": [
-        "title",
+    "StoryData\\KR_E514B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E515A.json": [
-        "title",
+    "StoryData\\KR_E515A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E516A.json": [
-        "title",
+    "StoryData\\KR_E516A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E516B.json": [
-        "title",
+    "StoryData\\KR_E516B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E517B.json": [
-        "title",
+    "StoryData\\KR_E517B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E518B.json": [
-        "title",
+    "StoryData\\KR_E518B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E519A.json": [
-        "title",
+    "StoryData\\KR_E519A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E519B.json": [
-        "title",
+    "StoryData\\KR_E519B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E601B.json": [
-        "title",
+    "StoryData\\KR_E601B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E602A.json": [
-        "title",
+    "StoryData\\KR_E602A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E603B.json": [
-        "title",
+    "StoryData\\KR_E603B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E604B.json": [
-        "title",
+    "StoryData\\KR_E604B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E605B.json": [
-        "title",
+    "StoryData\\KR_E605B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E606B.json": [
-        "title",
+    "StoryData\\KR_E606B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E607B.json": [
-        "title",
+    "StoryData\\KR_E607B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E609B.json": [
-        "title",
+    "StoryData\\KR_E609B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E610A.json": [
-        "title",
+    "StoryData\\KR_E610A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E611B.json": [
-        "title",
+    "StoryData\\KR_E611B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E612B.json": [
-        "title",
+    "StoryData\\KR_E612B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E613B.json": [
-        "title",
+    "StoryData\\KR_E613B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E614A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E614A.json": [
+        "content",
+        "place"
     ],
-    "KR_E614B.json": [
-        "title",
+    "StoryData\\KR_E614B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E615A.json": [
-        "title",
+    "StoryData\\KR_E615A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E615B.json": [
-        "title",
+    "StoryData\\KR_E615B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E615I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E615I.json": [
+        "content",
+        "place"
     ],
-    "KR_E615I2.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E615I2.json": [
+        "content",
+        "place"
     ],
-    "KR_E615I3.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E615I3.json": [
+        "content",
+        "place"
     ],
-    "KR_E616B.json": [
+    "StoryData\\KR_E616B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_E617B.json": [
-        "title",
+    "StoryData\\KR_E617B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E618B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E618B.json": [
+        "content",
+        "place"
     ],
-    "KR_E619A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E619A.json": [
+        "content",
+        "place"
     ],
-    "KR_E619B.json": [
-        "title",
+    "StoryData\\KR_E619B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E620B.json": [
-        "title",
+    "StoryData\\KR_E620B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E621A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E621A.json": [
+        "content",
+        "place"
     ],
-    "KR_E622B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E622B.json": [
+        "content",
+        "place"
     ],
-    "KR_E623A.json": [
-        "title",
+    "StoryData\\KR_E623A.json": [
+        "content",
         "place",
         "teller",
-        "content"
-    ],
-    "KR_E624A.json": [
-        "place",
-        "content"
+        "title"
     ],
-    "KR_E625A.json": [
-        "title",
+    "StoryData\\KR_E624A.json": [
+        "content",
+        "place"
+    ],
+    "StoryData\\KR_E625A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E625B.json": [
-        "title",
+    "StoryData\\KR_E625B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E625I.json": [
-        "title",
+    "StoryData\\KR_E625I.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E626B.json": [
-        "title",
+    "StoryData\\KR_E626B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E627B.json": [
-        "title",
+    "StoryData\\KR_E627B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E701A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E701A.json": [
+        "content",
+        "place"
     ],
-    "KR_E701B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E701B.json": [
+        "content",
+        "place"
     ],
-    "KR_E702B.json": [
+    "StoryData\\KR_E702B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_E703B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E703B.json": [
+        "content",
+        "place"
     ],
-    "KR_E704A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E704A.json": [
+        "content",
+        "place"
     ],
-    "KR_E704B.json": [
-        "title",
+    "StoryData\\KR_E704B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E705B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E705B.json": [
+        "content",
+        "place"
     ],
-    "KR_E706B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E706B.json": [
+        "content",
+        "place"
     ],
-    "KR_E707B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E707B.json": [
+        "content",
+        "place"
     ],
-    "KR_E708B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E708B.json": [
+        "content",
+        "place"
     ],
-    "KR_E709B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E709B.json": [
+        "content",
+        "place"
     ],
-    "KR_E710B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E710B.json": [
+        "content",
+        "place"
     ],
-    "KR_E711A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E711A.json": [
+        "content",
+        "place"
     ],
-    "KR_E711B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E711B.json": [
+        "content",
+        "place"
     ],
-    "KR_E711I.json": [
-        "title",
+    "StoryData\\KR_E711I.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E712B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E712B.json": [
+        "content",
+        "place"
     ],
-    "KR_E713B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E713B.json": [
+        "content",
+        "place"
     ],
-    "KR_E714B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E714B.json": [
+        "content",
+        "place"
     ],
-    "KR_E715B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E715B.json": [
+        "content",
+        "place"
     ],
-    "KR_E716A.json": [
-        "title",
+    "StoryData\\KR_E716A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E716B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E716B.json": [
+        "content",
+        "place"
     ],
-    "KR_E717A.json": [
+    "StoryData\\KR_E717A.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_E717B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E717B.json": [
+        "content",
+        "place"
     ],
-    "KR_E718B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E718B.json": [
+        "content",
+        "place"
     ],
-    "KR_E719A.json": [
-        "title",
+    "StoryData\\KR_E719A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E719B.json": [
-        "title",
+    "StoryData\\KR_E719B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E720B.json": [
-        "title",
+    "StoryData\\KR_E720B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E721A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E721A.json": [
+        "content",
+        "place"
     ],
-    "KR_E721B.json": [
-        "title",
+    "StoryData\\KR_E721B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E722A.json": [
-        "title",
+    "StoryData\\KR_E722A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E722B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E722B.json": [
+        "content",
+        "place"
     ],
-    "KR_E723B.json": [
-        "title",
+    "StoryData\\KR_E723B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_E724B.json": [
-        "title",
+    "StoryData\\KR_E724B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_E725A.json": [
-        "title",
+    "StoryData\\KR_E725A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E725B.json": [
-        "title",
+    "StoryData\\KR_E725B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E726A.json": [
-        "title",
+    "StoryData\\KR_E726A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E726B.json": [
-        "title",
+    "StoryData\\KR_E726B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_E726I.json": [
-        "title",
+    "StoryData\\KR_E726I.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E726I2.json": [
-        "place",
-        "content"
+    "StoryData\\KR_E726I2.json": [
+        "content",
+        "place"
     ],
-    "KR_E727A.json": [
-        "title",
+    "StoryData\\KR_E727A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E727I.json": [
-        "title",
+    "StoryData\\KR_E727I.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_E728B.json": [
-        "title",
+    "StoryData\\KR_E728B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10102.json": [
-        "title",
+    "StoryData\\KR_P10102.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10103.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10103.json": [
+        "content",
+        "title"
     ],
-    "KR_P10104.json": [
-        "title",
+    "StoryData\\KR_P10104.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10105.json": [
-        "title",
+    "StoryData\\KR_P10105.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10106.json": [
-        "title",
+    "StoryData\\KR_P10106.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10107.json": [
-        "title",
+    "StoryData\\KR_P10107.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10108.json": [
+    "StoryData\\KR_P10108.json": [
         "content"
     ],
-    "KR_P10109.json": [
+    "StoryData\\KR_P10109.json": [
         "content"
     ],
-    "KR_P10110.json": [
-        "title",
+    "StoryData\\KR_P10110.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10111.json": [
-        "title",
+    "StoryData\\KR_P10111.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10112.json": [
+    "StoryData\\KR_P10112.json": [
         "content"
     ],
-    "KR_P10202.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10202.json": [
+        "content",
+        "title"
     ],
-    "KR_P10203.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10203.json": [
+        "content",
+        "title"
     ],
-    "KR_P10204.json": [
-        "title",
+    "StoryData\\KR_P10204.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10205.json": [
-        "title",
+    "StoryData\\KR_P10205.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10206.json": [
-        "title",
+    "StoryData\\KR_P10206.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10207.json": [
-        "title",
+    "StoryData\\KR_P10207.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10208.json": [
+    "StoryData\\KR_P10208.json": [
         "content"
     ],
-    "KR_P10209.json": [
-        "title",
+    "StoryData\\KR_P10209.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10210.json": [],
-    "KR_P10211.json": [],
-    "KR_P10212.json": [],
-    "KR_P10302.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10210.json": [],
+    "StoryData\\KR_P10211.json": [],
+    "StoryData\\KR_P10212.json": [],
+    "StoryData\\KR_P10302.json": [
+        "content",
+        "title"
     ],
-    "KR_P10303.json": [
+    "StoryData\\KR_P10303.json": [
         "content"
     ],
-    "KR_P10304.json": [
-        "title",
+    "StoryData\\KR_P10304.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10305.json": [
-        "title",
+    "StoryData\\KR_P10305.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10306.json": [
-        "title",
+    "StoryData\\KR_P10306.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10307.json": [
+    "StoryData\\KR_P10307.json": [
         "content"
     ],
-    "KR_P10308.json": [
-        "title",
+    "StoryData\\KR_P10308.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10309.json": [
-        "title",
+    "StoryData\\KR_P10309.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10310.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10310.json": [
+        "content",
+        "title"
     ],
-    "KR_P10311.json": [
-        "title",
+    "StoryData\\KR_P10311.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10402.json": [
-        "title",
+    "StoryData\\KR_P10402.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10403.json": [
-        "title",
+    "StoryData\\KR_P10403.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10404.json": [
-        "title",
+    "StoryData\\KR_P10404.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10405.json": [
+    "StoryData\\KR_P10405.json": [
         "content"
     ],
-    "KR_P10406.json": [
-        "title",
+    "StoryData\\KR_P10406.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10407.json": [
+    "StoryData\\KR_P10407.json": [
         "content"
     ],
-    "KR_P10408.json": [
-        "title",
+    "StoryData\\KR_P10408.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10409.json": [
-        "title",
+    "StoryData\\KR_P10409.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10410.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10410.json": [
+        "content",
+        "title"
     ],
-    "KR_P10411.json": [
-        "title",
+    "StoryData\\KR_P10411.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10502.json": [
-        "title",
+    "StoryData\\KR_P10502.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10503.json": [
-        "title",
+    "StoryData\\KR_P10503.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10504.json": [
-        "title",
+    "StoryData\\KR_P10504.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10505.json": [
-        "title",
+    "StoryData\\KR_P10505.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10506.json": [
+    "StoryData\\KR_P10506.json": [
         "content"
     ],
-    "KR_P10507.json": [
-        "title",
+    "StoryData\\KR_P10507.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10508.json": [
-        "title",
+    "StoryData\\KR_P10508.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10509.json": [
+    "StoryData\\KR_P10509.json": [
         "content"
     ],
-    "KR_P10510.json": [
-        "title",
+    "StoryData\\KR_P10510.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10511.json": [
-        "title",
+    "StoryData\\KR_P10511.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10602.json": [
-        "title",
+    "StoryData\\KR_P10602.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10603.json": [
-        "title",
+    "StoryData\\KR_P10603.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10604.json": [
-        "title",
+    "StoryData\\KR_P10604.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10605.json": [
-        "title",
+    "StoryData\\KR_P10605.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10606.json": [
-        "title",
+    "StoryData\\KR_P10606.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10607.json": [
-        "title",
+    "StoryData\\KR_P10607.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10608.json": [
-        "title",
+    "StoryData\\KR_P10608.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10609.json": [
-        "title",
+    "StoryData\\KR_P10609.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10610.json": [
-        "title",
+    "StoryData\\KR_P10610.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10611.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10611.json": [
+        "content",
+        "title"
     ],
-    "KR_P10612.json": [
-        "title",
+    "StoryData\\KR_P10612.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10702.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10702.json": [
+        "content",
+        "title"
     ],
-    "KR_P10703.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10703.json": [
+        "content",
+        "title"
     ],
-    "KR_P10704.json": [
-        "title",
+    "StoryData\\KR_P10704.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10705.json": [
+    "StoryData\\KR_P10705.json": [
         "content"
     ],
-    "KR_P10706.json": [
-        "title",
+    "StoryData\\KR_P10706.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10707.json": [
+    "StoryData\\KR_P10707.json": [
         "content"
     ],
-    "KR_P10708.json": [
-        "title",
+    "StoryData\\KR_P10708.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10709.json": [],
-    "KR_P10710.json": [],
-    "KR_P10710A.json": [],
-    "KR_P10711.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10709.json": [],
+    "StoryData\\KR_P10710.json": [],
+    "StoryData\\KR_P10710A.json": [],
+    "StoryData\\KR_P10711.json": [
+        "content",
+        "title"
     ],
-    "KR_P10712.json": [],
-    "KR_P10802.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10712.json": [],
+    "StoryData\\KR_P10802.json": [
+        "content",
+        "title"
     ],
-    "KR_P10803.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10803.json": [
+        "content",
+        "title"
     ],
-    "KR_P10804.json": [
-        "title",
+    "StoryData\\KR_P10804.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10805.json": [
-        "title",
+    "StoryData\\KR_P10805.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10806.json": [
-        "title",
+    "StoryData\\KR_P10806.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10807.json": [
-        "title",
+    "StoryData\\KR_P10807.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10808.json": [
-        "title",
+    "StoryData\\KR_P10808.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10809.json": [
-        "title",
+    "StoryData\\KR_P10809.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10810.json": [
-        "title",
+    "StoryData\\KR_P10810.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10811.json": [
-        "title",
+    "StoryData\\KR_P10811.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10902.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P10902.json": [
+        "content",
+        "title"
     ],
-    "KR_P10903.json": [
-        "teller",
-        "content"
+    "StoryData\\KR_P10903.json": [
+        "content",
+        "teller"
     ],
-    "KR_P10904.json": [
-        "title",
+    "StoryData\\KR_P10904.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10905.json": [
-        "title",
+    "StoryData\\KR_P10905.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10906.json": [
-        "title",
+    "StoryData\\KR_P10906.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10907.json": [
-        "title",
+    "StoryData\\KR_P10907.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10908.json": [
-        "title",
+    "StoryData\\KR_P10908.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10909.json": [
-        "title",
+    "StoryData\\KR_P10909.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10910.json": [
-        "title",
+    "StoryData\\KR_P10910.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P10911.json": [
+    "StoryData\\KR_P10911.json": [
         "content"
     ],
-    "KR_P10912.json": [
-        "title",
+    "StoryData\\KR_P10912.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11002.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P11002.json": [
+        "content",
+        "title"
     ],
-    "KR_P11003.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P11003.json": [
+        "content",
+        "title"
     ],
-    "KR_P11004.json": [
-        "title",
+    "StoryData\\KR_P11004.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11005.json": [
-        "title",
+    "StoryData\\KR_P11005.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11006.json": [
+    "StoryData\\KR_P11006.json": [
         "content"
     ],
-    "KR_P11007.json": [
-        "title",
+    "StoryData\\KR_P11007.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11008.json": [
-        "title",
+    "StoryData\\KR_P11008.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11009.json": [
-        "title",
+    "StoryData\\KR_P11009.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11010.json": [
-        "title",
+    "StoryData\\KR_P11010.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11011.json": [
-        "title",
+    "StoryData\\KR_P11011.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11012.json": [
-        "title",
+    "StoryData\\KR_P11012.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11102.json": [
-        "title",
-        "content"
+    "StoryData\\KR_P11102.json": [
+        "content",
+        "title"
     ],
-    "KR_P11103.json": [
-        "title",
+    "StoryData\\KR_P11103.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11104.json": [
-        "title",
+    "StoryData\\KR_P11104.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11105.json": [
-        "title",
+    "StoryData\\KR_P11105.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11106.json": [
-        "title",
+    "StoryData\\KR_P11106.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11107.json": [
+    "StoryData\\KR_P11107.json": [
         "content"
     ],
-    "KR_P11108.json": [
-        "title",
+    "StoryData\\KR_P11108.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11109.json": [
-        "title",
+    "StoryData\\KR_P11109.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11110.json": [],
-    "KR_P11111.json": [
-        "title",
+    "StoryData\\KR_P11110.json": [],
+    "StoryData\\KR_P11111.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11112.json": [
-        "title",
+    "StoryData\\KR_P11112.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11202.json": [
-        "title",
+    "StoryData\\KR_P11202.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11203.json": [
+    "StoryData\\KR_P11203.json": [
         "content"
     ],
-    "KR_P11204.json": [
-        "title",
+    "StoryData\\KR_P11204.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11205.json": [
-        "title",
+    "StoryData\\KR_P11205.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11206.json": [
-        "title",
+    "StoryData\\KR_P11206.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11207.json": [
-        "title",
+    "StoryData\\KR_P11207.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11208.json": [
-        "title",
+    "StoryData\\KR_P11208.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11209.json": [
+    "StoryData\\KR_P11209.json": [
         "content"
     ],
-    "KR_P11210.json": [
-        "title",
+    "StoryData\\KR_P11210.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11211.json": [
-        "title",
+    "StoryData\\KR_P11211.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_P11212.json": [
-        "title",
+    "StoryData\\KR_P11212.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S001A.json": [
-        "title",
+    "StoryData\\KR_S001A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S001B.json": [
-        "title",
+    "StoryData\\KR_S001B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S002B.json": [
-        "title",
+    "StoryData\\KR_S002B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S003A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S003A.json": [
+        "content",
+        "place"
     ],
-    "KR_S003B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S003B.json": [
+        "content",
+        "place"
     ],
-    "KR_S004A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S004A.json": [
+        "content",
+        "place"
     ],
-    "KR_S004B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S004B.json": [
+        "content",
+        "place"
     ],
-    "KR_S101B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S101B.json": [
+        "content",
+        "place"
     ],
-    "KR_S102B.json": [
-        "title",
+    "StoryData\\KR_S102B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S103B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S103B.json": [
+        "content",
+        "place"
     ],
-    "KR_S104B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S104B.json": [
+        "content",
+        "place"
     ],
-    "KR_S105B.json": [
-        "title",
+    "StoryData\\KR_S105B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S106B.json": [
-        "title",
+    "StoryData\\KR_S106B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S107A.json": [
-        "title",
+    "StoryData\\KR_S107A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S107B.json": [
-        "title",
+    "StoryData\\KR_S107B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S108B.json": [
-        "title",
+    "StoryData\\KR_S108B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S109B.json": [
-        "title",
+    "StoryData\\KR_S109B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S110B.json": [
-        "title",
+    "StoryData\\KR_S110B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S111B.json": [
-        "title",
+    "StoryData\\KR_S111B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S201B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S201B.json": [
+        "content",
+        "place"
     ],
-    "KR_S202A.json": [],
-    "KR_S202B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S202A.json": [],
+    "StoryData\\KR_S202B.json": [
+        "content",
+        "place"
     ],
-    "KR_S203B.json": [
-        "title",
+    "StoryData\\KR_S203B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S204B.json": [
-        "title",
+    "StoryData\\KR_S204B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S205A.json": [
-        "title",
+    "StoryData\\KR_S205A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S205B.json": [
-        "title",
+    "StoryData\\KR_S205B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S206B.json": [
-        "title",
+    "StoryData\\KR_S206B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S207A.json": [
-        "title",
+    "StoryData\\KR_S207A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S207B.json": [
-        "title",
+    "StoryData\\KR_S207B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S208B.json": [
-        "title",
+    "StoryData\\KR_S208B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S209A.json": [
-        "title",
+    "StoryData\\KR_S209A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S209B.json": [
-        "title",
+    "StoryData\\KR_S209B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S210B.json": [
-        "title",
+    "StoryData\\KR_S210B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S212A.json": [
-        "title",
+    "StoryData\\KR_S212A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S212B.json": [
-        "title",
+    "StoryData\\KR_S212B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S213B.json": [
-        "title",
+    "StoryData\\KR_S213B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S215A.json": [
-        "title",
+    "StoryData\\KR_S215A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S215B.json": [
-        "title",
+    "StoryData\\KR_S215B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S216B.json": [
-        "title",
+    "StoryData\\KR_S216B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S217B.json": [
-        "title",
+    "StoryData\\KR_S217B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S218B.json": [
-        "title",
+    "StoryData\\KR_S218B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S219B.json": [
+    "StoryData\\KR_S219B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_S301B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S301B.json": [
+        "content",
+        "place"
     ],
-    "KR_S302A.json": [
-        "title",
+    "StoryData\\KR_S302A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S302B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S302B.json": [
+        "content",
+        "place"
     ],
-    "KR_S303B.json": [
-        "title",
+    "StoryData\\KR_S303B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S304A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S304A.json": [
+        "content",
+        "place"
     ],
-    "KR_S304B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S304B.json": [
+        "content",
+        "place"
     ],
-    "KR_S306A.json": [
-        "title",
+    "StoryData\\KR_S306A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S307B.json": [
-        "title",
+    "StoryData\\KR_S307B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S308B.json": [
-        "title",
+    "StoryData\\KR_S308B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S309B.json": [
-        "title",
+    "StoryData\\KR_S309B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S310B.json": [
-        "title",
+    "StoryData\\KR_S310B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S311B.json": [
+    "StoryData\\KR_S311B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_S313A.json": [
-        "title",
+    "StoryData\\KR_S313A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S313B.json": [
-        "title",
+    "StoryData\\KR_S313B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S315B.json": [
-        "title",
+    "StoryData\\KR_S315B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S316B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S316B.json": [
+        "content",
+        "place"
     ],
-    "KR_S317B.json": [
-        "title",
+    "StoryData\\KR_S317B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S318A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S318A.json": [
+        "content",
+        "place"
     ],
-    "KR_S318B.json": [
-        "title",
+    "StoryData\\KR_S318B.json": [
+        "content",
         "place",
         "teller",
-        "content"
-    ],
-    "KR_S320B.json": [
-        "place",
-        "content"
+        "title"
     ],
-    "KR_S322B.json": [
-        "title",
+    "StoryData\\KR_S320B.json": [
+        "content",
+        "place"
+    ],
+    "StoryData\\KR_S322B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S401B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S401B.json": [
+        "content",
+        "place"
     ],
-    "KR_S402B.json": [
-        "title",
+    "StoryData\\KR_S402B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S403A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S403A.json": [
+        "content",
+        "place"
     ],
-    "KR_S406A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S406A.json": [
+        "content",
+        "place"
     ],
-    "KR_S407B.json": [
-        "title",
+    "StoryData\\KR_S407B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S408B.json": [
-        "title",
+    "StoryData\\KR_S408B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S409B.json": [
-        "title",
+    "StoryData\\KR_S409B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S410B.json": [
-        "title",
+    "StoryData\\KR_S410B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S412B.json": [
-        "title",
+    "StoryData\\KR_S412B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S415B.json": [
-        "title",
+    "StoryData\\KR_S415B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S416A.json": [
-        "title",
+    "StoryData\\KR_S416A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S416B.json": [
-        "title",
+    "StoryData\\KR_S416B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S417A.json": [
-        "title",
+    "StoryData\\KR_S417A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S418B.json": [
-        "title",
+    "StoryData\\KR_S418B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S421B.json": [
-        "title",
+    "StoryData\\KR_S421B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S422B.json": [
-        "title",
+    "StoryData\\KR_S422B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S426B.json": [
-        "title",
+    "StoryData\\KR_S426B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S427B.json": [
-        "title",
+    "StoryData\\KR_S427B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S428B.json": [
-        "title",
+    "StoryData\\KR_S428B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S429B.json": [
-        "title",
+    "StoryData\\KR_S429B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S430B.json": [
-        "title",
+    "StoryData\\KR_S430B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S433A.json": [
-        "title",
+    "StoryData\\KR_S433A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S433B.json": [
-        "title",
+    "StoryData\\KR_S433B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S435B.json": [
-        "title",
+    "StoryData\\KR_S435B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S438B.json": [
-        "title",
+    "StoryData\\KR_S438B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S441B.json": [
-        "title",
+    "StoryData\\KR_S441B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S443B.json": [
-        "title",
+    "StoryData\\KR_S443B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S445B.json": [
+    "StoryData\\KR_S445B.json": [
         "content"
     ],
-    "KR_S447B.json": [
-        "title",
+    "StoryData\\KR_S447B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S448A.json": [
-        "title",
+    "StoryData\\KR_S448A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S448B.json": [
-        "title",
+    "StoryData\\KR_S448B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S449B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S449B.json": [
+        "content",
+        "place"
     ],
-    "KR_S451B.json": [
-        "title",
+    "StoryData\\KR_S451B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S454B.json": [
-        "title",
+    "StoryData\\KR_S454B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S501B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S501B.json": [
+        "content",
+        "place"
     ],
-    "KR_S502B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S502B.json": [
+        "content",
+        "place"
     ],
-    "KR_S503B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S503B.json": [
+        "content",
+        "place"
     ],
-    "KR_S504B.json": [
-        "title",
+    "StoryData\\KR_S504B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S505A.json": [
-        "title",
+    "StoryData\\KR_S505A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S506B.json": [
-        "title",
+    "StoryData\\KR_S506B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S507B.json": [
-        "title",
+    "StoryData\\KR_S507B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S509A.json": [
-        "title",
+    "StoryData\\KR_S509A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S510A.json": [
-        "title",
+    "StoryData\\KR_S510A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S510B.json": [
-        "title",
+    "StoryData\\KR_S510B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S511B.json": [
-        "title",
+    "StoryData\\KR_S511B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S513B.json": [],
-    "KR_S514B.json": [
-        "title",
+    "StoryData\\KR_S513B.json": [],
+    "StoryData\\KR_S514B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S515B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S515B.json": [
+        "content",
+        "place"
     ],
-    "KR_S516B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S516B.json": [
+        "content",
+        "place"
     ],
-    "KR_S517A.json": [
-        "title",
+    "StoryData\\KR_S517A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S518A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S518A.json": [
+        "content",
+        "place"
     ],
-    "KR_S518B.json": [
-        "title",
+    "StoryData\\KR_S518B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S519A.json": [
-        "title",
+    "StoryData\\KR_S519A.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S520B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S520B.json": [
+        "content",
+        "place"
     ],
-    "KR_S521B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S521B.json": [
+        "content",
+        "place"
     ],
-    "KR_S522B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S522B.json": [
+        "content",
+        "place"
     ],
-    "KR_S523A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S523A.json": [
+        "content",
+        "place"
     ],
-    "KR_S524B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S524B.json": [
+        "content",
+        "place"
     ],
-    "KR_S525B.json": [
-        "title",
+    "StoryData\\KR_S525B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S526A.json": [
-        "title",
+    "StoryData\\KR_S526A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S527B.json": [
-        "title",
+    "StoryData\\KR_S527B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S529A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S529A.json": [
+        "content",
+        "place"
     ],
-    "KR_S530B.json": [
-        "title",
+    "StoryData\\KR_S530B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S532A.json": [
-        "title",
+    "StoryData\\KR_S532A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S532B.json": [
-        "title",
+    "StoryData\\KR_S532B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S533B.json": [
-        "title",
+    "StoryData\\KR_S533B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S534B.json": [
-        "title",
+    "StoryData\\KR_S534B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S535B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S535B.json": [
+        "content",
+        "place"
     ],
-    "KR_S537A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S537A.json": [
+        "content",
+        "place"
     ],
-    "KR_S538B.json": [
-        "title",
+    "StoryData\\KR_S538B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S539B.json": [
-        "title",
+    "StoryData\\KR_S539B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S601B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S601B.json": [
+        "content",
+        "place"
     ],
-    "KR_S602B.json": [
-        "title",
+    "StoryData\\KR_S602B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S603A.json": [
-        "title",
+    "StoryData\\KR_S603A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S603B.json": [
-        "title",
+    "StoryData\\KR_S603B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S604B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S604B.json": [
+        "content",
+        "place"
     ],
-    "KR_S605B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S605B.json": [
+        "content",
+        "place"
     ],
-    "KR_S606B.json": [
-        "title",
+    "StoryData\\KR_S606B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S607B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S607B.json": [
+        "content",
+        "place"
     ],
-    "KR_S608B.json": [
-        "title",
+    "StoryData\\KR_S608B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S609A.json": [
-        "title",
+    "StoryData\\KR_S609A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S609B.json": [
-        "title",
+    "StoryData\\KR_S609B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S610B.json": [
-        "title",
+    "StoryData\\KR_S610B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S611B.json": [
-        "title",
+    "StoryData\\KR_S611B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S612B.json": [
-        "title",
+    "StoryData\\KR_S612B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S613B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S613B.json": [
+        "content",
+        "place"
     ],
-    "KR_S614B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S614B.json": [
+        "content",
+        "place"
     ],
-    "KR_S616B.json": [
-        "title",
+    "StoryData\\KR_S616B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S617B.json": [
-        "title",
+    "StoryData\\KR_S617B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S618B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S618B.json": [
+        "content",
+        "place"
     ],
-    "KR_S619A.json": [
-        "title",
+    "StoryData\\KR_S619A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S619B.json": [
-        "title",
+    "StoryData\\KR_S619B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S620B.json": [
-        "title",
+    "StoryData\\KR_S620B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S621A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S621A.json": [
+        "content",
+        "place"
     ],
-    "KR_S621B.json": [
-        "title",
+    "StoryData\\KR_S621B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S622B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S622B.json": [
+        "content",
+        "place"
     ],
-    "KR_S623A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S623A.json": [
+        "content",
+        "place"
     ],
-    "KR_S624B.json": [
-        "title",
+    "StoryData\\KR_S624B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S625B.json": [
-        "title",
+    "StoryData\\KR_S625B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S628B.json": [
-        "title",
+    "StoryData\\KR_S628B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S629A.json": [
-        "title",
+    "StoryData\\KR_S629A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S630B.json": [
-        "title",
+    "StoryData\\KR_S630B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S631A.json": [
-        "title",
+    "StoryData\\KR_S631A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S632A.json": [
+    "StoryData\\KR_S632A.json": [
         "content"
     ],
-    "KR_S632B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S632B.json": [
+        "content",
+        "place"
     ],
-    "KR_S632I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S632I.json": [
+        "content",
+        "place"
     ],
-    "KR_S633B.json": [
-        "title",
+    "StoryData\\KR_S633B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S634A.json": [
-        "title",
+    "StoryData\\KR_S634A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S634B.json": [
-        "title",
+    "StoryData\\KR_S634B.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S634I.json": [
-        "title",
+    "StoryData\\KR_S634I.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S635A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S635A.json": [
+        "content",
+        "place"
     ],
-    "KR_S635B.json": [
-        "title",
+    "StoryData\\KR_S635B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S635I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S635I.json": [
+        "content",
+        "place"
     ],
-    "KR_S636B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S636B.json": [
+        "content",
+        "place"
     ],
-    "KR_S637A.json": [
-        "title",
+    "StoryData\\KR_S637A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S637B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S637B.json": [
+        "content",
+        "place"
     ],
-    "KR_S638B.json": [
-        "title",
+    "StoryData\\KR_S638B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S639B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S639B.json": [
+        "content",
+        "place"
     ],
-    "KR_S641I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S641I.json": [
+        "content",
+        "place"
     ],
-    "KR_S641I2.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S641I2.json": [
+        "content",
+        "place"
     ],
-    "KR_S641I3.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S641I3.json": [
+        "content",
+        "place"
     ],
-    "KR_S643B.json": [
-        "title",
+    "StoryData\\KR_S643B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S644A.json": [
-        "title",
+    "StoryData\\KR_S644A.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S644B.json": [
-        "title",
+    "StoryData\\KR_S644B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S644I.json": [
-        "title",
+    "StoryData\\KR_S644I.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S645A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S645A.json": [
+        "content",
+        "place"
     ],
-    "KR_S645B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S645B.json": [
+        "content",
+        "place"
     ],
-    "KR_S646B.json": [
-        "title",
+    "StoryData\\KR_S646B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S647B.json": [
-        "title",
+    "StoryData\\KR_S647B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S648A.json": [
-        "title",
+    "StoryData\\KR_S648A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S648B.json": [
-        "title",
+    "StoryData\\KR_S648B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S648I.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S648I.json": [
+        "content",
+        "place"
     ],
-    "KR_S648I2.json": [
+    "StoryData\\KR_S648I2.json": [
         "content"
     ],
-    "KR_S648I3.json": [
-        "title",
+    "StoryData\\KR_S648I3.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S648I4.json": [
-        "title",
+    "StoryData\\KR_S648I4.json": [
+        "content",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S701B.json": [
-        "title",
+    "StoryData\\KR_S701B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S702B.json": [
-        "title",
+    "StoryData\\KR_S702B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S703B.json": [
-        "title",
+    "StoryData\\KR_S703B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S704A.json": [
-        "title",
+    "StoryData\\KR_S704A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S705B.json": [
-        "title",
+    "StoryData\\KR_S705B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S706A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S706A.json": [
+        "content",
+        "place"
     ],
-    "KR_S706B.json": [
-        "title",
+    "StoryData\\KR_S706B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S707B.json": [
-        "title",
+    "StoryData\\KR_S707B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S708B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S708B.json": [
+        "content",
+        "place"
     ],
-    "KR_S709A.json": [
-        "title",
+    "StoryData\\KR_S709A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S709B.json": [
-        "title",
+    "StoryData\\KR_S709B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S710B.json": [
-        "title",
+    "StoryData\\KR_S710B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S712A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S712A.json": [
+        "content",
+        "place"
     ],
-    "KR_S712B.json": [
-        "title",
+    "StoryData\\KR_S712B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S713A.json": [
-        "title",
+    "StoryData\\KR_S713A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S713B.json": [
-        "title",
+    "StoryData\\KR_S713B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S714B.json": [
-        "title",
+    "StoryData\\KR_S714B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S715A.json": [
-        "title",
+    "StoryData\\KR_S715A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S715B.json": [
-        "title",
+    "StoryData\\KR_S715B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S716A.json": [
-        "title",
+    "StoryData\\KR_S716A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S716B.json": [
-        "title",
+    "StoryData\\KR_S716B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S717A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S717A.json": [
+        "content",
+        "place"
     ],
-    "KR_S717B.json": [
-        "title",
+    "StoryData\\KR_S717B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S718A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S718A.json": [
+        "content",
+        "place"
     ],
-    "KR_S718B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S718B.json": [
+        "content",
+        "place"
     ],
-    "KR_S719B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S719B.json": [
+        "content",
+        "place"
     ],
-    "KR_S720B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S720B.json": [
+        "content",
+        "place"
     ],
-    "KR_S721B.json": [
-        "title",
+    "StoryData\\KR_S721B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S722B.json": [
-        "title",
+    "StoryData\\KR_S722B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S723B.json": [
-        "title",
+    "StoryData\\KR_S723B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S724A.json": [
-        "title",
+    "StoryData\\KR_S724A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S724B.json": [
-        "title",
+    "StoryData\\KR_S724B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S725B.json": [
-        "title",
+    "StoryData\\KR_S725B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S726B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S726B.json": [
+        "content",
+        "place"
     ],
-    "KR_S727A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S727A.json": [
+        "content",
+        "place"
     ],
-    "KR_S728B.json": [
-        "title",
+    "StoryData\\KR_S728B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S729B.json": [
-        "title",
+    "StoryData\\KR_S729B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S730B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S730B.json": [
+        "content",
+        "place"
     ],
-    "KR_S731B.json": [
-        "title",
+    "StoryData\\KR_S731B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S733B.json": [
+    "StoryData\\KR_S733B.json": [
+        "content",
         "place",
-        "teller",
-        "content"
+        "teller"
     ],
-    "KR_S735B.json": [
-        "title",
+    "StoryData\\KR_S735B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S736B.json": [
-        "title",
+    "StoryData\\KR_S736B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S737B.json": [
-        "title",
+    "StoryData\\KR_S737B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S801A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S801A.json": [
+        "content",
+        "place"
     ],
-    "KR_S801B.json": [
-        "title",
+    "StoryData\\KR_S801B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S802B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S802B.json": [
+        "content",
+        "place"
     ],
-    "KR_S803B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S803B.json": [
+        "content",
+        "place"
     ],
-    "KR_S805B.json": [
-        "title",
+    "StoryData\\KR_S805B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S806B.json": [
-        "title",
+    "StoryData\\KR_S806B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S807B.json": [
-        "title",
+    "StoryData\\KR_S807B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S808B.json": [
-        "title",
+    "StoryData\\KR_S808B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S809A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S809A.json": [
+        "content",
+        "place"
     ],
-    "KR_S810B.json": [
-        "title",
+    "StoryData\\KR_S810B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S811B.json": [
-        "title",
+    "StoryData\\KR_S811B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S812A.json": [
-        "title",
+    "StoryData\\KR_S812A.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S813B.json": [
-        "title",
+    "StoryData\\KR_S813B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S814B.json": [
-        "title",
+    "StoryData\\KR_S814B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S815B.json": [
-        "title",
+    "StoryData\\KR_S815B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S817A.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S817A.json": [
+        "content",
+        "place"
     ],
-    "KR_S817I.json": [
-        "title",
+    "StoryData\\KR_S817I.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_S818B.json": [
-        "place",
-        "content"
+    "StoryData\\KR_S818B.json": [
+        "content",
+        "place"
     ],
-    "KR_S819B.json": [
-        "title",
+    "StoryData\\KR_S819B.json": [
+        "content",
         "place",
-        "content"
+        "title"
     ],
-    "KR_S820B.json": [
-        "title",
+    "StoryData\\KR_S820B.json": [
+        "content",
         "place",
         "teller",
-        "content"
+        "title"
     ],
-    "KR_SDUMMY.json": [
-        "place",
-        "content"
+    "StoryData\\KR_SDUMMY.json": [
+        "content",
+        "place"
     ],
-    "KR_TS817I.json": [
+    "StoryData\\KR_TS817I.json": [
         "content"
     ]
 }
