@@ -54,7 +54,7 @@ def handle_static_keywords():
 
 def handle_llm_keywords():
     # 本次只处理S8的文件
-    s8_file = [i for i in KR_FILES_BASE_NAME_MAPPING.keys() if i.startswith("S8")]
+    s8_file = [i for i in KR_FILES_BASE_NAME_MAPPING.keys() if i.startswith("8")]
     handle_files = sorted(list(set(s8_file) & set(CN_FILES_BASE_NAME_MAPPING.keys())))
 
     llm_keywords_mapping = AutoSavingDict("./database/keywords_llm.json")
