@@ -6,7 +6,7 @@ from keywords_const import STATIC_KEYWORDS_MAPPING, LLM_KEYWORDS_MAPPING
 
 
 key_to_translate = ['place', 'content']
-file_to_translate = ['S832B.json', 'S833A.json','S833B.json', 'S833I1.json', 'S833I2.json', 'S833I3.json', 'S833I4.json'][:1]
+file_to_translate = ['S832B.json', 'S833A.json','S833B.json', 'S833I1.json', 'S833I2.json', 'S833I3.json', 'S833I4.json']
 
 if __name__ == "__main__":
     for f in file_to_translate:
@@ -18,7 +18,7 @@ if __name__ == "__main__":
         for item in kr_data:
             for key in key_to_translate:
                 if key in item:
-                    text = item[key].strip()
+                    text = str(item[key]).strip()
                     if not text.strip():
                         continue
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
                             key_words[static_keyword] = value
                     for llm_keyword, value in LLM_KEYWORDS_MAPPING.items():
                         if llm_keyword in text:
-                            key_words[llm_keyword] = value   
+                            key_words[llm_keyword] = value
 
                     key_words = sorted(list(key_words.items()))[:5]
                     msg = f"原文:\n{text}\n关键词:\n"

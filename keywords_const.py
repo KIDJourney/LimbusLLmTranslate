@@ -20,3 +20,11 @@ STATIC_KEYWORDS_KEYS = [
 
 STATIC_KEYWORDS_MAPPING = json.load(open("./database/keywords_static.json", encoding="utf-8"))
 LLM_KEYWORDS_MAPPING = json.load(open("./database/keywords_llm.json", encoding="utf-8"))
+
+for k in list(STATIC_KEYWORDS_MAPPING.keys()):
+    if k == STATIC_KEYWORDS_MAPPING[k]:
+        del STATIC_KEYWORDS_MAPPING[k]
+
+for k in list(LLM_KEYWORDS_MAPPING.keys()):
+    if k == LLM_KEYWORDS_MAPPING[k]:
+        del LLM_KEYWORDS_MAPPING[k]
