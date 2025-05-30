@@ -1,4 +1,4 @@
-from llm import chat_with_coze, BOT_ID_KEYWORD
+from llm import ConversationBot, KEYWORDS_SP
 import json
 import os
 from path import (
@@ -10,7 +10,6 @@ from path import (
     AutoSavingDict
 )
 from keywords_const import STATIC_KEYWORDS_KEYS, LLM_KEYWORDS_MAPPING
-from llm import USE_LLM
 
 MODIFY_KEYS = json.loads(open("./database/modify_keys.json", "r").read())
 
@@ -60,7 +59,7 @@ def handle_llm_keywords():
 
     llm_keywords_mapping = AutoSavingDict("./database/keywords_llm.json")
 
-    for f in handle_files:
+    def handle_f(f):
         kr_file_path = KR_FILES_BASE_NAME_MAPPING[f]
         cn_file_path = CN_FILES_BASE_NAME_MAPPING[f]
 
@@ -68,6 +67,8 @@ def handle_llm_keywords():
         cn_data = read_file_data(cn_file_path)
         kr_item_map = {item.get("id"): item for item in kr_data if "id" in item}
         cn_item_map = {item.get("id"): item for item in cn_data if "id" in item}
+
+        chat_bot = ConversationBot(KEYWORDS_SP)
 
         for kr_item in kr_data:
             kr_id = kr_item.get("id")
@@ -88,7 +89,7 @@ def handle_llm_keywords():
 
             if kr_content and cn_content:
                 msg = f"原文:\n{kr_content}\n\n译文:\n{cn_content}"
-                keywords = chat_with_coze(BOT_ID_KEYWORD, msg)
+                keywords = chat_bot.chat(msg)
                 print(f"Keywords for {kr_id} in {f}: {msg} {keywords}")
 
                 try:
@@ -107,6 +108,14 @@ def handle_llm_keywords():
                         continue
                     llm_keywords_mapping[item[0]] = item[1]
 
+    import concurrent.futures
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+        list(executor.map(handle_f, handle_files))
+    # for f in handle_files:
+    #     print(f"Processing file: {f}")
+    #     handle_f(f)
+
+    llm_keywords_mapping._save()
 
 if __name__ == "__main__":
     # handle_static_keywords()

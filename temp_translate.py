@@ -1,4 +1,4 @@
-from llm import chat_with_coze, BOT_ID_TRANSLATE
+from llm import chat_with_llm, BOT_ID_TRANSLATE
 import os
 import sys
 from path import CN_FILES_BASE_NAME_MAPPING, KR_FILES_BASE_NAME_MAPPING, read_file_data, write_file_data, to_cn_path
@@ -37,7 +37,7 @@ if __name__ == "__main__":
                     for k, v in key_words:
                         if k.strip() and v.strip():
                             msg += f"{k}: {v}\n"
-                    translated_text = chat_with_coze(BOT_ID_TRANSLATE, msg)
+                    translated_text = chat_with_llm(BOT_ID_TRANSLATE, msg)
 
                     item[key] = translated_text
                     print(f"Translated {key} in {f}: {translated_text}")

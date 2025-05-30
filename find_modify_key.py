@@ -2,7 +2,7 @@ import os
 import json 
 import glob
 
-from path import KR_JSON_FILES, CN_JSON_FILES, AutoSavingDict
+from path import KR_JSON_FILES, CN_JSON_FILES, AutoSavingDict, read_file_data
 
 
 
@@ -22,26 +22,26 @@ if __name__ == "__main__":
             print(f"Warning: Corresponding CN file not found for {kr_file_path_name}")
             continue
         cn_file_path = cn_name_map[cn_file_name]
-        with open(kr_file_path, 'r', encoding='utf-8') as kr_f, open(cn_file_path, 'r', encoding='utf-8') as cn_f:
-            kr_data = json.load(kr_f)['dataList']
-            cn_data = json.load(cn_f)['dataList']
 
-            kr_item_map = {item.get('id'):item for item in kr_data if 'id' in kr_data[0]}
-            cn_item_map = {item.get('id'):item for item in cn_data if 'id' in cn_data[0]}
+        kr_data = read_file_data(kr_file_path)
+        cn_data = read_file_data(cn_file_path)
 
-            modify_keys = set() 
+        kr_item_map = {item.get('id'):item for item in kr_data if 'id' in kr_data[0]}
+        cn_item_map = {item.get('id'):item for item in cn_data if 'id' in cn_data[0]}
 
-            for id, item in kr_item_map.items():
-                if id not in cn_item_map:
-                    print(f"Warning: ID {id} not found in CN file {cn_file_name}")
-                    continue
-                
-                kr_item = kr_item_map[id]
-                cn_item = cn_item_map[id]
+        modify_keys = set() 
 
-                for key in kr_item:
-                    if key in cn_item and kr_item[key] != cn_item[key]:
-                        modify_keys.add(key)
+        for id, item in kr_item_map.items():
+            if id not in cn_item_map:
+                print(f"Warning: ID {id} not found in CN file {cn_file_name}")
+                continue
+            
+            kr_item = kr_item_map[id]
+            cn_item = cn_item_map[id]
+
+            for key in kr_item:
+                if key in cn_item and kr_item[key] != cn_item[key]:
+                    modify_keys.add(key)
 
         # 保留最后两位的path作为key
         rel_path = os.path.basename(kr_file_path)
