@@ -1,0 +1,171 @@
+[
+  {
+    "file": "BattleKeywords.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"DianxueDonQuixote\"",
+        0
+      ],
+      "desc"
+    ],
+    "action": "modify",
+    "reason": "原韩文增加了“- 다른 캐릭터의 점혈이 부여될 경우, 교체됨 (수치 유지)”这条说明（被其他单位施加点穴时，本效果被替换(保留数值)）。并且原中文有部分遗漏。需要更新说明。",
+    "translation": "- 最大值：3\n- 施加本点穴的单位根据目标(或部位)的点穴层数获得相应效果\n· 1层：拼点威力+1\n· 2层：基础威力+1\n· 3层：拼点威力+1，基础威力+1\n- 若施加本效果的单位对其他目标(或部位)施加本效果，则解除本效果\n- 被其他单位施加点穴时，本效果被替换(保留层数)",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Current Chinese already contains the replacement/stack-preservation sentence. Claimed omission is false."
+  },
+  {
+    "file": "BattleKeywords_Mirror6.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"GiveMeCandy_LowMoral\"",
+        0
+      ],
+      "desc"
+    ],
+    "action": "modify",
+    "reason": "原中文有空格问题“带有糖果 的人格”，而且为了统一格式，需要更新。",
+    "translation": "- 士气低落\n- 与带有糖果的人格进行拼点时，拼点威力+3；与其他人格进行拼点时，拼点威力-1",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Current translation already conveys current source; optional spacing cleanup is outside update scope."
+  },
+  {
+    "file": "BattleKeywords_Mirror6.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"GiveMeCandy_Panic\"",
+        0
+      ],
+      "desc"
+    ],
+    "action": "modify",
+    "reason": "原中文有空格问题“带有糖果 的人格”，需要更新。",
+    "translation": "- 陷入恐慌\n- 与带有糖果的人格进行拼点时，拼点威力+5；与其他人格进行拼点时，拼点威力-2",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Current translation already conveys current source; optional spacing cleanup is outside update scope."
+  },
+  {
+    "file": "BattlePass.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"battlepass_package_purchase\"",
+        0
+      ],
+      "content"
+    ],
+    "action": "modify",
+    "reason": "保留了富文本标签并进行准确翻译。",
+    "translation": "<font=\"BebasKai SDF\">LIMBUS PASS</font> 组合包",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Existing Chinese accurately conveys the meaning and localizes the product name. No gameplay/text update required."
+  },
+  {
+    "file": "BattlePass.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"battlepass_purchase_desc_ex\"",
+        0
+      ],
+      "content"
+    ],
+    "action": "modify",
+    "reason": "当前中文里“{0}”后面少了个“个”字，需要补充与韩文“{0}개에서”相对应。",
+    "translation": "通行证超额奖励中可获取的[第8赛季]自我碎片自选箱的数量由<style=\"highlightConverted\">{0}</style>个增加到<style=\"highlightConverted\">{1}</style>个",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Existing Chinese accurately conveys the meaning and localizes the product name. No gameplay/text update required."
+  },
+  {
+    "file": "Bufs.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"DianxueDonQuixote\"",
+        0
+      ],
+      "desc"
+    ],
+    "action": "modify",
+    "reason": "更新了说明，并保持与BattleKeywords一致。",
+    "translation": "- 最大值：3\n- 施加本点穴的单位根据目标(或部位)的点穴层数获得相应效果\n· 1层：拼点威力+1\n· 2层：基础威力+1\n· 3层：拼点威力+1，基础威力+1\n- 若施加本效果的单位对其他目标(或部位)施加本效果，则解除本效果\n- 被其他单位施加点穴时，本效果被替换(保留层数)",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Current Chinese already contains the replacement/stack-preservation sentence. Claimed omission is false."
+  },
+  {
+    "file": "Skills_Abnormality-a1c8p3.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "114508",
+        0
+      ],
+      "levelList",
+      0,
+      "coinlist",
+      1,
+      "coindescs",
+      2,
+      "desc"
+    ],
+    "action": "modify",
+    "reason": "原文是增加振动次数（횟수），现译文写的是施加3层（一般指强度）。需要修改为增加次数。",
+    "translation": "[OnSucceedAttack] 使目标的[Vibration]次数增加3",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Upstream Chinese uses layers for count and strength for potency. Existing text already expresses the count increase."
+  },
+  {
+    "file": "Skills_Abnormality_Refraction2_bokgak.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "962304",
+        0
+      ],
+      "levelList",
+      0,
+      "coinlist",
+      0,
+      "coindescs",
+      1,
+      "desc"
+    ],
+    "action": "keep",
+    "reason": "现译文翻译非常准确，符合《边狱公司》中“흐트러짐 손상(混乱损伤/混乱阈值前移)”的语境以及呼吸体系的表达习惯。",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Current translation already conveys current source; optional spacing cleanup is outside update scope."
+  },
+  {
+    "file": "Skills_Abnormality_Refraction2_bokgak.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "962305",
+        0
+      ],
+      "levelList",
+      0,
+      "coinlist",
+      0,
+      "coindescs",
+      1,
+      "desc"
+    ],
+    "action": "keep",
+    "reason": "现译文表达清晰流畅，准确翻译了原文在呼吸强度判定后前移混乱阈值的机制。",
+    "coordinator_action": "keep",
+    "coordinator_reason": "Current translation already conveys current source; optional spacing cleanup is outside update scope."
+  }
+]

@@ -1,0 +1,8058 @@
+{
+  "source": "/Users/kidjourney/Workspaces/Project/LimbusLLmTranslate/data/snapshots/cdn-20260924/KR",
+  "chinese": "/Users/kidjourney/Workspaces/Project/LimbusLLmTranslate/data/snapshots/20260928/LLC_zh-CN",
+  "summary": {
+    "pending_fields": 17,
+    "pending_files": 3,
+    "review_fields": 519,
+    "parse_errors": 0,
+    "reasons": {
+      "korean_remaining": 17
+    }
+  },
+  "pending": [
+    {
+      "file": "BattleKeywords-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"RouteBOneLeg\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "원레그 B루트 강화",
+      "current": "원레그 B루트 강화",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "Bufs-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"RouteBOneLeg\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "원레그 B루트 강화",
+      "current": "원레그 B루트 강화",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_popup_title\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "멤버십 코드",
+      "current": "멤버십 코드",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_popup_desc\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "아래 버튼을 눌러 멤버십 코드를 확인할 수 있습니다.",
+      "current": "아래 버튼을 눌러 멤버십 코드를 확인할 수 있습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_issue_btn\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "코드 발급",
+      "current": "코드 발급",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_code_empty\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "아직 확인하신 코드가 없습니다.",
+      "current": "아직 확인하신 코드가 없습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_issue_failed_condition\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "조건을 만족하지 않아 코드를 확인할 수 없습니다.",
+      "current": "조건을 만족하지 않아 코드를 확인할 수 없습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_issue_failed_unknown\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "알 수 없는 오류가 발생했습니다.",
+      "current": "알 수 없는 오류가 발생했습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_copy_btn\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "복사하기",
+      "current": "복사하기",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_copy_success\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "코드를 복사했습니다.",
+      "current": "코드를 복사했습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_issue_failed_shutdown\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "멤버십 코드 조회 기간이 종료되었습니다.",
+      "current": "멤버십 코드 조회 기간이 종료되었습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_issue_failed_closed\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "멤버십 코드 발급 기간이 종료되었습니다.",
+      "current": "멤버십 코드 발급 기간이 종료되었습니다.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_check_btn\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "코드 확인",
+      "current": "코드 확인",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_consent_title\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "개인정보 수집 및 이용 동의",
+      "current": "개인정보 수집 및 이용 동의",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_consent_desc\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "멤버십 코드 발급을 위한 개인정보 수집 및 이용에 동의해 주세요.",
+      "current": "멤버십 코드 발급을 위한 개인정보 수집 및 이용에 동의해 주세요.",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_consent_confirm_btn\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "동의",
+      "current": "동의",
+      "reason": "korean_remaining"
+    },
+    {
+      "file": "CouponUIText.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"promotion_issued_check_failed\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "발급 여부를 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.",
+      "current": "발급 여부를 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.",
+      "reason": "korean_remaining"
+    }
+  ],
+  "review": [
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080101",
+          0
+        ],
+        "title"
+      ],
+      "source": "막힌_길_장치_조작",
+      "current": "막힌_길_장치_조작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080601",
+          0
+        ],
+        "title"
+      ],
+      "source": "낭떠러지_도전",
+      "current": "낭떠러지_도전",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080701",
+          0
+        ],
+        "title"
+      ],
+      "source": "죄인_벌주기_1차",
+      "current": "죄인_벌주기_1차",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080702",
+          0
+        ],
+        "title"
+      ],
+      "source": "죄인_벌주기_2차",
+      "current": "죄인_벌주기_2차",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080801",
+          0
+        ],
+        "title"
+      ],
+      "source": "항아리_보기",
+      "current": "항아리_보기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1081001",
+          0
+        ],
+        "title"
+      ],
+      "source": "공포_견디기",
+      "current": "공포_견디기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1081301",
+          0
+        ],
+        "title"
+      ],
+      "source": "막바지_보너스_내기",
+      "current": "막바지_보너스_내기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800102",
+          0
+        ],
+        "prevDesc"
+      ],
+      "source": "백설 선택지 2 뜰 예정",
+      "current": "백설 선택지 2 뜰 예정",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800104",
+          0
+        ],
+        "title"
+      ],
+      "source": "백설선택지4",
+      "current": "백설선택지4",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800104",
+          0
+        ],
+        "prevDesc"
+      ],
+      "source": "백설 선택지 4 뜰 예정",
+      "current": "백설 선택지 4 뜰 예정",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800105",
+          0
+        ],
+        "title"
+      ],
+      "source": "백설선택지5",
+      "current": "백설선택지5",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800801",
+          0
+        ],
+        "title"
+      ],
+      "source": "구더기사과선택지1",
+      "current": "구더기사과선택지1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800202",
+          0
+        ],
+        "title"
+      ],
+      "source": "아즈텍원판선택지2",
+      "current": "아즈텍원판선택지2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800204",
+          0
+        ],
+        "title"
+      ],
+      "source": "아즈텍원판선택지4",
+      "current": "아즈텍원판선택지4",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800206",
+          0
+        ],
+        "title"
+      ],
+      "source": "아즈텍원판선택지6",
+      "current": "아즈텍원판선택지6",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "801502",
+          0
+        ],
+        "title"
+      ],
+      "source": "분홍신선택지2",
+      "current": "분홍신선택지2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "103003",
+          0
+        ],
+        "title"
+      ],
+      "source": "던전 103003 선택지",
+      "current": "던전 103003 선택지",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "103004",
+          0
+        ],
+        "title"
+      ],
+      "source": "던전 103004 선택지 : 짓무름의 의식",
+      "current": "던전 103004 선택지 : 짓무름의 의식",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "103005",
+          0
+        ],
+        "title"
+      ],
+      "source": "던전 103004 선택지 : 속죄의 의식",
+      "current": "던전 103004 선택지 : 속죄의 의식",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10300601",
+          0
+        ],
+        "title"
+      ],
+      "source": "던전 103006 2차 선택지",
+      "current": "던전 103006 2차 선택지",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "802501",
+          0
+        ],
+        "title"
+      ],
+      "source": "늑대선택지1",
+      "current": "늑대선택지1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "802801",
+          0
+        ],
+        "title"
+      ],
+      "source": "뱀선택지1",
+      "current": "뱀선택지1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "802901",
+          0
+        ],
+        "title"
+      ],
+      "source": "크로머선택지1",
+      "current": "크로머선택지1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "803001",
+          0
+        ],
+        "title"
+      ],
+      "source": "크로머선택지2",
+      "current": "크로머선택지2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "803101",
+          0
+        ],
+        "title"
+      ],
+      "source": "단수어선택지1",
+      "current": "단수어선택지1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "AbEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "803201",
+          0
+        ],
+        "title"
+      ],
+      "source": "골목파수견선택지1",
+      "current": "골목파수견선택지1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c7p3.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "837901",
+          0
+        ],
+        "name"
+      ],
+      "source": "아파하는 테디 선택지 선택 이벤트",
+      "current": "아파하는 테디 선택지 선택 이벤트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c7p3.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "837901",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10801",
+          0
+        ],
+        "name"
+      ],
+      "source": "막힌길_뚫기",
+      "current": "막힌길_뚫기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10802",
+          0
+        ],
+        "name"
+      ],
+      "source": "부적_떼기",
+      "current": "부적_떼기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080201",
+          0
+        ],
+        "name"
+      ],
+      "source": "부적_떼기_북",
+      "current": "부적_떼기_북",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080202",
+          0
+        ],
+        "name"
+      ],
+      "source": "부적_떼기_중앙",
+      "current": "부적_떼기_중앙",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080203",
+          0
+        ],
+        "name"
+      ],
+      "source": "부적_떼기_서",
+      "current": "부적_떼기_서",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080204",
+          0
+        ],
+        "name"
+      ],
+      "source": "부적_떼기_끝",
+      "current": "부적_떼기_끝",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10803",
+          0
+        ],
+        "name"
+      ],
+      "source": "붉은_출입증_획득_전투",
+      "current": "붉은_출입증_획득_전투",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10804",
+          0
+        ],
+        "name"
+      ],
+      "source": "죄수_꽃뜯기",
+      "current": "죄수_꽃뜯기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10805",
+          0
+        ],
+        "name"
+      ],
+      "source": "환_도박",
+      "current": "환_도박",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080501",
+          0
+        ],
+        "name"
+      ],
+      "source": "환_도박_코인_성공",
+      "current": "환_도박_코인_성공",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1080502",
+          0
+        ],
+        "name"
+      ],
+      "source": "환_도박_코인_실패",
+      "current": "환_도박_코인_실패",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10806",
+          0
+        ],
+        "name"
+      ],
+      "source": "낭떠러지_도전",
+      "current": "낭떠러지_도전",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10807",
+          0
+        ],
+        "name"
+      ],
+      "source": "죄인_고문",
+      "current": "죄인_고문",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10808",
+          0
+        ],
+        "name"
+      ],
+      "source": "항아리_보기_뽀개기",
+      "current": "항아리_보기_뽀개기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10809",
+          0
+        ],
+        "name"
+      ],
+      "source": "타임어택_인형_전투",
+      "current": "타임어택_인형_전투",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10810",
+          0
+        ],
+        "name"
+      ],
+      "source": "공포_견디기_내기",
+      "current": "공포_견디기_내기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10811",
+          0
+        ],
+        "name"
+      ],
+      "source": "붉은_출입증_사용",
+      "current": "붉은_출입증_사용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10812",
+          0
+        ],
+        "name"
+      ],
+      "source": "가문_기물_획득",
+      "current": "가문_기물_획득",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10813",
+          0
+        ],
+        "name"
+      ],
+      "source": "막바지_보너스",
+      "current": "막바지_보너스",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c8p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1081302",
+          0
+        ],
+        "name"
+      ],
+      "source": "막바지_보너스_내기_패배",
+      "current": "막바지_보너스_내기_패배",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "877401",
+          0
+        ],
+        "name"
+      ],
+      "source": "아파하는 테디 선택지 선택 이벤트",
+      "current": "아파하는 테디 선택지 선택 이벤트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "877401",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-pilgrimage.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "129701",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents-pilgrimage.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "129702",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "102001",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "102002",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "102003",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10200301",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10301",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "1030101",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10302",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10303",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10304",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10305",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10306",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10307",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10308",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10309",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10310",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10311",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10312",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "10314",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "subDesc가 뭘까?",
+      "current": "subDesc가 뭘까?",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800201",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800203",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "800205",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "801201",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "801202",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "801203",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "801204",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "801501",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "201001",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "201002",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "201003",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents_Refraction2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "855601",
+          0
+        ],
+        "subDesc"
+      ],
+      "source": "사용 안하는 텍스트",
+      "current": "사용 안하는 텍스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "ActionEvents_Refraction5.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "863301",
+          0
+        ],
+        "prevDesc"
+      ],
+      "source": "뭔가 넣어봄",
+      "current": "뭔가 넣어봄",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ATL_Agility\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ATL_Breath\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ATL_Target\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"DianxueDonQuixote\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "- 최댓값 : 3\n- 점혈을 부여한 캐릭터가 대상(또는 부위)의 점혈 수치에 따라 다음 효과를 얻음\n· 1스택 : 합 위력 +1\n· 2스택 : 기본 위력 +1\n· 3스택 : 합 위력 +1, 기본 위력 +1\n- 부여한 캐릭터가 다른 대상(또는 부위)에게 이 효과를 부여하면 소멸\n- 다른 캐릭터의 점혈이 부여될 경우, 교체됨 (수치 유지)",
+      "current": "- 最大值：3\n- 施加本点穴的单位根据目标(或部位)的点穴层数获得相应效果，\n· 1层：拼点威力+1\n· 2层：基础威力+1\n· 3层：拼点威力+1，基础威力+1\n- 若施加本效果的单位对其他目标(或部位)施加本效果，则解除本效果\n- 被其他单位施加点穴时，本效果被替换(保留本效果层数)",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"SingBulletSupport\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "(엄지 싱클 탄환 보급 받는 대상 이펙트)",
+      "current": "(엄지 싱클 탄환 보급 받는 대상 이펙트)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords_Mirror6.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"GiveMeCandy_LowMoral\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "- 사기 저하\n- 사탕을 가지고 있는 인격과 합 진행 시, 합 위력 +3, 그 외의 인격과 합 진행시, 합 위력 -1",
+      "current": "- 士气低落\n- 与带有糖果 的人格进行拼点时，拼点威力+3；与其他人格进行拼点时，拼点威力-1",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "BattleKeywords_Mirror6.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"GiveMeCandy_Panic\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "- 패닉\n- 사탕을 가지고 있는 인격과 합 진행 시, 합 위력 +5, 그 외의 인격과 합 진행시, 합 위력 -2",
+      "current": "- 陷入恐慌\n- 与带有糖果 的人格进行拼点时，拼点威力+5，与其他人格进行拼点时，拼点威力-2",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "BattleKeywords_Refraction5.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"MRR504\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "버프 이름",
+      "current": "버프 이름",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords_Refraction5.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"MRR514\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "버프 이름",
+      "current": "버프 이름",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleKeywords_Refraction5.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"MRR519\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "버프 이름",
+      "current": "버프 이름",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattlePass.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battlepass_package_purchase\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "<font=\"BebasKai SDF\">LIMBUS PASS</font> 패키지",
+      "current": "边狱通行证组合包",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "BattlePass.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battlepass_purchase_desc_ex\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "패스 레벨 초과 보상으로 획득할 수 있는 시즌 8 자아 파편 선택 상자의 수량이 <style=\"highlightConverted\">{0}</style>개에서 <style=\"highlightConverted\">{1}</style>개로 증가",
+      "current": "通行证超额奖励中可获取的[第8赛季]自我碎片自选箱的数量由<style=\"highlightConverted\">{0}</style>增加到<style=\"highlightConverted\">{1}</style>个",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "BattleResultHint-a1c9p3.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battleTip_none\"",
+          0
+        ],
+        "content"
+      ],
+      "source": "(더미)",
+      "current": "(더미)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-004\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬4",
+      "current": "수셰프 스킬4",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-005\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬5",
+      "current": "수셰프 스킬5",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-006\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬6",
+      "current": "수셰프 스킬6",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-007\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬7",
+      "current": "수셰프 스킬7",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-008_a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬8",
+      "current": "수셰프 스킬8",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-008_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬8",
+      "current": "수셰프 스킬8",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-009\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 스킬9",
+      "current": "수셰프 스킬9",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-010\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 특수 패턴1이 나오는 턴 시작 시 (전투당 1회)",
+      "current": "수셰프 특수 패턴1이 나오는 턴 시작 시 (전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-011\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "수셰프 특수 패턴2가 나오는 턴 시작 시 (전투당 1회)",
+      "current": "수셰프 특수 패턴2가 나오는 턴 시작 시 (전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-024-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 스킬3",
+      "current": "붉은 신 스킬3",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-024-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 스킬3",
+      "current": "붉은 신 스킬3",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-026\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 스킬5",
+      "current": "붉은 신 스킬5",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-029\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 스킬8",
+      "current": "붉은 신 스킬8",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-031\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 스킬10",
+      "current": "붉은 신 스킬10",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-032\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 수비 스킬",
+      "current": "붉은 신 수비 스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-034\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 스킬13",
+      "current": "붉은 신 스킬13",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-035-a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 폭식 보유 1턴째 턴 시작",
+      "current": "붉은 신 폭식 보유 1턴째 턴 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-035-b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 폭식 보유 2턴째 턴 시작",
+      "current": "붉은 신 폭식 보유 2턴째 턴 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-035-c\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 폭식 보유 3턴째 턴 시작",
+      "current": "붉은 신 폭식 보유 3턴째 턴 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-036-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 생명줄 부위 파괴 후 턴 시작",
+      "current": "붉은 신 생명줄 부위 파괴 후 턴 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-036-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "붉은 신 생명줄 부위 파괴 후 턴 시작",
+      "current": "붉은 신 생명줄 부위 파괴 후 턴 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-157\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스테이지 시작시 (개전)",
+      "current": "스테이지 시작시 (개전)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-158\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3턴 시작시",
+      "current": "3턴 시작시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-159\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "146506스킬 사용시 (가장 강력한 스킬. 전투당 1회)",
+      "current": "146506스킬 사용시 (가장 강력한 스킬. 전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-160\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "5턴 시작시 (르루주가 아닌 것 같은데…)",
+      "current": "5턴 시작시 (르루주가 아닌 것 같은데…)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-090\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 스테이지 시작 시",
+      "current": "바늘이 왕 스테이지 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-091\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 1페이즈 3턴 시작 시",
+      "current": "바늘이 왕 1페이즈 3턴 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-092\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 1페이즈 4턴 시작 시",
+      "current": "바늘이 왕 1페이즈 4턴 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-093\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 2페이즈 시작 시",
+      "current": "바늘이 왕 2페이즈 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-094\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 149606 스킬 사용 시 (턴마다 1회)",
+      "current": "바늘이 왕 149606 스킬 사용 시 (턴마다 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-094-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 149606 스킬 사용 시 (턴마다 1회)",
+      "current": "바늘이 왕 149606 스킬 사용 시 (턴마다 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-094-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 149606 스킬 사용 시 (턴마다 1회)",
+      "current": "바늘이 왕 149606 스킬 사용 시 (턴마다 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-095\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 149607 스킬 사용 시",
+      "current": "바늘이 왕 149607 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-096\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 짝수 턴 시작 시 (전투당 1회)",
+      "current": "바늘이 왕 짝수 턴 시작 시 (전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-097\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 149609 스킬 사용 시",
+      "current": "바늘이 왕 149609 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-098\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 149610 스킬 사용 시",
+      "current": "바늘이 왕 149610 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-099\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 왕 전투 패배 시",
+      "current": "바늘이 왕 전투 패배 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-100\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 3스킬 적중 시",
+      "current": "바늘이 3스킬 적중 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-100-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 3스킬 적중 시",
+      "current": "바늘이 3스킬 적중 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-100-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "바늘이 3스킬 적중 시",
+      "current": "바늘이 3스킬 적중 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-161\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "포레그 스테이지 시작 시 (개전)",
+      "current": "포레그 스테이지 시작 시 (개전)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-162\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "포레그 148203 스킬 사용시",
+      "current": "포레그 148203 스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-163\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "포레그 148204 스킬 사용시(전투당 1회)",
+      "current": "포레그 148204 스킬 사용시(전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-164\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 스테이지 시작 시 (개전)",
+      "current": "원레그 스테이지 시작 시 (개전)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-165\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 148304 또는 148305 스킬 사용 시 (가장 강력한 스킬. 전투당 1회)",
+      "current": "원레그 148304 또는 148305 스킬 사용 시 (가장 강력한 스킬. 전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-166\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 148303 스킬 사용 시 (25% 확률 출력)",
+      "current": "원레그 148303 스킬 사용 시 (25% 확률 출력)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-145\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스테이지 시작시 (개전. 일반 상태)",
+      "current": "스테이지 시작시 (개전. 일반 상태)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-146\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "고치 상태 패턴 진입시 (전투당 1회)",
+      "current": "고치 상태 패턴 진입시 (전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-147\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "146605스킬 사용시 ",
+      "current": "146605스킬 사용시 ",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-147-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "146605스킬 사용시 ",
+      "current": "146605스킬 사용시 ",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-148\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "일반 상태 패턴 재 진입시 (전투당 1회)",
+      "current": "일반 상태 패턴 재 진입시 (전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-149\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "반격 스킬 발동 시 (전투당 1회. 한 턴에 여러번 출력)",
+      "current": "반격 스킬 발동 시 (전투당 1회. 한 턴에 여러번 출력)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p1.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-149-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "반격 스킬 발동 시 (전투당 1회. 한 턴에 여러번 출력)",
+      "current": "반격 스킬 발동 시 (전투당 1회. 한 턴에 여러번 출력)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-037_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬1",
+      "current": "조력자 뷔페 스킬1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-037_b-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬1",
+      "current": "조력자 뷔페 스킬1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-037_c\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬1",
+      "current": "조력자 뷔페 스킬1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-041\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬3 (아군에게 사용하는 버프 스킬)",
+      "current": "조력자 뷔페 스킬3 (아군에게 사용하는 버프 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-042_a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬4 (아군에게 사용하는 회복 스킬)",
+      "current": "조력자 뷔페 스킬4 (아군에게 사용하는 회복 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-042_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬4 (아군에게 사용하는 회복 스킬)",
+      "current": "조력자 뷔페 스킬4 (아군에게 사용하는 회복 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-043_a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬5 (아군에게 사용하는 흐트러짐 해제)",
+      "current": "조력자 뷔페 스킬5 (아군에게 사용하는 흐트러짐 해제)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-043_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬5 (아군에게 사용하는 흐트러짐 해제)",
+      "current": "조력자 뷔페 스킬5 (아군에게 사용하는 흐트러짐 해제)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-045_a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬7 (추가피해)",
+      "current": "조력자 뷔페 스킬7 (추가피해)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-045_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬7 (추가피해)",
+      "current": "조력자 뷔페 스킬7 (추가피해)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-046\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 황금가죽 과업 팔레트&퍼티 전투 시작 시",
+      "current": "조력자 뷔페 황금가죽 과업 팔레트&퍼티 전투 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-048\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 황금가죽 과업 통제자 전투 시작 시",
+      "current": "조력자 뷔페 황금가죽 과업 통제자 전투 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-049\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 울부짖는 자와 전투 시작 시",
+      "current": "조력자 뷔페 울부짖는 자와 전투 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-101\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 스테이지 시작 시 (개전)",
+      "current": "통제자 스테이지 시작 시 (개전)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-102\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 2페이즈 1턴 시작 시 (잡몹 소환 속도 증가)",
+      "current": "통제자 2페이즈 1턴 시작 시 (잡몹 소환 속도 증가)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-103\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 148805 스킬 사용 (잡몹 4개 소환)",
+      "current": "통제자 148805 스킬 사용 (잡몹 4개 소환)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-104\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 148803 스킬 사용 (잡몹 회수)",
+      "current": "통제자 148803 스킬 사용 (잡몹 회수)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-105\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 148806 스킬 사용 (광역기, 잡몹 소환)",
+      "current": "통제자 148806 스킬 사용 (광역기, 잡몹 소환)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-106\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 148807 스킬 사용 (기믹 수행 실패 처벌)",
+      "current": "통제자 148807 스킬 사용 (기믹 수행 실패 처벌)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-107\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "통제자 전투 패배",
+      "current": "통제자 전투 패배",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-108\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 스테이지 시작 시 (개전)",
+      "current": "절제공 베르트랑 스테이지 시작 시 (개전)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-109\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 필살기1(150605) 첫번째 사용 시",
+      "current": "절제공 베르트랑 필살기1(150605) 첫번째 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-110\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 5턴 시작 시 (잡몹 소환)",
+      "current": "절제공 베르트랑 5턴 시작 시 (잡몹 소환)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-111\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 필살기1(150605) 두번째 사용 시",
+      "current": "절제공 베르트랑 필살기1(150605) 두번째 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-112\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 2페이즈 시작 시",
+      "current": "절제공 베르트랑 2페이즈 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-113\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 2페이즈 4턴 시작 시 (잡몹들 소환됨)",
+      "current": "절제공 베르트랑 2페이즈 4턴 시작 시 (잡몹들 소환됨)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-114_A\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 아군 격려",
+      "current": "절제공 베르트랑 아군 격려",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-114_B\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 아군 격려",
+      "current": "절제공 베르트랑 아군 격려",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-115\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 필살기1(150605) 스킬 사용 시",
+      "current": "절제공 베르트랑 필살기1(150605) 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-116\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 필살기2(150608, 150609) 스킬 사용 시",
+      "current": "절제공 베르트랑 필살기2(150608, 150609) 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-117_A\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 못 소환 (평타)",
+      "current": "절제공 베르트랑 못 소환 (평타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-117_B\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 못 소환 (평타)",
+      "current": "절제공 베르트랑 못 소환 (평타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-118\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절제공 베르트랑 뷔페 사망 시 (전투 패배 시)",
+      "current": "절제공 베르트랑 뷔페 사망 시 (전투 패배 시)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-038_a_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬1 (강화) 1타",
+      "current": "조력자 뷔페 스킬1 (강화) 1타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-038_a_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬1 (강화) 2타",
+      "current": "조력자 뷔페 스킬1 (강화) 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-039_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬2 2타",
+      "current": "조력자 뷔페 스킬2 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-040\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬2 (강화) 2타",
+      "current": "조력자 뷔페 스킬2 (강화) 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-044_a_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬6 (필살기) 1타",
+      "current": "조력자 뷔페 스킬6 (필살기) 1타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-044_a_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬6 (필살기) 2타",
+      "current": "조력자 뷔페 스킬6 (필살기) 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-044_a_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬6 (필살기) 3타",
+      "current": "조력자 뷔페 스킬6 (필살기) 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-044_b_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬6 (필살기) 1타",
+      "current": "조력자 뷔페 스킬6 (필살기) 1타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-044_b_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬6 (필살기) 2타",
+      "current": "조력자 뷔페 스킬6 (필살기) 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-044_b_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "조력자 뷔페 스킬6 (필살기) 3타",
+      "current": "조력자 뷔페 스킬6 (필살기) 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-150-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149503 사용 시 (※ 조금 강한 스킬)",
+      "current": "스킬 149503 사용 시 (※ 조금 강한 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-150-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149503 사용 시 (※ 조금 강한 스킬)",
+      "current": "스킬 149503 사용 시 (※ 조금 강한 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-150-03\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149503 사용 시 (※ 조금 강한 스킬)",
+      "current": "스킬 149503 사용 시 (※ 조금 강한 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-151-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149504 사용 시 (※ 강력한 스킬)",
+      "current": "스킬 149504 사용 시 (※ 강력한 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-151-03\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149504 사용 시 (※ 강력한 스킬)",
+      "current": "스킬 149504 사용 시 (※ 강력한 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-151-04\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149504 사용 시 (※ 강력한 스킬)",
+      "current": "스킬 149504 사용 시 (※ 강력한 스킬)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-152_a-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "current": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-152_a-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "current": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-152_b-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "current": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-152_b-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "current": "스킬 149505 사용 시 (※ 기믹형 스킬, 대상에게 가위 표식 꽂을 예정)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-153-a-04\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "current": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-153-a-05\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "current": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-153_b-04\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "current": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-153_b-05\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "current": "스킬 149506 사용 시 (※ 기믹형 강력한 스킬, 가위 표식 보유한 대상에게 강력한 스킬 사용)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-154\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "턴 시작 시 이번 전투에서 처음으로 대형 재단 가위를 얻었을 때",
+      "current": "턴 시작 시 이번 전투에서 처음으로 대형 재단 가위를 얻었을 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"10SV-155\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "턴 시작 시 이번 전투에서 처음으로 대형 재단 가위가 3이 될 때",
+      "current": "턴 시작 시 이번 전투에서 처음으로 대형 재단 가위가 3이 될 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s2_10917_1_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 2번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 2번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s2_10917_1_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 2번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 2번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_a_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_b_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_b_1-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_b_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_b_2-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_b_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10917_1_b_3-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "current": "교전 뷰 상태에서 합 승리하여 3번 스킬 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "아군을 대상으로 1번 스킬 사용",
+      "current": "아군을 대상으로 1번 스킬 사용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "1-1스킬 사용시 (적이 보유한 가위날 0 -> 1)",
+      "current": "1-1스킬 사용시 (적이 보유한 가위날 0 -> 1)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_3_a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "current": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_3_a-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "current": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_3_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "current": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_3_b-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "current": "1-1스킬 사용시 (적이 보유한 가위날 1 -> 2)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_4_a\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "2-1스킬 사용시",
+      "current": "2-1스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_4_b\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "2-1스킬 사용시",
+      "current": "2-1스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_4_c\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "2-1스킬 사용시",
+      "current": "2-1스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c10p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10917_4_c-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "2-1스킬 사용시",
+      "current": "2-1스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-04_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3스킬",
+      "current": "3스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-06_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "5스킬",
+      "current": "5스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-08\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가드(원호방어) 1",
+      "current": "가드(원호방어) 1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-09\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가드(원호방어) 2",
+      "current": "가드(원호방어) 2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-10\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가드(원호방어) 3",
+      "current": "가드(원호방어) 3",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-06_2-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "5스킬",
+      "current": "5스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-06_2-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "5스킬",
+      "current": "5스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-06_2-03\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "5스킬",
+      "current": "5스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-04_2-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3스킬",
+      "current": "3스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-04_2-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3스킬",
+      "current": "3스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-a1c9p2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"9SV-BAT1-05_1-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "4스킬",
+      "current": "4스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-001\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "산군도 이 칼끝 아래 두동강나리 사용시",
+      "current": "산군도 이 칼끝 아래 두동강나리 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-002\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "어떤 산범들의 살이든 가르리 사용시",
+      "current": "어떤 산범들의 살이든 가르리 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-003\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "두정갑 스택을 모두 잃었을 때",
+      "current": "두정갑 스택을 모두 잃었을 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-004\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "본국태세 - 곰 사냥으로 태세를 변경 했을 때",
+      "current": "본국태세 - 곰 사냥으로 태세를 변경 했을 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-005\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "본국태세 - 범 사냥으로 태세를 변경했을 때",
+      "current": "본국태세 - 범 사냥으로 태세를 변경했을 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-006\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "전투에 김삿갓 조력자가 있을 때",
+      "current": "전투에 김삿갓 조력자가 있을 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-007\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "본국궁[살] - 살 날리기 사용시",
+      "current": "본국궁[살] - 살 날리기 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-101\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "턴 시작 시 검계 우두머리 뫼르소가 있을 때 (전투당 1회)",
+      "current": "턴 시작 시 검계 우두머리 뫼르소가 있을 때 (전투당 1회)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-102\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "본국검술 패시브 발동 시",
+      "current": "본국검술 패시브 발동 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-103\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "육참 스킬에서 합 승리 후 공격 시",
+      "current": "육참 스킬에서 합 승리 후 공격 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-104\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "골단 스킬로 공격 시",
+      "current": "골단 스킬로 공격 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg-exme.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"952SV-105\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "검계 소속 아군 사망 시",
+      "current": "검계 소속 아군 사망 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_speechbubble_cromer_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_크로머",
+      "current": "말풍선 특수 대사_크로머",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_speechbubble_10808_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_피쿼드호 선장 이스마엘",
+      "current": "말풍선 특수 대사_피쿼드호 선장 이스마엘",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_speechbubble_10408_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_에드가 가문 치프 버틀러 료슈",
+      "current": "말풍선 특수 대사_에드가 가문 치프 버틀러 료슈",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_5\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_6\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10710_7\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "current": "말풍선 특수 대사_와일드헌트 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10310_10\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "current": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10310_11\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "current": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10310_12\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "current": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10310_13\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "current": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_1137_FirstKill\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_가치우_첫킬",
+      "current": "말풍선 특수 대사_가치우_첫킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-015\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우사용 시 대사 ",
+      "current": "가치우사용 시 대사 ",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-016\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우홍루 강제 타겟팅 1",
+      "current": "가치우홍루 강제 타겟팅 1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-017\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우홍루 강제 타겟팅 2",
+      "current": "가치우홍루 강제 타겟팅 2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-018\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우홍루 강제 타겟팅 합 패배",
+      "current": "가치우홍루 강제 타겟팅 합 패배",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-019\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우홍루 강제 타겟팅 합 승리",
+      "current": "가치우홍루 강제 타겟팅 합 승리",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-020\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우광역기 사용시",
+      "current": "가치우광역기 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-021\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우광역기  합 패배 후 다음턴",
+      "current": "가치우광역기  합 패배 후 다음턴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-022\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우대상 처치시",
+      "current": "가치우대상 처치시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-023\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우묘 부리기",
+      "current": "가치우묘 부리기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-024\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가치우자로 소환",
+      "current": "가치우자로 소환",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-025\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡",
+      "current": "뇌횡",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-026\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡사용 시: 탄환 충분 - 강력한 스킬",
+      "current": "뇌횡사용 시: 탄환 충분 - 강력한 스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-027\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡사용 시: 탄환 부족 - 강력한 스킬",
+      "current": "뇌횡사용 시: 탄환 부족 - 강력한 스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-028\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡턴 시작 : 매우 강력한 스킬",
+      "current": "뇌횡턴 시작 : 매우 강력한 스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-029\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡합 승리 : 매우 강력한 스킬",
+      "current": "뇌횡합 승리 : 매우 강력한 스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-030\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡턴 시작 : [체력 n% 이하]에 버프 획득",
+      "current": "뇌횡턴 시작 : [체력 n% 이하]에 버프 획득",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-031\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡사용 시 : [체력 n% 이하] 필살기(",
+      "current": "뇌횡사용 시 : [체력 n% 이하] 필살기(",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-032\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "뇌횡턴 시작 : [체력 n% 이하]에 버프 변경",
+      "current": "뇌횡턴 시작 : [체력 n% 이하]에 버프 변경",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-034\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가환E.G.O 침식률 n 이상",
+      "current": "가환E.G.O 침식률 n 이상",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-035\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가환홍루메인타겟",
+      "current": "가환홍루메인타겟",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-036\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가환경멸나선모드",
+      "current": "가환경멸나선모드",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-037\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가환광역기사용시",
+      "current": "가환광역기사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-038\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가환전투시작 : n인이상이 자신을 타겟",
+      "current": "가환전투시작 : n인이상이 자신을 타겟",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-039\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "구보E.G.O 침식률 10 이상",
+      "current": "구보E.G.O 침식률 10 이상",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-040\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "구보난사 패턴 진입",
+      "current": "구보난사 패턴 진입",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-041\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "구보아군 살해 패턴 진입",
+      "current": "구보아군 살해 패턴 진입",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-042\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "구보체력 n% 미만 / 경멸 나선 모드 감상",
+      "current": "구보체력 n% 미만 / 경멸 나선 모드 감상",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-051\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모사용 시 : 홍루 가두기",
+      "current": "가모사용 시 : 홍루 가두기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-052\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모사용 시 : 홍루 가두기 실패",
+      "current": "가모사용 시 : 홍루 가두기 실패",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-053\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모턴 시작 : 보옥 생성",
+      "current": "가모턴 시작 : 보옥 생성",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-054\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모턴 시작 : 보옥 파괴",
+      "current": "가모턴 시작 : 보옥 파괴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-055\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모사용 시 : 버프 받기",
+      "current": "가모사용 시 : 버프 받기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-056\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모가마 체력 0",
+      "current": "가모가마 체력 0",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-057\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모사용 시 : 어르신 나무 소환",
+      "current": "가모사용 시 : 어르신 나무 소환",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-058\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모사용 시 : 어르신 나무 흡수",
+      "current": "가모사용 시 : 어르신 나무 흡수",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-059\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모턴 시작 : 지고한 불사 흐트러짐 실패",
+      "current": "가모턴 시작 : 지고한 불사 흐트러짐 실패",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-060\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모턴 시작 : 지고한 불사 흐트러짐",
+      "current": "가모턴 시작 : 지고한 불사 흐트러짐",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"8SV-061\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가모사용 시 : 강한 광역기",
+      "current": "가모사용 시 : 강한 광역기",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-018-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 피격",
+      "current": "증오의 여왕 피격",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-019-003\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 타격",
+      "current": "증오의 여왕 타격",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-019-004\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 타격",
+      "current": "증오의 여왕 타격",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-020-001\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 타격",
+      "current": "증오의 여왕 타격",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-020-001-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 타격",
+      "current": "증오의 여왕 타격",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-020-002\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 타격",
+      "current": "증오의 여왕 타격",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-021\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "증오의 여왕 첫 등장",
+      "current": "증오의 여왕 첫 등장",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-022\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "절망의 기사 첫 흐트러짐 이후 검 소환 패턴에 진입했을 때",
+      "current": "절망의 기사 첫 흐트러짐 이후 검 소환 패턴에 진입했을 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-023\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "아르카나 슬레이브 차징 시작 시",
+      "current": "아르카나 슬레이브 차징 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-024\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "아르카나 슬레이브 차징 중",
+      "current": "아르카나 슬레이브 차징 중",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-025\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "아르카나 슬레이브 차징 중",
+      "current": "아르카나 슬레이브 차징 중",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-026\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "아르카나 슬레이브 발사 스킬 사용",
+      "current": "아르카나 슬레이브 발사 스킬 사용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-027\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "제압 완료 후 퇴각 대사",
+      "current": "제압 완료 후 퇴각 대사",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-028\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "완전 제압 X, 아르카나 슬레이브 발사 후",
+      "current": "완전 제압 X, 아르카나 슬레이브 발사 후",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-029\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "빈사 퇴각",
+      "current": "빈사 퇴각",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-001_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 피격1",
+      "current": "시간살인마 피격1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-001_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 피격2",
+      "current": "시간살인마 피격2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-001_3-03\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 피격4",
+      "current": "시간살인마 피격4",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-002_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 공격1",
+      "current": "시간살인마 공격1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-002_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 공격3",
+      "current": "시간살인마 공격3",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-003_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 첫 등장",
+      "current": "시간살인마 첫 등장",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-004_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 재 등장",
+      "current": "시간살인마 재 등장",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-005_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 2페이즈",
+      "current": "시간살인마 2페이즈",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-006_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 시간 살인 시간 사용전",
+      "current": "시간살인마 시간 살인 시간 사용전",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-007\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 시간 살인 시간 사용",
+      "current": "시간살인마 시간 살인 시간 사용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-008\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "시간살인마 시간 살인 시간 사용후",
+      "current": "시간살인마 시간 살인 시간 사용후",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_noVoice_10613_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_사화정",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_사화정",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_noVoice_10613_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_왕청산",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_왕청산",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_noVoice_10613_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_사사정",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_사사정",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_noVoice_10613_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_설반",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_설반",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_noVoice_10613_5\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_사이화",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_사이화",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_6\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가모1페",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가모1페",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_7\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가모2페",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가모2페",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_8\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가치우1페",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가치우1페",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_9\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가치우3페",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가치우3페",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_10\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가환",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가환",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_701\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가모 보옥탈출",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가모 보옥탈출",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_901\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답1스택",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답1스택",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_902\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답2스택",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답2스택",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_10613_903\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답3스택",
+      "current": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답3스택",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(상) - 루치오 조우 시",
+      "current": "이스터 - 메인(상) - 루치오 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(상) - 렌 조우 시",
+      "current": "이스터 - 메인(상) - 렌 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(상) - 알비나 조우 시",
+      "current": "이스터 - 메인(상) - 알비나 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(중) - 소라 조우 시",
+      "current": "이스터 - 메인(중) - 소라 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_5\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(중) - 소지 아비 1차 조우 시",
+      "current": "이스터 - 메인(중) - 소지 아비 1차 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_6\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 소지 아비 2차 조우 시",
+      "current": "이스터 - 메인(하) - 소지 아비 2차 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_7\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 소지 아비 3차 조우 시",
+      "current": "이스터 - 메인(하) - 소지 아비 3차 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_8\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 아라야 조우 시",
+      "current": "이스터 - 메인(하) - 아라야 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_9\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 아라야 2페이즈 시작",
+      "current": "이스터 - 메인(하) - 아라야 2페이즈 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_10\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 아라야 2페이즈 2턴",
+      "current": "이스터 - 메인(하) - 아라야 2페이즈 2턴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_11\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 아라야 2페이즈 3턴",
+      "current": "이스터 - 메인(하) - 아라야 2페이즈 3턴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_12\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 아라야 2페이즈 4턴 (측은지심을 느끼고 있어야 함 / 연민이 있어야 한다)",
+      "current": "이스터 - 메인(하) - 아라야 2페이즈 4턴 (측은지심을 느끼고 있어야 함 / 연민이 있어야 한다)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_13\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 뤼엔 조우 시",
+      "current": "이스터 - 메인(하) - 뤼엔 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_14\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 뤼엔 퓨리오소 장착 시 (1페이즈)",
+      "current": "이스터 - 메인(하) - 뤼엔 퓨리오소 장착 시 (1페이즈)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_15\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 뤼엔 퓨리오소 장착 시 (2페이즈)",
+      "current": "이스터 - 메인(하) - 뤼엔 퓨리오소 장착 시 (2페이즈)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_16\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 메인(하) - 뤼엔 최종 연출 턴",
+      "current": "이스터 - 메인(하) - 뤼엔 최종 연출 턴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_17\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 거던(히든) - 발렌치나 조우 시",
+      "current": "이스터 - 거던(히든) - 발렌치나 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_18\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 거던(히든) - 뤼엔 조우 시",
+      "current": "이스터 - 거던(히든) - 뤼엔 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_19\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 거던(히든) - 마티아스 조우 시",
+      "current": "이스터 - 거던(히든) - 마티아스 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_20\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 거던(히든) - 칼리스토 조우 시",
+      "current": "이스터 - 거던(히든) - 칼리스토 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_21\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 거던(히든) - 소라 조우 시",
+      "current": "이스터 - 거던(히든) - 소라 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_eE_10415_22\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "이스터 - 거던(히든) - 렌 조우 시",
+      "current": "이스터 - 거던(히든) - 렌 조우 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10116_1_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "패시브 효과로 차원 표류 버프를 소모하여 1스킬 발동시 버전1",
+      "current": "패시브 효과로 차원 표류 버프를 소모하여 1스킬 발동시 버전1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10116_1_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "패시브 효과로 차원 표류 버프를 소모하여 1스킬 발동시 버전2",
+      "current": "패시브 효과로 차원 표류 버프를 소모하여 1스킬 발동시 버전2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10116_1_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "패시브 효과로 차원 표류 버프를 소모하여 1스킬 발동시 버전3",
+      "current": "패시브 효과로 차원 표류 버프를 소모하여 1스킬 발동시 버전3",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s2_10116_1_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "2스킬 사용시 1버전",
+      "current": "2스킬 사용시 1버전",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10116_1_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3스킬 사용시 1버전",
+      "current": "3스킬 사용시 1버전",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10116_1_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3스킬 사용시 2버전",
+      "current": "3스킬 사용시 2버전",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-022\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "리카르도 - 시험은 끝났다 스킬 장착한 턴 시작 시",
+      "current": "리카르도 - 시험은 끝났다 스킬 장착한 턴 시작 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-023-1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "리카르도 - 6스킬 사용 시(1타)",
+      "current": "리카르도 - 6스킬 사용 시(1타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-023-2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "리카르도 - 6스킬 사용 시(2타)",
+      "current": "리카르도 - 6스킬 사용 시(2타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-024-2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "리카르도 - 7스킬 사용 시(2타)",
+      "current": "리카르도 - 7스킬 사용 시(2타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-024-3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "리카르도 - 7스킬 사용 시(3타)",
+      "current": "리카르도 - 7스킬 사용 시(3타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-025\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "리카르도 - 베르너 사망(리타이어) 시",
+      "current": "리카르도 - 베르너 사망(리타이어) 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-026\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "베르너 - 본인 사망(리타이어) 시",
+      "current": "베르너 - 본인 사망(리타이어) 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-028_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "베르너 - 3스킬",
+      "current": "베르너 - 3스킬",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-029_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "베르너 - 4스킬(1타)",
+      "current": "베르너 - 4스킬(1타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-029_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "베르너 - 4스킬(2타)",
+      "current": "베르너 - 4스킬(2타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-029_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "베르너 - 4스킬(3타)",
+      "current": "베르너 - 4스킬(3타)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"7SV-BV-030\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "베르너 - 중지 아우들 사망 시",
+      "current": "베르너 - 중지 아우들 사망 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10616_1_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "3스킬 대사",
+      "current": "3스킬 대사",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 2타",
+      "current": "르루즈 이스마엘 3스킬 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_2-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 2타",
+      "current": "르루즈 이스마엘 3스킬 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_2-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 2타",
+      "current": "르루즈 이스마엘 3스킬 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 3타",
+      "current": "르루즈 이스마엘 3스킬 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_3-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 3타",
+      "current": "르루즈 이스마엘 3스킬 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_3-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 3타",
+      "current": "르루즈 이스마엘 3스킬 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 재사용",
+      "current": "르루즈 이스마엘 3스킬 재사용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10816_1_4-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "르루즈 이스마엘 3스킬 재사용",
+      "current": "르루즈 이스마엘 3스킬 재사용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10416_1_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 료슈 3스킬 1타",
+      "current": "원레그 료슈 3스킬 1타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10416_1_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 료슈 3스킬 2타",
+      "current": "원레그 료슈 3스킬 2타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_s3_10416_1_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 료슈 3스킬 3타",
+      "current": "원레그 료슈 3스킬 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10416_1_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 료슈 3-2스킬(강화3스킬) 3타",
+      "current": "원레그 료슈 3-2스킬(강화3스킬) 3타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10416_1_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 료슈 3-2스킬(강화3스킬) 4타",
+      "current": "원레그 료슈 3-2스킬(강화3스킬) 4타",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10416_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "원레그 료슈 레알리자시옹 버프를 얻고 다음 턴 시작",
+      "current": "원레그 료슈 레알리자시옹 버프를 얻고 다음 턴 시작",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10816_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "고치 상태 진입",
+      "current": "고치 상태 진입",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_special_10816_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "우화 상태 진입",
+      "current": "우화 상태 진입",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_1\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 이상",
+      "current": "가시춘 패시브 이상",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 파우스트",
+      "current": "가시춘 패시브 파우스트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_3\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 돈키호테",
+      "current": "가시춘 패시브 돈키호테",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_4\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 이스마엘",
+      "current": "가시춘 패시브 이스마엘",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_5\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 그레고르",
+      "current": "가시춘 패시브 그레고르",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_6\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 홍루",
+      "current": "가시춘 패시브 홍루",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_7\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 뫼르소",
+      "current": "가시춘 패시브 뫼르소",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_8\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 오티스",
+      "current": "가시춘 패시브 오티스",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_9\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 료슈",
+      "current": "가시춘 패시브 료슈",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_10\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 로쟈",
+      "current": "가시춘 패시브 로쟈",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_11\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 패시브 히스클리프",
+      "current": "가시춘 패시브 히스클리프",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_101\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적격 2~3레벨",
+      "current": "가시춘 적격 2~3레벨",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_102\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적격 4~5레벨",
+      "current": "가시춘 적격 4~5레벨",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_201\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적참 2~3레벨",
+      "current": "가시춘 적참 2~3레벨",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_202\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적참 4~5레벨",
+      "current": "가시춘 적참 4~5레벨",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_301\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적춘 3레벨 1코인",
+      "current": "가시춘 적춘 3레벨 1코인",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_302\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적춘 3레벨 2코인",
+      "current": "가시춘 적춘 3레벨 2코인",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_303\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적춘 5레벨 1코인",
+      "current": "가시춘 적춘 5레벨 1코인",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_304\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적춘 5레벨 2코인",
+      "current": "가시춘 적춘 5레벨 2코인",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_305\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적춘 5레벨 3코인",
+      "current": "가시춘 적춘 5레벨 3코인",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_401\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 수회",
+      "current": "가시춘 수회",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_402\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 취수낭랑",
+      "current": "가시춘 취수낭랑",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_Cultivation.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_react_400005_501\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "가시춘 적참",
+      "current": "가시춘 적참",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-009-002\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 피격시",
+      "current": "카세티 피격시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-009-002-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 피격시",
+      "current": "카세티 피격시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-010-001\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 공격시_1",
+      "current": "카세티 공격시_1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-010-002\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 공격시_2",
+      "current": "카세티 공격시_2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-010-003-01\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 공격시_3",
+      "current": "카세티 공격시_3",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-011-001\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티가 전투 중 등장할 때",
+      "current": "카세티가 전투 중 등장할 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-011-002\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티가 전투 중 등장할 때",
+      "current": "카세티가 전투 중 등장할 때",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-012\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 등장 턴",
+      "current": "카세티 등장 턴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-013-001\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
+      "current": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-013-002\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
+      "current": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-014\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "카세티 나는… 이 행진의… 왕자이다…! 사용 후 다음 턴",
+      "current": "카세티 나는… 이 행진의… 왕자이다…! 사용 후 다음 턴",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-015\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "사샤 등장 시",
+      "current": "사샤 등장 시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-017_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "사샤 스킬 사용시",
+      "current": "사샤 스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "BattleSpeechBubbleDlg_mowe.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"6SV-017_2-02\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "사샤 스킬 사용시",
+      "current": "사샤 스킬 사용시",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ElectricStorage\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"SelfCharge\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"Predation\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ATL_Agility\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ATL_Breath\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"ATL_Target\"",
+          0
+        ],
+        "summary"
+      ],
+      "source": "표시용",
+      "current": "표시용",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"DianxueDonQuixote\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "- 최댓값 : 3\n- 점혈을 부여한 캐릭터가 대상(또는 부위)의 점혈 수치에 따라 다음 효과를 얻음\n· 1스택 : 합 위력 +1\n· 2스택 : 기본 위력 +1\n· 3스택 : 합 위력 +1, 기본 위력 +1\n- 부여한 캐릭터가 다른 대상(또는 부위)에게 이 효과를 부여하면 소멸\n- 다른 캐릭터의 점혈이 부여될 경우, 교체됨 (수치 유지)",
+      "current": "- 最大值：3\n- 施加本点穴的单位根据目标(或部位)的点穴层数获得相应效果，\n· 1层：拼点威力+1\n· 2层：基础威力+1\n· 3层：拼点威力+1，基础威力+1\n- 若施加本效果的单位对其他目标(或部位)施加本效果，则解除本效果\n- 被其他单位施加点穴时，本效果被替换(保留本效果层数)",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"SingBulletSupport\"",
+          0
+        ],
+        "name"
+      ],
+      "source": "(엄지 싱클 탄환 보급 받는 대상 이펙트)",
+      "current": "(엄지 싱클 탄환 보급 받는 대상 이펙트)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "FileDownloadDesc.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"FileDownload_Desc_09\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "도시에는 모든 해결사를 총괄하는 하나 협회를 주축으로, 해결사를 관리하는 커다란 단체를 협회라고 합니다. 보통 도시에서 일어나는 사건들을 각 협회의 특성에 맞게 배분하고, 협회가 또 다시 해결사에게 일을 분배하는 형태를 가지게 되죠.\n사무소는 해결사들의 모임이라는 점에서 협회와 흡사한 형태인 것 같지만, 그 규모가 작습니다. 어떠한 사무소는 협회에 직속되어 일을 하청 받기도 하고, 또 다른 사무소는 스스로 일을 찾아다니기도 하죠.\n누군가가 ‘사무소는 해결사의 수만큼 존재한다.’고 말한 것처럼, 도시에는 셀 수 없이 많은 사무소가 존재합니다. 금방 생겨났다가, 또 금방 사라지기도 하고요.",
+      "current": "以总辖都市中所有收尾人的하나协会为主轴，管理收尾人的巨大团体被称作协会。一般在都市中发生的事件会根据各个协会的特性进行适配，再由协会将任务分配给收尾人。\n事务所虽然在作为收尾人集会的方面上与协会类似，但是其规模较小。有些事务所会被直属的协会下派任务，而有些事务所则会自行寻找任务。\n就像某人所说的“有多少收尾人，就有多少事务所”，都市中有着多到数不清的事务所，但往往都是昙花一现。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "Items.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "5",
+          0
+        ],
+        "desc"
+      ],
+      "source": "자판기 재화 표시용(name 만 번역해주세요)",
+      "current": "자판기 재화 표시용(name 만 번역해주세요)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "PersonalityVoiceDlg/Voice_Meursault_Dieci_10510.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"smalltalk_10510_2\"",
+          0
+        ],
+        "dlg"
+      ],
+      "source": "하나 협회의 해결사 시험 외에도, 별도로 치뤄지는 디에치 협회 내의 지식 시험은 지속 가능한 동기 부여로 작동하고 있다.\n시험을 통해 지식을 쌓다보면 언젠가 성자님을 알현하게 될 것이다.",
+      "current": "除了하나协会的收尾人考核以外，Dieci协会内另外进行的知识考试也为求知提供了可持续的动机。\n通过考试积累知识，总有一天会谒见圣者大人。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "PersonalityVoiceDlg/Voice_Special_999.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"battle_clear_10301_2\"",
+          0
+        ],
+        "desc"
+      ],
+      "source": "전투 승리_돈키호테vs까미유",
+      "current": "전투 승리_돈키호테vs까미유",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-2.json",
+      "path": [
+        "dataList",
+        23,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 여기까지 기어온 벌레들이 있군. 명품관의 바닥을 너희 피로 닦아주마.",
+      "current": "[未使用] 여기까지 기어온 벌레들이 있군. 명품관의 바닥을 너희 피로 닦아주마.",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-2.json",
+      "path": [
+        "dataList",
+        23,
+        "texts",
+        1,
+        "text"
+      ],
+      "source": "[미사용] 저자가 이 전장의 원흉일세. 함께 무찌르세나!",
+      "current": "[未使用] 저자가 이 전장의 원흉일세. 함께 무찌르세나!",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        57,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] …영원한 수면을 위한 침대였다.",
+      "current": "[未使用] …영원한 수면을 위한 침대였다.",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        58,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 살점이 벌어지는 기괴한 소리가 들린다…",
+      "current": "[未使用] 살점이 벌어지는 기괴한 소리가 들린다…",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        60,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 당분간은 소파 틈새를 섣불리 뒤져보지 못할 것 같다…",
+      "current": "[未使用] 당분간은 소파 틈새를 섣불리 뒤져보지 못할 것 같다…",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        61,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 가죽…아니, 근육이 팽팽하게 당겨지는 소리가 들린다…",
+      "current": "[未使用] 가죽…아니, 근육이 팽팽하게 당겨지는 소리가 들린다…",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        62,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 그냥 지나치는 게 나았을 수도…",
+      "current": "[未使用] 그냥 지나치는 게 나았을 수도…",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        63,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 르카…키가…전구를 갈려면…몇 명이…필요하게…?",
+      "current": "[未使用] 르카…키가…전구를 갈려면…몇 명이…필요하게…?",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        64,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] 불쾌한 지직거리는 소리가 들려온다…",
+      "current": "[未使用] 불쾌한 지직거리는 소리가 들려온다…",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "RPGSystem/rpg-loc-dialogue-floor-4.json",
+      "path": [
+        "dataList",
+        65,
+        "texts",
+        0,
+        "text"
+      ],
+      "source": "[미사용] …호기심이 많다는게 언제나 장점이 되진 않는다…",
+      "current": "[未使用] …호기심이 많다는게 언제나 장점이 되진 않는다…",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "ScenarioModelCodes-AutoCreated.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "\"\\ud55c\\uc6b8\"",
+          0
+        ],
+        "nickName"
+      ],
+      "source": "북부 하나 협회",
+      "current": "하나协会 北部",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "Skills_Abnormality-a1c5p3.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "810606",
+          0
+        ],
+        "levelList",
+        0,
+        "name"
+      ],
+      "source": "사용하지않는스킬(번역x)",
+      "current": "사용하지않는스킬(번역x)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "Skills_Abnormality-a1c8p3.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "114508",
+          0
+        ],
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "source": "[OnSucceedAttack] [Vibration] 횟수 3 증가",
+      "current": "[OnSucceedAttack] 对目标施加3层[Vibration]",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "Skills_Abnormality_Refraction2_bokgak.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "962304",
+          0
+        ],
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "source": "[OnSucceedAttack] 자신의 [Breath]만큼 흐트러짐 손상",
+      "current": "[OnSucceedAttack] 使目标的混乱阈值前移相当于自身[Breath]强度的数值",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "Skills_Abnormality_Refraction2_bokgak.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "962305",
+          0
+        ],
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "source": "[OnSucceedAttack] 자신의 [Breath]이 5이상이면, 피해량의 50%만큼 흐트러짐 손상",
+      "current": "[OnSucceedAttack] 若自身的[Breath]强度不低于5级，则使目标的混乱阈值前移本硬币伤害量的50%",
+      "reason": "source_changed_review"
+    },
+    {
+      "file": "StoryData/3D102A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "퍽",
+      "current": "퍽",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/3D301B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "어느 옛날엔… 신을 믿었던 시대가 있다고도 했죠.",
+      "current": "어느 옛날엔… 신을 믿었던 시대가 있다고도 했죠.",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/3D301B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "딩동댕동 (학교 종소리)",
+      "current": "딩동댕동 (학교 종소리)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/3D309I2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "56",
+          0
+        ],
+        "content"
+      ],
+      "source": "//효과연출1",
+      "current": "//효과연출1",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/3D309I2.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "61",
+          0
+        ],
+        "content"
+      ],
+      "source": "//효과연출2",
+      "current": "//효과연출2",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/7D104B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "22",
+          0
+        ],
+        "content"
+      ],
+      "source": "특히 여기 빗금 모양이 초대 하나 협회 해결사가 쓴 투구와 똑같지 않느냐.",
+      "current": "尤其是这里的纹样，简直就和初代하나协会的收尾人所佩戴的头盔一模一样不是么？",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/E703B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "43",
+          0
+        ],
+        "content"
+      ],
+      "source": "그 사건 이후, 실수로 사람이 차원 가방 안에 넣어진 채 배송되는 일은 없도록 하나 협회와 제뱌찌 협회에 각종 규약이 추가되었죠.",
+      "current": "那次事件之后，하나协会和Девять协会都追加了许多规定以防止有人误入次元包后被派送。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/P11003.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "5",
+          0
+        ],
+        "content"
+      ],
+      "source": "…도시에서는 누구나 알고 있는 이야기지만, 해결사의 등급과 면허는 하나 협회에서 관리하고 있어. ",
+      "current": "……虽然这在都市是人人皆知，不过收尾人的等级和执照是由하나协会管理的。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/P11003.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "6",
+          0
+        ],
+        "content"
+      ],
+      "source": "그렇다고 해서 모든 시험을 하나 협회에서 직접 주관하는 것도 아니지. ",
+      "current": "话虽如此，하나协会也并非直接主管所有审查测验。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/P11003.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "7",
+          0
+        ],
+        "content"
+      ],
+      "source": "각 협회에서 직접 면허시험을 주관하게 해서 결과를 하나협회에 보고하는 식이야. ",
+      "current": "形式上是各协会直接主管着执照测验，再把结果报告给하나协会。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S001A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "teller"
+      ],
+      "source": "늑대",
+      "current": "늑대",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S001A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "사자, 언제까지 자빠져 있을 거야? 시간 없어.",
+      "current": "사자, 언제까지 자빠져 있을 거야? 시간 없어.",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S001A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "teller"
+      ],
+      "source": "사자",
+      "current": "사자",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S001A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "…그래, 네 말이 맞았어. 괜히 시간 끌 필요는 없지.",
+      "current": "…그래, 네 말이 맞았어. 괜히 시간 끌 필요는 없지.",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S001A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          2
+        ],
+        "teller"
+      ],
+      "source": "사자",
+      "current": "사자",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S001A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          2
+        ],
+        "content"
+      ],
+      "source": "아~ 너무 늑장 부렸다. 이제 정말 끝내자고!",
+      "current": "아~ 너무 늑장 부렸다. 이제 정말 끝내자고!",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S101B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "S0_1 에피소드",
+      "current": "S0_1 에피소드",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S109B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "S0_8 에피소드",
+      "current": "S0_8 에피소드",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S217B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "여기 캠셰이크 타이밍이 안맞는데 더 좋은 방법이 있을까요..",
+      "current": "여기 캠셰이크 타이밍이 안맞는데 더 좋은 방법이 있을까요..",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S303B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "쾅 쾅 쾅 (철문이 강하게 내려찍는 소리)",
+      "current": "쾅 쾅 쾅 (철문이 강하게 내려찍는 소리)",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S303B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "사이렌",
+      "current": "사이렌",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S304B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "총소리와 폭발 소리",
+      "current": "총소리와 폭발 소리",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S307B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "찰-칵!",
+      "current": "찰-칵!",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S307B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "수감자들을 죽이면서 셀카를 찍고 있는 지크프리트",
+      "current": "수감자들을 죽이면서 셀카를 찍고 있는 지크프리트",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S310B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "SE // 와장창!",
+      "current": "SE // 와장창!",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S311B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "무전기 소리",
+      "current": "무전기 소리",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S311B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "지옥의 기괴한 비명 소리",
+      "current": "지옥의 기괴한 비명 소리",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S311B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          3
+        ],
+        "content"
+      ],
+      "source": "털썩.",
+      "current": "털썩.",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S318A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          0
+        ],
+        "content"
+      ],
+      "source": "푹! 푹! 푹! 푹!",
+      "current": "푹! 푹! 푹! 푹!",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S318A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "퍽 퍽 퍽",
+      "current": "퍽 퍽 퍽",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S322B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "-1",
+          1
+        ],
+        "content"
+      ],
+      "source": "털썩",
+      "current": "털썩",
+      "reason": "internal_or_dummy_review"
+    },
+    {
+      "file": "StoryData/S701B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "116",
+          0
+        ],
+        "content"
+      ],
+      "source": "이번 의뢰는 해결사 총괄 협회인 하나 협회에서 내건 공개 의뢰이기도 하니…",
+      "current": "此次委托是由收尾人统筹协会하나协会所下达的一项公开委托……",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S704A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "9",
+          0
+        ],
+        "content"
+      ],
+      "source": "사실 나도 얘들 의견에 부분적으로는 동의해. 토벌 상대에 비해서 P사와 하나 협회에서 내건 토벌 참가 조건은 지나칠 정도로 분별력이 떨어져.",
+      "current": "实际上，这些家伙有部分观点我是同意的。毫不夸张地说，以讨伐对象而言，P公司以及하나协会设定的讨伐参加条件严重缺乏判断力。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706A.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "13",
+          0
+        ],
+        "content"
+      ],
+      "source": "잠깐의 소란은 하나 협회의 중재로 끝이 났고…",
+      "current": "短暂的风波在하나协会的介入下结束……",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "13",
+          0
+        ],
+        "content"
+      ],
+      "source": "에휴, 대신 말해드릴게요. 하나 협회에서 온 해결사인가 보네요.",
+      "current": "唉，我来代她发言吧。看来那位是从하나协会过来的收尾人。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "14",
+          0
+        ],
+        "content"
+      ],
+      "source": "<어, 하나 협회라는 곳이 해결사 협회 중 제일 위에 있는 집단 맞지?>",
+      "current": "<呃，하나协会是所有收尾人协会里最顶尖的团队吧？>",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "17",
+          0
+        ],
+        "content"
+      ],
+      "source": "하나 협회…",
+      "current": "하나协会……",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "18",
+          0
+        ],
+        "content"
+      ],
+      "source": "다른 해결사들에게도 그 이름이 만만한 것은 아니었는지, 그들 또한 웅성거리며 새하얀 복장의 하나 협회 사람을 흘깃거리고 있었다.",
+      "current": "看来这个名头对其他收尾人来说也是不同凡响，他们也起哄打量着这位身着白衣的하나协会之人。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "22",
+          0
+        ],
+        "content"
+      ],
+      "source": "주목을 받는 게… 하나 협회만이 아닌데?",
+      "current": "看来备受瞩目的……不只是하나协会而已？",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "31",
+          0
+        ],
+        "title"
+      ],
+      "source": "북부 하나 협회",
+      "current": "하나协会 北部",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "31",
+          0
+        ],
+        "content"
+      ],
+      "source": "지금부터 이 회의장에서 하나 협회가 허가한 공식적인 임무 기록용 촬영 외 모든 촬영 행동은 금기로 명한다.",
+      "current": "从现在开始，该会场内除하나协会许可的官方任务纪录摄影以外的所有摄影行为均为禁忌。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "32",
+          0
+        ],
+        "title"
+      ],
+      "source": "북부 하나 협회",
+      "current": "하나协会 北部",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "37",
+          0
+        ],
+        "title"
+      ],
+      "source": "북부 하나 협회",
+      "current": "하나协会 北部",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "38",
+          0
+        ],
+        "content"
+      ],
+      "source": "하나 협회에서 온 해결사가 돈키호테를 흘긋거리며 물어왔다.",
+      "current": "来自하나协会的收尾人瞥了一眼堂吉诃德，问道。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "82",
+          0
+        ],
+        "content"
+      ],
+      "source": "그러니까 저 하나 협회 쪽 해결사… 길잡이랑 비슷하거나 바로 아랫급은 된다는 거냐?",
+      "current": "所以说那位하나协会的收尾人……是和向导相差无几，或者就差那么几步吗？",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "148",
+          0
+        ],
+        "content"
+      ],
+      "source": "하나, 확인이 필요한 사항이 있다.",
+      "current": "하나协会，有件事需要确认。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S706B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "166",
+          0
+        ],
+        "content"
+      ],
+      "source": "하나 협회의 해결사도 그 말에 딱히 부정하지는 않았다.",
+      "current": "하나协会的收尾人并没有特意否定那句话。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S708B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "64",
+          0
+        ],
+        "content"
+      ],
+      "source": "하나 협회도 실제로 보고 그 섕크의 까미유 나리와 겨뤄 보기도 하고… 아, 방송에서의 까미유 나리는 누구보다 의협심이 넘치며 용감한 해결사셨소. 틀림없이 서로의 소통에 오해가 있었던 것이라고 보네.",
+      "current": "吾亲眼见到了하나协会，还与那位Cinq的卡米尔老爷较量了一下……啊啊，直播中的卡米尔老爷是比谁任何人都充满侠义心的勇敢的收尾人。吾认为吾等之间一定是因为沟通出现误解了。",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S716B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "20",
+          0
+        ],
+        "content"
+      ],
+      "source": "라만차랜드에서 생존해 온 해결사들이 왜 곧이곧대로 귀중한 정보들을 하나 협회에게 제공하겠어요?",
+      "current": "从拉·曼却领幸存下来的收尾人们为什么要傻傻地把宝贵的情报提供给하나协会呢？",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S736B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "178",
+          0
+        ],
+        "content"
+      ],
+      "source": "계속 이쪽을 흘깃거렸잖아. 특히 하나 협회라는 소속의 해결사가 그 꼬부랑 고개에서 떡 하나 주면 잡아먹지 않는다는 괴물과 마주쳤을 대목에…",
+      "current": "还一直在瞟我这边不是吗。特别是讲到那位하나协会所属的收尾人，在蜿蜒的山路上遇到一个只要给一个年糕就不会把他吃掉的怪物的时候……",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S736B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "180",
+          0
+        ],
+        "content"
+      ],
+      "source": "그랬다니까. 아… 말 나왔으니 말인데, 역시 마지막엔 하나 협회 쪽이 이기겠지?",
+      "current": "有吧。啊……说到这里顺便问一下，最后还是하나协会那方胜利了吧？",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S737B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "31",
+          0
+        ],
+        "title"
+      ],
+      "source": "하나 협회",
+      "current": "하나协会",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S737B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "32",
+          0
+        ],
+        "title"
+      ],
+      "source": "하나 협회",
+      "current": "하나协会",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S737B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "49",
+          0
+        ],
+        "content"
+      ],
+      "source": "그리고 본인은 가야 할 모험만 1,708개가 남아있단 말이오. 내일은 트레스 협회가 있고 모레는 하나 협회가 있고 그 다음 날은…",
+      "current": "除此之外吾还剩下1708次必须前往的冒险。明天是Tres协会，后天是하나协会，再然后是……",
+      "reason": "mixed_language_terminology_review"
+    },
+    {
+      "file": "StoryData/S927B.json",
+      "path": [
+        "dataList",
+        [
+          "id",
+          "162",
+          0
+        ],
+        "content"
+      ],
+      "source": "그럴 수밖에, 하나협회가 보통 그렇지. 이런 일이면 더더욱.",
+      "current": "也是，하나协会一向如此。遇上这种事就更会这样。",
+      "reason": "mixed_language_terminology_review"
+    }
+  ],
+  "errors": []
+}

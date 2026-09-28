@@ -1,0 +1,31 @@
+{
+  "original_commit": "ebb37be0c17542e56654ec6ce9f2d0e2a9d30145",
+  "current_commit": "231a8bcfc347273e7769b70ebc4f9f3e2fecaa5a",
+  "git_file_changes": {
+    "KR": {
+      "M": 1354,
+      "A": 598,
+      "D": 21
+    },
+    "LLC_zh-CN": {
+      "M": 1042,
+      "A": 622
+    }
+  },
+  "diff": {
+    "pending_fields": 5,
+    "pending_files": 3,
+    "review_fields": 870,
+    "parse_errors": 0,
+    "reasons": {
+      "missing_field_or_id": 5
+    }
+  },
+  "review_reasons": {
+    "internal_or_dummy_review": 309,
+    "source_changed_review": 524,
+    "mixed_language_terminology_review": 32,
+    "empty_translation_review": 3,
+    "array_shape_review": 2
+  }
+}

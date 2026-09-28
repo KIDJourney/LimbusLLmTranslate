@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-28T07:55:40.544113+00:00",
+  "source_kind": "official_game_cdn",
+  "raw_version": "l20260924_4eb8-Rb7MrVjKfF17k-j",
+  "raw_url": "https://downloadcommon.limbuscompanycdn.org/l20260924_4eb8-Rb7MrVjKfF17k-j/Assets/LocalizePatch/localize_kr.zip",
+  "raw_sha256": "ec94d86d6bac40e5557bfcd66a81ac27d1abeba347816a38e25956074996424f",
+  "raw_files": 2277,
+  "version_discovery": "https://limbus.lcta.top/api/status",
+  "release": "2026092801",
+  "release_url": "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/releases/tag/2026092801",
+  "asset_sha256": "sha256:05255830dc29debe288092a26ded28e73d38242930554e124279448b0d993f72",
+  "warning": "Third-party version discovery; payload is downloaded from official game CDN."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "BattleSpeechBubbleDlg.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"battle_s3_11005_1_2-03\"",
+        0
+      ],
+      "dlg"
+    ],
+    "source": "떼어내주지.",
+    "translation": "给你扯下来。"
+  },
+  {
+    "file": "MainUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"select_all\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "전체 선택",
+    "translation": "全选"
+  },
+  {
+    "file": "MainUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"deselect_all\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "전체 해제",
+    "translation": "全部取消"
+  },
+  {
+    "file": "MainUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"story_voice_setting_ui_title\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "스토리 보이스 관리",
+    "translation": "剧情语音管理"
+  },
+  {
+    "file": "SkillTag.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"CantBreak\"",
+        0
+      ],
+      "name"
+    ],
+    "source": "[파괴 불가 코인]",
+    "translation": "[不可摧毁的硬币]"
+  }
+]

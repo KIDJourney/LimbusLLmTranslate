@@ -1,0 +1,10 @@
+{
+  "fetched_at": "2026-09-28T07:11:18.824232+00:00",
+  "source_commit": "231a8bcfc347273e7769b70ebc4f9f3e2fecaa5a",
+  "source_commit_date": "2026-08-06T18:49:53+08:00",
+  "release": "2026092801",
+  "release_url": "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/releases/tag/2026092801",
+  "asset": "LimbusLocalize_2026092801.zip",
+  "asset_sha256": "sha256:05255830dc29debe288092a26ded28e73d38242930554e124279448b0d993f72",
+  "warning": "KR main snapshot may lag behind latest release/game; not a live game extraction."
+}

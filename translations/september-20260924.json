@@ -1,0 +1,356 @@
+[
+  {
+    "file": "BattleKeywords-a1c10p2.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"RouteBOneLeg\"",
+        0
+      ],
+      "name"
+    ],
+    "source": "원레그 B루트 강화",
+    "translation": "单脚人 B路线 强化"
+  },
+  {
+    "file": "Bufs-a1c10p2.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"RouteBOneLeg\"",
+        0
+      ],
+      "name"
+    ],
+    "source": "원레그 B루트 강화",
+    "translation": "单脚人 B路线 强化"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_popup_title\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "멤버십 코드",
+    "translation": "会员代码"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_popup_desc\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "아래 버튼을 눌러 멤버십 코드를 확인할 수 있습니다.",
+    "translation": "点击下方按钮即可查看会员代码。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_issue_btn\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "코드 발급",
+    "translation": "发放代码"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_code_empty\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "아직 확인하신 코드가 없습니다.",
+    "translation": "暂无已查看的代码。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_issue_failed_condition\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "조건을 만족하지 않아 코드를 확인할 수 없습니다.",
+    "translation": "由于未满足条件，无法查看代码。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_issue_failed_unknown\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "알 수 없는 오류가 발생했습니다.",
+    "translation": "发生未知错误。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_copy_btn\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "복사하기",
+    "translation": "复制"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_copy_success\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "코드를 복사했습니다.",
+    "translation": "已复制代码。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_issue_failed_shutdown\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "멤버십 코드 조회 기간이 종료되었습니다.",
+    "translation": "会员代码查询期已结束。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_issue_failed_closed\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "멤버십 코드 발급 기간이 종료되었습니다.",
+    "translation": "会员代码发放期已结束。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_check_btn\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "코드 확인",
+    "translation": "查看代码"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_consent_title\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "개인정보 수집 및 이용 동의",
+    "translation": "收集和使用个人信息同意书"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_consent_desc\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "멤버십 코드 발급을 위한 개인정보 수집 및 이용에 동의해 주세요.",
+    "translation": "为了发放会员代码，请同意我们收集和使用您的个人信息。"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_consent_confirm_btn\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "동의",
+    "translation": "同意"
+  },
+  {
+    "file": "CouponUIText.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "\"promotion_issued_check_failed\"",
+        0
+      ],
+      "content"
+    ],
+    "source": "발급 여부를 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.",
+    "translation": "无法确认发放状态。请稍后再试。"
+  },
+  {
+    "file": "PanicInfo-a1c10p1.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "1099",
+        0
+      ],
+      "flavor"
+    ],
+    "source": "이대로 단단하게 속으로, 안으로 움츠러든다.",
+    "translation": "就这样紧紧地向里，向内蜷缩。"
+  },
+  {
+    "file": "PanicInfo-a1c10p1.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "1102",
+        0
+      ],
+      "flavor"
+    ],
+    "source": "넌 요리를 하고 싶은 게 아니다. 요리를 하는 느낌과 식사를 하는 흉내를 내고 싶은 것이지.",
+    "translation": "你并不是想做菜。你只是想要那种做菜的感觉，以及模仿进食的举动而已。"
+  },
+  {
+    "file": "PanicInfo-a1c10p1.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "1104",
+        0
+      ],
+      "flavor"
+    ],
+    "source": "이번 유행은 놓치면 안 되는데…!",
+    "translation": "绝不能错过这次的流行趋势……！"
+  },
+  {
+    "file": "PanicInfo-a1c10p1.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "1121",
+        0
+      ],
+      "flavor"
+    ],
+    "source": "대체…왜? 나는 어떻게 생겼어? 나는… 뭐야?",
+    "translation": "到底……为什么？我长什么样？我……是什么？"
+  },
+  {
+    "file": "PanicInfo-a1c10p2.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "1110",
+        0
+      ],
+      "flavor"
+    ],
+    "source": "손이 떨리면, 가위질도 흔들려… 이대로는 재단할 수 없어…",
+    "translation": "手一抖，剪刀也跟着晃……这样下去没法裁剪了……"
+  },
+  {
+    "file": "PanicInfo-a1c10p2.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "1115",
+        0
+      ],
+      "flavor"
+    ],
+    "source": "자신보다 빠른 것을 고정시킬 수 있는가?",
+    "translation": "能够固定住比自己更快的东西吗？"
+  },
+  {
+    "file": "Skills_Abnormality-a1c10p2.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "150601",
+        0
+      ],
+      "levelList",
+      0,
+      "flavor"
+    ],
+    "source": "못은 망치로 박히기 위해 존재한다. 망치가 박는 것은 못이다.",
+    "translation": "钉子就是为了被锤子敲击而存在的。锤子敲击的也就是钉子。"
+  },
+  {
+    "file": "Skills_Abnormality-a1c10p2.json",
+    "path": [
+      "dataList",
+      [
+        "id",
+        "150602",
+        0
+      ],
+      "levelList",
+      0,
+      "flavor"
+    ],
+    "source": "망치가 휘둘러진 곳에 못은 존재한다.",
+    "translation": "锤子挥下的地方就会有钉子存在。"
+  }
+]

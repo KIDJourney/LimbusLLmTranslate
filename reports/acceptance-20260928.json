@@ -1,0 +1,23 @@
+{
+  "model": "gemini-account/gemini-pro-agent",
+  "session_id": "d4130903-4a0b-4a4c-b12f-d85385ac2707",
+  "installer_run": "20260928-150902-f5116ff4",
+  "installer_status": "timed_out; coordinator rewrote and reviewed script",
+  "translation_initial_run": "20260928-151301-2155eb5c",
+  "translation_initial_status": "cancelled after wrong output paths and denied shell attempts",
+  "translation_resume_run": "20260928-152224-b0bc2207",
+  "translation_resume_status": "needs_review",
+  "resume_permission_denials": 1,
+  "review_result": "Five translations validated; CantBreak terminology aligned with upstream. No claims of Windows runtime acceptance.",
+  "changed_json_files": [
+    "MainUIText.json",
+    "SkillTag.json",
+    "BattleSpeechBubbleDlg.json"
+  ],
+  "validated_translation_fields": 5,
+  "upstream_json_files": 2237,
+  "python_tests_passed": 9,
+  "windows_tested": false,
+  "superseded_by": "20260928-september.md",
+  "withdrawn_reason": "All five old added IDs absent from official September source"
+}
