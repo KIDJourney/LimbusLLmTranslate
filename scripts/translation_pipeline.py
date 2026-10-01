@@ -366,6 +366,7 @@ def prepare(run_dir: Path, python_bin: str = sys.executable, shard_max_chars: in
             "4. 优先读取 input.json、glossary.json 与 context.json，严格遵循 LLC 已核实的既有译名并保留上下文语境；"
             "context.json 为参考候选与证据提示，证据不充分或缺少可靠匹配时应依据原文直接翻译；"
             "若词表或证据存在冲突，严禁擅自决断或往 translation 字段加标记，须在译文中保持规范表达并在独立 term_notes 字段中说明理由与疑点。\n"
+            '参考范围：仅当前 input/glossary/context 与本轮 snapshot 中的 LLC/KR 具体文件。禁止读取其他分片或历史任务的 translations.json、draft 等 AI 产物作为译名依据。已有证据够用时直接翻译，不对同一词反复检索；无可靠依据时按原文翻译并在 term_notes 记录疑点，交独立校对。\n'
             "5. 保留富文本格式标签（如 <color=...>, </color>）、{0} 占位符、[Token] 和换行符数量，严禁更改控制字符。\n"
             "6. 仅在当前目录输出 translations.json，格式为 JSON 数组，必须逐项完整保留原 item 中的 file、path、source，并增加非空 translation 字符串。\n"
             "7. 项数必须与 input.json 完全一致，严禁丢项、重复或篡改原文。"
