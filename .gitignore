@@ -175,3 +175,10 @@ cython_debug/
 
 # Downloaded immutable snapshots and private agent work
 /data/
+.workflow-runs/
+.workflow/evidence/
+.dev-workflow/__pycache__/
+.dev-workflow/.venv/
+.dev-workflow/.venv-bootstrap.lock/
+
+!/site/

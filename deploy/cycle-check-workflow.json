@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "name": "Cycle Check Workflow",
+  "entry": "check",
+  "agent": {
+    "backend": "codex-sdk"
+  },
+  "nodes": [
+    {
+      "id": "check",
+      "type": "command",
+      "exit_routes": {
+        "10": "$complete"
+      },
+      "actions": [
+        {
+          "command": [".dev-workflow/.venv/bin/python", "scripts/check_cycle.py", "--run-dir", "{run_dir}"]
+        }
+      ],
+      "on": {
+        "passed": "ready_approval",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "ready_approval",
+      "type": "approval",
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ]
+}

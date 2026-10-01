@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "profile": "delivery",
+  "name": "limbus-translation-activate-deploy",
+  "description": "Limbus Company Chinese Translation Activate Release",
+  "entry": "release",
+  "limits": {
+    "max_total_steps": 20,
+    "max_visits_per_node": 4,
+    "command_timeout_seconds": 600,
+    "agent_timeout_seconds": 1800
+  },
+  "nodes": [
+    {
+      "id": "release",
+      "type": "approval",
+      "title": "Release Artifacts",
+      "description": "Approve publishing latest.json to server",
+      "actions": [
+        {
+          "name": "Activate Release",
+          "type": "command",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/activate_release.py"
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "name": "Check Publish",
+          "type": "command",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/check_publish.py"
+          ]
+        }
+      ],
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ],
+  "agent": {
+    "backend": "codex-sdk",
+    "sandbox": "workspace-write",
+    "approval_mode": "deny_all"
+  }
+}

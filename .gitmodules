@@ -1,4 +1,0 @@
-[submodule "text_data/LocalizeLimbusCompany"]
-	path = text_data/LocalizeLimbusCompany
-	url = https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany.git
-	branch = main

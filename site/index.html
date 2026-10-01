@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limbus Company | 中文补译计划</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="logo">LIMBUS COMPANY <span class="logo-subtitle">| 中文补译计划</span></h1>
+            <p class="logo-motto">FACE THE SIN, SAVE THE E.G.O</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#download" class="active">下载</a></li>
+                <li><a href="#guide">安装指南</a></li>
+                <li><a href="#changelog">更新记录</a></li>
+                <li><a href="https://deadfish.win/" target="_blank" class="nav-external">返回导航站 ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-section">
+            <div class="hero-left">
+                <img src="assets/faust.png" alt="Faust and Limbus Bus" class="hero-character">
+                <div class="decorative-text top-left">LIMBUS<br>COMPANY<br><br>FACE<br>THE SIN<br>SAVE<br>THE E.G.O</div>
+                <div class="decorative-text bottom-left">A<br>BETTER<br>TOMORROW<br>AWAITS</div>
+            </div>
+
+            <div class="hero-right">
+                <div class="hero-map-overlay">
+                    <img src="assets/map.png" alt="The City Map" class="hero-map">
+                </div>
+
+                <div class="content-box">
+                    <p class="tagline"><span class="highlight">WINDOWS</span> 专用 / 社区开源</p>
+                    <h2 class="main-title">经理，<br>欢迎回来。</h2>
+                    <p class="description">让每一段旅途，都有中文相伴。<br>下载更新器，获取最新补译与字体。</p>
+
+                    <div class="download-actions" id="download">
+                        <button id="btn-download-updater" class="btn-primary" disabled>
+                            <span class="icon">↓</span> 载入中...
+                        </button>
+                        <button id="btn-download-manual" class="btn-secondary" disabled>
+                            手动下载语言包 &gt;
+                        </button>
+                    </div>
+
+                    <div class="features">
+                        <span>自动检测更新</span>
+                        <span class="dot">·</span>
+                        <span>安装前备份</span>
+                        <span class="dot">·</span>
+                        <span>支持回退</span>
+                    </div>
+
+                    <div class="warning-box">
+                        <span class="warning-label">测试版</span>
+                        <span class="warning-text">Windows 游戏内验证待完成</span>
+                    </div>
+                </div>
+                <div class="decorative-text right-side">THE<br>CITY<br>STILL<br>TURNS...<br><br><br><br>AND<br>SO<br>DO<br>WE.</div>
+            </div>
+        </div>
+
+        <div class="status-bar" id="changelog">
+            <div class="status-item">
+                <span class="status-label">当前语言包</span>
+                <span class="status-value" id="val-chinese-release">--</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">原文资源</span>
+                <span class="status-value" id="val-raw-version">--</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">中文基础</span>
+                <span class="status-value" id="val-version">--</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">本次更新</span>
+                <span class="status-value" id="val-notes">--</span>
+            </div>
+        </div>
+
+        <div class="steps-section" id="guide">
+            <div class="step">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>下载更新器</h3>
+                    <p>仅支持 Windows <span style="font-size: 0.9em; opacity: 0.8;">(当前为测试版，暂未充分验证)</span></p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>自动检测游戏</h3>
+                    <p>自动查找目录；未找到或发现多处时手动选择</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>启用中文语言</h3>
+                    <p>在游戏中选择 LLC_zh-CN</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="assets/faust.png" alt="Limbus Logo" class="tiny-logo" style="width: 24px; height: 24px; object-fit: cover; object-position: top; border-radius: 50%;">
+            <span>LIMBUS<br>COMPANY</span>
+        </div>
+        <div class="footer-center">
+            <p>非官方项目 · 基于 LLC 中文语料 · CC BY-NC-SA 4.0</p>
+            <p class="site-url">limbus-cn.deadfish.win</p>
+        </div>
+        <div class="footer-right">
+            <p>FOR ALL<br>MANAGERS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

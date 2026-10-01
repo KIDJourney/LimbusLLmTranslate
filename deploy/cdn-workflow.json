@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "profile": "delivery",
+  "name": "limbus-translation-cdn-deploy",
+  "description": "Limbus Company Chinese Translation CDN Setup",
+  "entry": "release",
+  "limits": {
+    "max_total_steps": 20,
+    "max_visits_per_node": 4,
+    "command_timeout_seconds": 600,
+    "agent_timeout_seconds": 1800
+  },
+  "nodes": [
+    {
+      "id": "release",
+      "type": "approval",
+      "title": "Release CDN",
+      "description": "Approve deploying the R2 CDN bucket and custom domain",
+      "actions": [
+        {
+          "name": "Setup CDN",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/setup_cdn.py"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ],
+  "agent": {
+    "backend": "codex-sdk",
+    "sandbox": "workspace-write",
+    "approval_mode": "deny_all"
+  }
+}

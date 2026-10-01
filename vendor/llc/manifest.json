@@ -1,0 +1,14 @@
+{
+  "Font/Context/ChineseFont.ttf": {
+    "sha256": "a56a06f1af27726bc5def015b61deecbbdf5ae6d954a91b1131d8a17290def35",
+    "size": 23870096
+  },
+  "Font/Title/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "LICENSE_UPSTREAM.txt": {
+    "sha256": "8a364221b9e8b9e3caa28c62c655abfa717982ce2c39dcd810b78d6650f5e6db",
+    "size": 21339
+  }
+}

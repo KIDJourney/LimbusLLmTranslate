@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "profile": "delivery",
+  "name": "limbus-translation-artifacts-deploy",
+  "description": "Limbus Company Chinese Translation Artifacts Deploy to R2",
+  "entry": "release",
+  "limits": {
+    "max_total_steps": 20,
+    "max_visits_per_node": 4,
+    "command_timeout_seconds": 600,
+    "agent_timeout_seconds": 1800
+  },
+  "nodes": [
+    {
+      "id": "release",
+      "type": "approval",
+      "title": "Release Artifacts",
+      "description": "Approve uploading the translation and updater zips to R2",
+      "actions": [
+        {
+          "name": "Publish to Cloudflare R2",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/publish_cloudflare.py"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ],
+  "agent": {
+    "backend": "codex-sdk",
+    "sandbox": "workspace-write",
+    "approval_mode": "deny_all"
+  }
+}

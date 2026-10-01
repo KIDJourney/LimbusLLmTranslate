@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "profile": "verification",
+  "name": "limbus-stage-b-verification",
+  "description": "Verification workflow running complete unittests and workflow validation pipeline",
+  "entry": "run_unittests",
+  "limits": {
+    "max_total_steps": 10,
+    "max_visits_per_node": 2,
+    "command_timeout_seconds": 600,
+    "agent_timeout_seconds": 600
+  },
+  "nodes": [
+    {
+      "id": "run_unittests",
+      "type": "command",
+      "title": "Run All Unittests",
+      "description": "Execute discover on tests directory via venv python",
+      "actions": [
+        {
+          "name": "Unittest Discovery",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "test_pipeline_validate",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "test_pipeline_validate",
+      "type": "command",
+      "title": "Test Pipeline Validate Node",
+      "description": "Run isolated workflow-level pipeline validation test",
+      "actions": [
+        {
+          "name": "Single Pipeline Validation Unittest",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "-m",
+            "unittest",
+            "tests/test_translation_pipeline.py",
+            "-k",
+            "test_validate_passes_and_blocks_tampering_and_unresolved"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ],
+  "agent": {
+    "backend": "codex-sdk",
+    "sandbox": "workspace-write",
+    "approval_mode": "deny_all"
+  }
+}

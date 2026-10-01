@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "profile": "delivery",
+  "name": "limbus-translation-delivery-dynamic",
+  "description": "Limbus Company Chinese Translation Delivery Workflow with Dynamic Windows SSH Source & LLC Diff",
+  "entry": "prepare",
+  "limits": {
+    "max_total_steps": 20,
+    "max_visits_per_node": 4,
+    "command_timeout_seconds": 600,
+    "agent_timeout_seconds": 1800
+  },
+  "nodes": [
+    {
+      "id": "prepare",
+      "type": "command",
+      "title": "Prepare Snapshots and Diff",
+      "description": "Obtain Windows game KR snapshot and LLC snapshot, check live published version (exit 10 if up to date), or generate diff and shards.",
+      "exit_routes": {
+        "10": "$complete"
+      },
+      "actions": [
+        {
+          "name": "Prepare Pipeline",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/translation_pipeline.py",
+            "prepare",
+            "--run-dir",
+            "{run_dir}",
+            "--shard-max-chars",
+            "20000"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "translate",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "translate",
+      "type": "command",
+      "title": "Translate Shards via Herdr",
+      "description": "Run interactive Claude Code with Gemini on translation shards in Herdr default session.",
+      "actions": [
+        {
+          "name": "Translate Shards",
+          "timeout_seconds": 7200,
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/herdr_translation.py",
+            "translate",
+            "--run-dir",
+            "{run_dir}",
+            "--concurrency",
+            "6",
+            "--timeout",
+            "1200"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "review",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "review",
+      "type": "command",
+      "title": "Review Translations and Diff Items",
+      "description": "Run parallel independent review Agent pool in Herdr to verify translations and provide item-by-item review disposition.",
+      "actions": [
+        {
+          "name": "Review Translations",
+          "timeout_seconds": 7200,
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/review_batches.py",
+            "--run-dir",
+            "{run_dir}",
+            "--max-workers",
+            "6",
+            "--timeout",
+            "1800"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "validate",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "validate",
+      "type": "command",
+      "title": "Validate Hashes, Shards and Dispositions",
+      "description": "Strictly validate all shards coverage, diff/translations/reviewed hashes, and ensure every review item has justifiable disposition without unresolved items.",
+      "actions": [
+        {
+          "name": "Validate Pipeline",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/translation_pipeline.py",
+            "validate",
+            "--run-dir",
+            "{run_dir}"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "package",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "package",
+      "type": "command",
+      "title": "Package Translation Release",
+      "description": "Package release with dynamic versioning LLCtag.source_short.review_short, font verification, and snapshot license.",
+      "actions": [
+        {
+          "name": "Package Release",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/package_translation.py",
+            "--run-dir",
+            "{run_dir}"
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "name": "Package Artifact",
+          "type": "artifact",
+          "path": "{run_dir}/build/latest.zip",
+          "min_bytes": 2
+        }
+      ],
+      "on": {
+        "passed": "release",
+        "failed": "$failed"
+      }
+    },
+    {
+      "id": "release",
+      "type": "approval",
+      "title": "Release Approval",
+      "description": "Approve publishing to Cloudflare R2 and activating release on website and updater.",
+      "actions": [
+        {
+          "name": "Publish",
+          "type": "command",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/publish_cloudflare.py",
+            "--run-dir",
+            "{run_dir}"
+          ]
+        },
+        {
+          "name": "Activate Release",
+          "type": "command",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/activate_release.py",
+            "--run-dir",
+            "{run_dir}"
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "name": "Check Publish",
+          "type": "command",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/check_publish.py",
+            "--run-dir",
+            "{run_dir}"
+          ]
+        }
+      ],
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ],
+  "agent": {
+    "backend": "codex-sdk",
+    "sandbox": "workspace-write",
+    "approval_mode": "deny_all"
+  }
+}

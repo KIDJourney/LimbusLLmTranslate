@@ -1,4 +1,6 @@
 """Reproducible LLC snapshots, conservative field diff and validated overlays (stdlib)."""
+from __future__ import annotations
+
 import argparse
 import collections
 import copy
@@ -10,9 +12,15 @@ from pathlib import Path, PurePosixPath
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import urllib.request
 import zipfile
+
+# Ensure local scripts can be imported whether run as package or script
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from scripts.llc_snapshot import capture_llc_snapshot
+from scripts.windows_source import capture_windows_source
 
 ROOT = Path(__file__).resolve().parents[1]
 REPO = ROOT / 'text_data/LocalizeLimbusCompany'
@@ -27,7 +35,11 @@ TEXT_KEYS.update({'simpleDesc', 'message', 'messageDesc', 'dialog', 'clue', 'sto
     'longName', 'openCondition', 'askLevelUp', 'openConditionNumber', 'relatedChapterText',
     'speaker', 'displayName', 'statText', 'result', 'successDesc', 'failureDesc'})
 TEXT_KEYS.update(f'goalDescription{i}' for i in range(1, 9))
-TOKENS = re.compile(r'</?[A-Za-z][^>]*>|\{[^{}]+\}|\[[A-Za-z_][A-Za-z_0-9:.-]*\]|%\d*\$?[sdif]')
+TAG_TOKENS = (
+    r'</[A-Za-z][A-Za-z0-9_-]*(?:=[^>]*)?\s*>'
+    r'|<[A-Za-z][A-Za-z0-9_-]*(?:=[^>]*|\s+[A-Za-z0-9_:-]+(?:=(?:\"[^\"]*\"|\'[^\']*\'|[^>\s]+))?)*\s*/?>'
+)
+TOKENS = re.compile(rf'{TAG_TOKENS}|\{{[^{{}}]+\}}|\[[A-Za-z_][A-Za-z_0-9:.-]*\]|%\d*\$?[sdif]')
 
 
 def read(path):
@@ -57,47 +69,17 @@ def safe_relative(name):
 
 
 def update_git(args):
-    # Never overwrite an edited submodule. Parent changes are left untouched.
-    if not (REPO / '.git').exists():
-        subprocess.run(['git', '-C', str(ROOT), 'submodule', 'update', '--init', '--depth', '1'], check=True)
-    if git('status', '--porcelain'):
-        raise ValueError('Upstream submodule has local edits; update refused')
-    git('fetch', '--depth', '1', 'origin', 'main')
-    commit = git('rev-parse', 'origin/main')
-    git('checkout', '--detach', commit)
-    release = json.loads(get(API + '/releases/latest'))
-    asset = next(a for a in release['assets'] if a['name'].startswith('LimbusLocalize_') and a['name'].endswith('.zip'))
-    blob = get(asset['browser_download_url'])
-    digest = 'sha256:' + hashlib.sha256(blob).hexdigest()
-    if not asset.get('digest') or digest != asset['digest']:
-        raise ValueError('Missing or mismatched release SHA256')
-    out = Path(args.output).resolve()
-    if out.exists():
-        raise ValueError('Snapshot output already exists; use a new directory')
-    prefix = 'LimbusCompany_Data/Lang/LLC_zh-CN/'
-    z = zipfile.ZipFile(io.BytesIO(blob))
-    members = []
-    for info in z.infolist():
-        safe_relative(info.filename)
-        if info.is_dir():
-            continue
-        if not info.filename.startswith(prefix) or (info.external_attr >> 16) & 0o170000 == 0o120000:
-            raise ValueError('Unexpected release member: ' + info.filename)
-        members.append((info, safe_relative(info.filename[len(prefix):])))
-    if not members:
-        raise ValueError('Release has no language files')
-    out.mkdir(parents=True)
-    (out / asset['name']).write_bytes(blob)
-    shutil.copytree(REPO / 'KR', out / 'KR')
-    for info, rel in members:
-        target = out / 'LLC_zh-CN' / rel
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(z.read(info))
-    write(out / 'provenance.json', {'fetched_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
-          'source_commit': commit, 'source_commit_date': git('show', '-s', '--format=%cI', commit),
-          'release': release['tag_name'], 'release_url': release['html_url'], 'asset': asset['name'],
-          'asset_sha256': digest, 'warning': 'KR main snapshot may lag behind latest release/game; not a live game extraction.'})
-    print(json.dumps(read(out / 'provenance.json'), ensure_ascii=False, indent=2))
+    raise RuntimeError(
+        "The 'git' source-kind has been deprecated and removed. "
+        "Use the default Windows live game source extraction instead."
+    )
+
+
+def update_cdn(args):
+    raise RuntimeError(
+        "The 'cdn' source-kind has been deprecated and removed. "
+        "Use the default Windows live game source extraction instead."
+    )
 
 
 def discover_raw():
@@ -148,49 +130,53 @@ def raw_members(blob):
 def update(args):
     if args.source_kind == 'git':
         return update_git(args)
+    if args.source_kind == 'cdn':
+        return update_cdn(args)
+
     out = Path(args.output).resolve()
     if out.exists():
         raise ValueError('Snapshot output already exists; use a new directory')
-    token, discovery, warning = discover_raw()
-    raw_url = f'https://downloadcommon.limbuscompanycdn.org/{token}/Assets/LocalizePatch/localize_kr.zip'
-    raw = get(raw_url)
-    files = raw_members(raw)
-    release = json.loads(get(API + '/releases/latest'))
-    asset = next(a for a in release['assets'] if a['name'].startswith('LimbusLocalize_') and a['name'].endswith('.zip'))
-    cooked = get(asset['browser_download_url'])
-    digest = 'sha256:' + hashlib.sha256(cooked).hexdigest()
-    if digest != asset.get('digest'):
-        raise ValueError('Missing or mismatched release SHA256')
-    provenance = {'fetched_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        'source_kind': 'official_game_cdn', 'raw_version': token, 'raw_url': raw_url,
-        'raw_sha256': hashlib.sha256(raw).hexdigest(), 'raw_files': len(files),
-        'version_discovery': discovery, 'release': release['tag_name'],
-        'release_url': release['html_url'], 'asset_sha256': digest, 'warning': warning}
+
     out.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix='.limbus-download-', dir=out.parent) as temp:
-        stage = Path(temp) / 'snapshot'; stage.mkdir()
-        (stage / 'localize_kr.zip').write_bytes(raw)
-        (stage / asset['name']).write_bytes(cooked)
-        for rel, data in files.items():
-            path = stage / 'KR' / rel; path.parent.mkdir(parents=True, exist_ok=True); path.write_bytes(data)
-        prefix = 'LimbusCompany_Data/Lang/LLC_zh-CN/'
-        names = set()
-        with zipfile.ZipFile(io.BytesIO(cooked)) as archive:
-            for info in archive.infolist():
-                safe_relative(info.filename)
-                if (info.external_attr >> 16) & 0o170000 == 0o120000:
-                    raise ValueError('Archive symlinks are unsupported')
-                if info.is_dir(): continue
-                if not info.filename.startswith(prefix): raise ValueError('Unexpected Chinese archive layout')
-                rel = safe_relative(info.filename[len(prefix):])
-                if str(rel).casefold() in names: raise ValueError('Duplicate Chinese archive path')
-                names.add(str(rel).casefold())
-                data = archive.read(info)
-                if rel.suffix == '.json': json.loads(data.decode('utf-8-sig'))
-                path = stage / 'LLC_zh-CN' / rel; path.parent.mkdir(parents=True, exist_ok=True); path.write_bytes(data)
-        if not list((stage / 'LLC_zh-CN').rglob('*.json')): raise ValueError('Empty Chinese archive')
+    with tempfile.TemporaryDirectory(prefix='.limbus-update-', dir=out.parent) as temp:
+        stage = Path(temp) / 'snapshot'
+        stage.mkdir()
+
+        # Capture Windows Korean live game source
+        win_stage = stage / 'win_source'
+        win_prov = capture_windows_source(
+            output_dir=win_stage,
+            ssh_host=args.host if hasattr(args, 'host') and args.host else 'windows',
+            remote_path=args.remote_path if hasattr(args, 'remote_path') and args.remote_path else r"F:\SteamLibrary\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\kr",
+        )
+        shutil.move(str(win_stage / 'KR'), str(stage / 'KR'))
+
+        # Capture official LLC Chinese release
+        llc_stage = stage / 'llc_release'
+        llc_prov = capture_llc_snapshot(output_dir=llc_stage)
+        shutil.move(str(llc_stage / 'LLC_zh-CN'), str(stage / 'LLC_zh-CN'))
+        shutil.move(str(llc_stage / 'LICENSE_UPSTREAM.txt'), str(stage / 'LICENSE_UPSTREAM.txt'))
+
+        provenance = {
+            'fetched_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            'source_kind': 'windows_ssh',
+            'raw_version': win_prov['raw_version'],
+            'source_hash': win_prov['source_hash'],
+            'remote_host': win_prov['remote_host'],
+            'remote_path': win_prov['remote_path'],
+            'raw_files': win_prov['total_files'],
+            'release': llc_prov['release'],
+            'release_url': llc_prov['release_url'],
+            'asset_name': llc_prov['asset_name'],
+            'asset_sha256': llc_prov['asset_sha256'],
+            'font_source': llc_prov.get('font_source'),
+            'windows_provenance': win_prov,
+            'llc_provenance': llc_prov,
+        }
+
         write(stage / 'provenance.json', provenance)
         stage.rename(out)
+
     print(json.dumps(provenance, ensure_ascii=False, indent=2))
 
 
@@ -208,8 +194,17 @@ def leaves(value, path=()):
                 occurrences[ident] += 1
                 yield from leaves(child, path + (('id', ident, occurrence),))
         else:
-            for i, child in enumerate(value):
-                yield from leaves(child, path + (i,))
+            keys = [json.dumps(x['key'], sort_keys=True) for x in value if isinstance(x, dict) and 'key' in x]
+            if keys and len(keys) == len(value):
+                occurrences = collections.Counter()
+                for child in value:
+                    ident = json.dumps(child['key'])
+                    occurrence = occurrences[ident]
+                    occurrences[ident] += 1
+                    yield from leaves(child, path + (('key', ident, occurrence),))
+            else:
+                for i, child in enumerate(value):
+                    yield from leaves(child, path + (i,))
     elif isinstance(value, str):
         yield path, value
 
@@ -285,8 +280,9 @@ def diff(args):
 
 def child(node, step):
     if isinstance(step, tuple):
+        ident_field = step[0]  # 'id' or 'key'
         ident = json.loads(step[1])
-        matches = [x for x in node if isinstance(x, dict) and type(x.get('id')) is type(ident) and x.get('id') == ident]
+        matches = [x for x in node if isinstance(x, dict) and type(x.get(ident_field)) is type(ident) and x.get(ident_field) == ident]
         return matches[step[2] if len(step) > 2 else 0]
     return node[step]
 
@@ -411,7 +407,12 @@ def build(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
-    p = sub.add_parser('update'); p.add_argument('--output', required=True); p.add_argument('--source-kind', choices=['cdn', 'git'], default='cdn'); p.set_defaults(run=update)
+    p = sub.add_parser('update')
+    p.add_argument('--output', required=True)
+    p.add_argument('--source-kind', choices=['windows_ssh', 'cdn', 'git'], default='windows_ssh')
+    p.add_argument('--host', default='windows', help='SSH host alias')
+    p.add_argument('--remote-path', default=r"F:\SteamLibrary\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\kr", help='Remote Windows KR path')
+    p.set_defaults(run=update)
     p = sub.add_parser('diff'); p.add_argument('--source', required=True); p.add_argument('--chinese', required=True); p.add_argument('--previous-source'); p.add_argument('--output', required=True); p.set_defaults(run=diff)
     p = sub.add_parser('build'); p.add_argument('--manifest', required=True); p.add_argument('--translations', required=True); p.add_argument('--output', required=True); p.set_defaults(run=build)
     p = sub.add_parser('prepare-agent'); p.add_argument('--manifest', required=True); p.add_argument('--output', required=True); p.set_defaults(run=prepare_agent)

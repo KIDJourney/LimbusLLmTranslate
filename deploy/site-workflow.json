@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "profile": "delivery",
+  "name": "limbus-translation-site-deploy",
+  "description": "Limbus Company Chinese Translation Site Deploy",
+  "entry": "release",
+  "limits": {
+    "max_total_steps": 20,
+    "max_visits_per_node": 4,
+    "command_timeout_seconds": 600,
+    "agent_timeout_seconds": 1800
+  },
+  "nodes": [
+    {
+      "id": "release",
+      "type": "approval",
+      "title": "Release Site",
+      "description": "Approve deploying the site to VPS",
+      "actions": [
+        {
+          "name": "Deploy Site",
+          "command": [
+            ".dev-workflow/.venv/bin/python",
+            "scripts/deploy_site.py"
+          ]
+        }
+      ],
+      "gates": [],
+      "on": {
+        "passed": "$complete",
+        "failed": "$failed"
+      }
+    }
+  ],
+  "agent": {
+    "backend": "codex-sdk",
+    "sandbox": "workspace-write",
+    "approval_mode": "deny_all"
+  }
+}
