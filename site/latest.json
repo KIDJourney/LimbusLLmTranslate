@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "version": "2026092802.da704a71.ad3c2822",
-  "published_at": "2026-10-01T12:08:59.397335+00:00",
+  "version": "2026092802.02504079.e86b8c53",
+  "published_at": "2026-10-01T16:02:28.931986+00:00",
   "source": {
-    "raw_version": "windows-sha256:da704a715ddaa2663d9d551193f44109f7e425d4747bfa89b24515aacd70d80c",
+    "raw_version": "windows-sha256:02504079ddae539cd37ea2502fdcdb1556539f8e9a1616d1a47e1a59aeb8fd18",
     "chinese_release": "2026092802"
   },
   "package": {
-    "url": "https://limbus-cdn.deadfish.win/releases/2026092802.da704a71.ad3c2822/bdb7cf1abfbb/LimbusTranslation.zip?v=bdb7cf1abfbb",
-    "sha256": "bdb7cf1abfbb7a9a2ded668974f35ae5587f69315f3c5220c189493b191b6bd6",
-    "size": 18286125
+    "url": "https://limbus-cdn.deadfish.win/releases/2026092802.02504079.e86b8c53/fb2372425c38/LimbusTranslation.zip?v=fb2372425c38",
+    "sha256": "fb2372425c385e458e104c27e145aa228803a11512b3786b9603687937255289",
+    "size": 18286207
   },
   "updater": {
     "url": "https://limbus-cdn.deadfish.win/updater/ecbdf2ef84a5/LimbusUpdater.zip?v=ecbdf2ef84a5",
