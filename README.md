@@ -6,6 +6,7 @@
 
 - [Windows 安装、回滚与来源](docs/windows-install.md)
 - [9 月原文更新与修正结果](reports/20260928-september.md)；早期 5 条补译包已撤回。
+- `scripts/cycle_stage.py`：翻译与校对阶段的薄调度器。自动扫描同父目录的历史 run 筛选有效基线（通过 `validate_and_freeze_baseline` 且 LLC 树哈希一致）；无有效基线时自动 fallback 全量翻译与全量校对；存在有效基线时记录 `baseline-selection.json` 并调用增量翻译与增量校对；校对时严格复核基线防篡改，并自动提取 pending 名称中与 LLC 规范译名冲突项作为 `force_review_items.json` 送入复审。
 - `scripts/translation_pipeline.py`：动态发布流水线核心（已实现，真实全流程验收进行中），提供 `prepare`（基于 Windows SSH 与 LLC 快照、分片与提取术语）和 `validate`（哈希绑定、防篡改与 review disposition 逐项校验）。
 - `scripts/review_batches.py`：正式校对控制器。默认调度 6 个独立 Gemini Agent 按不重叠批次并行校对（每批 50 条），每批写入输入、提示词、响应和日志哈希凭据，合并后统一进行 LLC 译名及结构验收，支持 registry 复用与冻结 draft 断点续跑；旧版 freeform review 工具保留但已非正式入口。
 - `scripts/herdr_translation.py`：Herdr 原生 `default` 会话控制交互式 Claude Code (Gemini)，按动态窗格池并发执行翻译分片调度与管理。
@@ -23,8 +24,8 @@
 
 流水线节点流转：
 1. **prepare**：调用 `windows_source.py` 通过 SSH (`windows`) 从 Windows 游戏实际路径 `F:\SteamLibrary\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\kr` 提取韩文快照，调用 `llc_snapshot.py` 获取最新上游发布的 LLC 中文快照（统称「LLC 译名」，非游戏官方汉化）。若线上版本与本地快照完全一致，退出码 10 直接流转到 `$complete`。若有变更，计算 diff 并按文件和字符预算划分为独立翻译分片，提取术语表。
-2. **translate**：调用 `herdr_translation.py translate`，通过 Herdr default session 调度 6 并发独立 Claude Code (搭载 `gemini-account/gemini-3.8-flash-high`) Agent 处理各个翻译分片。
-3. **review**：调用 `review_batches.py`（正式校对入口），默认启动 6 个独立 Gemini Agent 按不重叠批次并行校对，每批由主控严格审计并写入输入、提示词、响应和日志哈希凭据，合并后统一执行 LLC 译名（如 `원레그`=单脚人，`간수`角色名=看守，严禁臆测改为独腿/狱卒）与结构验收；支持 registry 复用与冻结 draft 断点续跑；旧版 freeform review 仅作兼容保留；对译文及所有 diff 待复核项逐项裁决，存在任何 unresolved 项时阻断发布，不盲信 Agent 机械 progress。
+2. **translate**：调用薄调度器 `cycle_stage.py translate`。自动扫描同目录历史 run 寻找通过校验且 LLC 树哈希一致的基线：无有效基线时自动回退至全量分片翻译；存在有效基线时写入 `baseline-selection.json` 并调用 `incremental_translation.py` 复用已校对译文为草稿，仅对增量/变更词条调度 Claude Code (Gemini) 进行独立分片翻译。
+3. **review**：调用薄调度器 `cycle_stage.py review`。若无有效基线则直接调用 `review_batches.py` 进行 6 并发全量多 Agent 校对；若存在基线选择则重验基线防篡改及 LLC 树一致性（拒绝静默更换），根据 TM 提取 pending 中与 LLC 规范译名冲突的名称作为 `force_review_items.json` 送入 `incremental_review.py`，进行冲突关联新审与增量校对。
 4. **validate**：严格校验 diff、input、translations、reviewed 完整哈希链路，检查所有分片覆盖率，确保所有 review 项均有合法非空的明确理由并标记为已解决。
 5. **package**：生成动态版本号并打包 `build/latest.zip`，严格检查字体及授权协议。
 6. **release**：人工审批节点，通过后发布至 Cloudflare R2 并激活上线。

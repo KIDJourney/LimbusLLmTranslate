@@ -362,8 +362,7 @@ def run_incremental_translation(
         "status": "success",
         "strategy": "verified_baseline_drafts_plus_delta",
         "warning": (
-            "Reused translations are unverified drafts only, NOT considered reviewed or verified against new LLC context. "
-            "Downstream full independent review is mandatory for all items."
+            "draft未验证，必须经新审或已验证baseline审核复用门禁"
         ),
         "reused_draft_count": reused_count,
         "new_translation_count": delta_count,

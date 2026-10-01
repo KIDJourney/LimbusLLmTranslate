@@ -50,7 +50,7 @@
           "timeout_seconds": 7200,
           "command": [
             ".dev-workflow/.venv/bin/python",
-            "scripts/herdr_translation.py",
+            "scripts/cycle_stage.py",
             "translate",
             "--run-dir",
             "{run_dir}",
@@ -78,7 +78,8 @@
           "timeout_seconds": 7200,
           "command": [
             ".dev-workflow/.venv/bin/python",
-            "scripts/review_batches.py",
+            "scripts/cycle_stage.py",
+            "review",
             "--run-dir",
             "{run_dir}",
             "--max-workers",
