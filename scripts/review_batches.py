@@ -45,8 +45,8 @@ from herdr_translation import (
     wait_agent_until_settled,
 )
 
-BATCH_SIZE = 50
-MAX_BATCH_RETRIES = 3
+BATCH_SIZE = 20
+MAX_BATCH_RETRIES = 2
 DEFAULT_MAX_WORKERS = 6
 
 
@@ -214,6 +214,39 @@ def validate_review_batch_output(
         valid_items.append(got)
 
     return valid_items, errors
+
+
+def check_verified_batch_progress(
+    batch_items: list[dict[str, Any]],
+    batch_type: str,
+    result_file: Path,
+) -> tuple[bool, str]:
+    """Verify if there is undeniable proof that the agent produced partial output for this batch."""
+    if result_file.is_file():
+        try:
+            data = safe_read_json(result_file)
+            if isinstance(data, list) and len(data) >= 1:
+                input_keys = set()
+                for it in batch_items:
+                    if batch_type == "pending":
+                        input_keys.add((it.get("index"), it.get("file"), json.dumps(it.get("path", []), sort_keys=True), it.get("source")))
+                    else:
+                        input_keys.add((it.get("file"), json.dumps(it.get("path", []), sort_keys=True), it.get("source")))
+                match_count = 0
+                for item in data:
+                    if not isinstance(item, dict):
+                        continue
+                    if batch_type == "pending":
+                        key = (item.get("index"), item.get("file"), json.dumps(item.get("path", []), sort_keys=True), item.get("source"))
+                    else:
+                        key = (item.get("file"), json.dumps(item.get("path", []), sort_keys=True), item.get("source"))
+                    if key in input_keys:
+                        match_count += 1
+                if match_count >= 1:
+                    return True, f"result.json matched {match_count} items from input"
+        except Exception:
+            pass
+    return False, "no verified batch progress in result.json"
 
 
 def check_existing_verified_receipt(
@@ -411,9 +444,22 @@ def process_batch(
                 if cleared_status not in {"idle", "done"}:
                     raise RuntimeError(f"Reviewer session reset not settled: {cleared_status}")
 
-            current_prompt = prompt_text
-            if val_errors:
-                current_prompt += f"\n【重要：上一轮输出校验未通过，请针对修复】\n" + "\n".join(val_errors)
+            if attempt == 1:
+                current_prompt = prompt_text
+            else:
+                # Bounded continuation prompt: do not resend full prompt or restart retrieval,
+                # only request completing the existing batch output in place and resolving validation errors.
+                has_prog, prog_reason = check_verified_batch_progress(batch_items, batch_type, result_file)
+                if not has_prog:
+                    raise ValueError(f"Batch {batch_type}_{batch_idx} failed after 1 attempts without verified partial progress: {'; '.join(val_errors)}")
+                current_prompt = (
+                    f"【续作提醒：本批({batch_type} batch {batch_idx:03d})已有部分输出，请立即补全并完成】\n"
+                    f"目标文件：{result_file.resolve()}\n"
+                    f"输入文件：{input_file.resolve()}\n"
+                    f"请直接读取当前 {result_file.resolve()} 与 {input_file.resolve()}，无需重新检索全部上下文。\n"
+                    f"补齐剩余未完成条目，并针对修复以下校验错误后保存完整数组：\n"
+                    + "\n".join(val_errors)
+                )
 
             if index_file and index_sha:
                 assert_root_input(index_file, index_sha)
@@ -449,7 +495,10 @@ def process_batch(
                 valid_items, val_errors = validate_review_batch_output(batch_items, result_file)
 
             if prompt_error is not None and val_errors:
-                raise RuntimeError(f"Prompt delivery/completion uncertain; refusing automatic resend: {prompt_error}")
+                has_prog, prog_reason = check_verified_batch_progress(batch_items, batch_type, result_file)
+                if not has_prog or attempt > 1:
+                    raise RuntimeError(f"Prompt delivery/completion uncertain ({prog_reason}); refusing automatic resend: {prompt_error}")
+                print(f"[{batch_type} batch {batch_idx:03d}] Prompt returned error ({prompt_error}) but verified progress found ({prog_reason}); proceeding to bounded continuation.", file=sys.stderr)
 
             # Post-verification: ensure input.json and run-level files remained completely unmodified
             if file_sha256(input_file) != input_sha:
@@ -465,6 +514,8 @@ def process_batch(
             if not val_errors:
                 # Valid complete response
                 resp_sha = file_sha256(result_file)
+                prompt_1_file = batch_dir / "prompt_attempt_01.txt"
+                log_1_file = batch_dir / "agent_output_attempt_01.log"
                 receipt = {
                     "batch_type": batch_type,
                     "batch_idx": batch_idx,
@@ -480,7 +531,10 @@ def process_batch(
                     "request_sha": req_hash,
                     "prompt_file": str(prompt_file.name),
                     "prompt_sha": prompt_sha,
+                    "prompt_attempt_01_sha": file_sha256(prompt_1_file) if prompt_1_file.is_file() else None,
                     "log_file": str(log_file.name),
+                    "log_attempt_01_sha": file_sha256(log_1_file) if log_1_file.is_file() else None,
+                    "continuation_prompt_sha": prompt_sha if attempt > 1 else None,
                     "response_sha": resp_sha,
                     "started_at": started_at,
                     "finished_at": time.time(),

@@ -691,6 +691,124 @@ class TestReviewBatches(unittest.TestCase):
             mock_driver.run_cmd.assert_called_with(["agent", "prompt", "settled_worker", "/clear"], timeout=30)
             mock_driver.prompt_agent.assert_called_once()
 
+    def test_bounded_continuation_on_partial_result_and_no_resend_without_evidence(self):
+        """Verify bounded continuation: partial progress triggers targeted prompt; lack of progress refuses resend."""
+        case_dir = self.run_dir / "continuation_test"
+        case_dir.mkdir(parents=True, exist_ok=True)
+        diff_file = case_dir / "diff.json"
+        diff_file.write_text("{}", encoding="utf-8")
+        trans_file = case_dir / "translations.json"
+        trans_file.write_text("[]", encoding="utf-8")
+        draft_file = case_dir / "draft.json"
+        draft_file.write_text("[]", encoding="utf-8")
+
+        batch_input = [
+            {"index": 0, "file": "f.json", "path": ["a", 0], "source": "원문1", "translation": "译文1"},
+            {"index": 1, "file": "f.json", "path": ["a", 1], "source": "원문2", "translation": "译文2"},
+        ]
+
+        # Sub-case 1: No evidence in result.json -> Refuses re-prompt without progress
+        batch_dir_no_prog = case_dir / "pending_batch_no_prog"
+        batch_dir_no_prog.mkdir(parents=True, exist_ok=True)
+        rb.safe_write_json(batch_dir_no_prog / "input.json", batch_input)
+        in_sha_no_prog = rb.file_sha256(batch_dir_no_prog / "input.json")
+
+        mock_driver_no = self._create_mock_driver()
+        mock_driver_no.get_agent_status.return_value = "idle"
+        with patch("scripts.review_batches.wait_agent_until_settled", return_value="idle"):
+            with self.assertRaises(ValueError) as ctx:
+                rb.process_batch(
+                    driver=mock_driver_no,
+                    agent_name="worker_no_prog",
+                    pane_id="p1",
+                    batch_dir=batch_dir_no_prog,
+                    batch_type="pending",
+                    batch_idx=0,
+                    batch_items=batch_input,
+                    timeout_sec=60,
+                    input_sha_pre=in_sha_no_prog,
+                    diff_file=diff_file,
+                    diff_sha_pre=rb.file_sha256(diff_file),
+                    trans_file=trans_file,
+                    trans_sha_pre=rb.file_sha256(trans_file),
+                    draft_file=draft_file,
+                    draft_sha_pre=rb.file_sha256(draft_file),
+                )
+            self.assertIn("failed after 1 attempts without verified partial progress", str(ctx.exception))
+            # Exactly 1 prompt sent, no second prompt
+            mock_driver_no.prompt_agent.assert_called_once()
+
+        # Sub-case 2: Partial result exists (1 of 2 items matches) -> Single bounded continuation prompt without /clear, completes
+        batch_dir_prog = case_dir / "pending_batch_prog"
+        batch_dir_prog.mkdir(parents=True, exist_ok=True)
+        rb.safe_write_json(batch_dir_prog / "input.json", batch_input)
+        in_sha_prog = rb.file_sha256(batch_dir_prog / "input.json")
+
+        prompts_sent = []
+        mock_driver_yes = self._create_mock_driver()
+        mock_driver_yes.get_agent_status.return_value = "idle"
+
+        def fake_prompt_prog(name, text, timeout_sec=60):
+            prompts_sent.append(text)
+            res_f = batch_dir_prog / "result.json"
+            if len(prompts_sent) == 1:
+                # First attempt: only 1 of 2 items produced
+                rb.safe_write_json(res_f, [{
+                    "index": 0, "file": "f.json", "path": ["a", 0], "source": "원문1",
+                    "translation": "新译文1", "verdict": "approved", "reason": "ok"
+                }])
+            elif len(prompts_sent) == 2:
+                # Second attempt (continuation): completes all 2 items
+                rb.safe_write_json(res_f, [
+                    {
+                        "index": 0, "file": "f.json", "path": ["a", 0], "source": "원문1",
+                        "translation": "新译文1", "verdict": "approved", "reason": "ok"
+                    },
+                    {
+                        "index": 1, "file": "f.json", "path": ["a", 1], "source": "원문2",
+                        "translation": "新译文2", "verdict": "approved", "reason": "ok"
+                    }
+                ])
+
+        mock_driver_yes.prompt_agent.side_effect = fake_prompt_prog
+        with patch("scripts.review_batches.wait_agent_until_settled", return_value="idle"):
+            res = rb.process_batch(
+                driver=mock_driver_yes,
+                agent_name="worker_prog",
+                pane_id="p1",
+                batch_dir=batch_dir_prog,
+                batch_type="pending",
+                batch_idx=0,
+                batch_items=batch_input,
+                timeout_sec=60,
+                input_sha_pre=in_sha_prog,
+                diff_file=diff_file,
+                diff_sha_pre=rb.file_sha256(diff_file),
+                trans_file=trans_file,
+                trans_sha_pre=rb.file_sha256(trans_file),
+                draft_file=draft_file,
+                draft_sha_pre=rb.file_sha256(draft_file),
+            )
+            self.assertEqual(len(res["items"]), 2)
+            self.assertEqual(len(prompts_sent), 2)
+            # Continuation prompt is short, targeted, contains resolved paths, and does NOT resend full instructions
+            cont_prompt = prompts_sent[1]
+            self.assertIn("【续作提醒：本批(pending batch 000)已有部分输出，请立即补全并完成】", cont_prompt)
+            self.assertIn(str((batch_dir_prog / "result.json").resolve()), cont_prompt)
+            self.assertIn(str((batch_dir_prog / "input.json").resolve()), cont_prompt)
+            self.assertNotIn("【检索范围与预算】", cont_prompt)
+            # /clear was called only once on attempt 1, not on continuation attempt 2
+            clear_calls = [
+                call for call in mock_driver_yes.run_cmd.call_args_list
+                if any("/clear" in str(arg) for arg in call[0])
+            ]
+            self.assertEqual(len(clear_calls), 1)
+            # Receipt has recorded sha for both attempt 1 and continuation prompt
+            rcpt = res["receipt"]
+            self.assertEqual(rcpt["attempts"], 2)
+            self.assertIsNotNone(rcpt["continuation_prompt_sha"])
+            self.assertIsNotNone(rcpt["prompt_attempt_01_sha"])
+
 
 if __name__ == "__main__":
     unittest.main()
