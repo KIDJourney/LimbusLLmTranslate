@@ -379,6 +379,14 @@ def process_batch(
                     "要求：必须结合 context.json 中提供的既有参考记忆与证据进行复核。若存在证据冲突或无法确定合理定性，必须在 resolution_note 中明确引用对应证据 ID，且将 action 设为 'needs_translation'，resolved 设为 false，严禁假确认。\n"
                 )
 
+        prompt_text += (
+            "\n【检索范围与预算】\n"
+            "只能使用本批 input/context 和上述当前 KR/LLC 快照作为证据。禁止读取其它运行、其它批次、历史AI译文或校对输出作为术语依据。\n"
+            "禁止整份输出 context.json、translation_memory.json 或全库内容。用 Python 按当前 index/path 读取必要证据，仅输出证据 ID 和相关原文/译文片段。\n"
+            "额外检索最多 6 次，每次最多输出 3000 字符；优先逐项完成校对并写 result.json。证据不足标 unresolved，不无限搜索或猜测。\n"
+            "逐项给出具体理由，不能批量机械 approved。无需读项目代码、测试、旧运行日志或生成过程。\n"
+        )
+
         # 3. Interactive prompt & wait loop with bounded retry
         attempt = 0
         val_errors: list[str] = []
@@ -393,6 +401,15 @@ def process_batch(
                 curr_st = wait_agent_until_settled(driver, agent_name, deadline_ts=time.time()+min(30, timeout_sec), poll_interval_sec=2)
                 if curr_st not in {"idle", "done"}:
                     raise RuntimeError(f"Agent {agent_name} is not settled ({curr_st}); refusing prompt")
+
+            if attempt == 1:
+                # Clear accumulated conversation only when this worker is settled.
+                clear_result = driver.run_cmd(["agent", "prompt", agent_name, "/clear"], timeout=30)
+                safe_write_json(batch_dir / "session_reset.json", {"agent": agent_name, "at": time.time(), "result": clear_result})
+                time.sleep(1)
+                cleared_status = wait_agent_until_settled(driver, agent_name, deadline_ts=time.time()+30, poll_interval_sec=2)
+                if cleared_status not in {"idle", "done"}:
+                    raise RuntimeError(f"Reviewer session reset not settled: {cleared_status}")
 
             current_prompt = prompt_text
             if val_errors:

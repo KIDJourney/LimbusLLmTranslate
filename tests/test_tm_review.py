@@ -15,7 +15,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import MagicMock
+from unittest.mock import MagicMock, patch
 
 WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 import sys
@@ -27,6 +27,23 @@ import scripts.review_batches as rb
 
 
 class TranslationMemoryReviewBatchTest(unittest.TestCase):
+
+    def setUp(self) -> None:
+        self.sleep_patcher = patch("scripts.review_batches.time.sleep", return_value=None)
+        self.sleep_patcher.start()
+        self.settle_patcher = patch("scripts.review_batches.wait_agent_until_settled", return_value="idle")
+        self.settle_patcher.start()
+
+    def tearDown(self) -> None:
+        self.settle_patcher.stop()
+        self.sleep_patcher.stop()
+
+    def _create_mock_driver(self) -> MagicMock:
+        driver = MagicMock()
+        driver.run_cmd.return_value = {"exit_code": 0, "stdout": "", "stderr": ""}
+        driver.get_agent_status.return_value = "idle"
+        driver.read_agent_output.return_value = ""
+        return driver
 
     def test_needs_translation_must_have_resolved_false(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -176,9 +193,7 @@ class TranslationMemoryReviewBatchTest(unittest.TestCase):
                 "verdict": "approved", "reason": "stale reason",
             }])
 
-            noop_driver = MagicMock()
-            noop_driver.get_agent_status.return_value = "idle"
-            noop_driver.read_agent_output.return_value = ""
+            noop_driver = self._create_mock_driver()
 
             with self.assertRaises(ValueError) as ctx:
                 rb.process_batch(
@@ -208,9 +223,7 @@ class TranslationMemoryReviewBatchTest(unittest.TestCase):
                 "verdict": "approved", "reason": "old",
             }])
 
-            succ_driver = MagicMock()
-            succ_driver.get_agent_status.return_value = "idle"
-            succ_driver.read_agent_output.return_value = ""
+            succ_driver = self._create_mock_driver()
 
             def write_new_result(agent: str, prompt: str, timeout_sec: int = 60) -> None:
                 # Worker actually produces new result.json reflecting context
@@ -247,10 +260,8 @@ class TranslationMemoryReviewBatchTest(unittest.TestCase):
             trans_sha = file_sha256(trans_file)
             draft_sha = file_sha256(draft_file)
 
-            mock_driver = MagicMock()
-            mock_driver.get_agent_status.return_value = "idle"
+            mock_driver = self._create_mock_driver()
             prompts: list[str] = []
-            mock_driver.read_agent_output.return_value = ""
 
             # Pending batch with context
             b_dir_ctx = tmp_dir / "p_ctx"

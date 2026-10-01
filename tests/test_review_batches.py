@@ -21,9 +21,20 @@ class TestReviewBatches(unittest.TestCase):
         self.temp_dir = tempfile.TemporaryDirectory()
         self.run_dir = Path(self.temp_dir.name) / "run_test"
         self.run_dir.mkdir(parents=True, exist_ok=True)
+        self.sleep_patcher = patch("scripts.review_batches.time.sleep", return_value=None)
+        self.sleep_patcher.start()
+        self.settle_patcher = patch("scripts.review_batches.wait_agent_until_settled", return_value="idle")
+        self.settle_patcher.start()
 
     def tearDown(self):
+        self.settle_patcher.stop()
+        self.sleep_patcher.stop()
         self.temp_dir.cleanup()
+
+    def _create_mock_driver(self):
+        driver = MagicMock()
+        driver.run_cmd.return_value = {"exit_code": 0, "stdout": "", "stderr": ""}
+        return driver
 
     def test_validate_pending_batch_output_passes_and_catches_tampering(self):
         batch_input = [
@@ -126,7 +137,7 @@ class TestReviewBatches(unittest.TestCase):
         (self.run_dir / "translations.json").write_text(json.dumps(trans_data, ensure_ascii=False), encoding="utf-8")
 
         # Mock HerdrDriver
-        mock_driver = MagicMock()
+        mock_driver = self._create_mock_driver()
         mock_driver.create_workspace.return_value = ("ws_123", "pane_root")
         mock_driver.get_agent_info.return_value = {"agent_status": "idle", "pane_id": "pane_root"}
         mock_driver.get_agent_status.return_value = "idle"
@@ -231,7 +242,7 @@ class TestReviewBatches(unittest.TestCase):
         (run_d1 / "diff.json").write_text(json.dumps(diff_data), encoding="utf-8")
         (run_d1 / "translations.json").write_text(json.dumps([]), encoding="utf-8")
 
-        mock_driver = MagicMock()
+        mock_driver = self._create_mock_driver()
         mock_driver.get_agent_info.return_value = {"agent_status": "idle", "pane_id": "other_pane"}
 
         with self.assertRaises(ValueError):
@@ -291,7 +302,7 @@ class TestReviewBatches(unittest.TestCase):
         (self.run_dir / "diff.json").write_text(json.dumps(diff_data), encoding="utf-8")
         (self.run_dir / "translations.json").write_text(json.dumps([]), encoding="utf-8")
 
-        mock_driver = MagicMock()
+        mock_driver = self._create_mock_driver()
 
         # One arg missing must fail
         with self.assertRaises(ValueError):
@@ -342,7 +353,7 @@ class TestReviewBatches(unittest.TestCase):
         trans_data = [{"file": "f.json", "path": ["a", 0], "source": "원문", "translation": "初始译文"}]
         (self.run_dir / "translations.json").write_text(json.dumps(trans_data), encoding="utf-8")
 
-        mock_driver = MagicMock()
+        mock_driver = self._create_mock_driver()
         mock_driver.create_workspace.return_value = ("ws_1", "p_1")
         mock_driver.get_agent_info.return_value = {"agent_status": "idle", "pane_id": "p_1"}
         mock_driver.get_agent_status.return_value = "idle"
@@ -384,7 +395,7 @@ class TestReviewBatches(unittest.TestCase):
         trans_file.write_text("[]", encoding="utf-8")
         draft_file.write_text("[]", encoding="utf-8")
 
-        mock_driver = MagicMock()
+        mock_driver = self._create_mock_driver()
         mock_driver.get_agent_status.return_value = "idle"
 
         def tamper_diff(name, text, timeout_sec=60):
@@ -434,7 +445,7 @@ class TestReviewBatches(unittest.TestCase):
         ]
         (self.run_dir / "translations.json").write_text(json.dumps(trans_data), encoding="utf-8")
 
-        mock_driver = MagicMock()
+        mock_driver = self._create_mock_driver()
         mock_driver.create_workspace.return_value = ("ws_test", "pane_root")
         mock_driver.split_pane.return_value = "pane_split"
         mock_driver.move_pane_to_new_tab.return_value = "pane_tab"
@@ -484,6 +495,201 @@ class TestReviewBatches(unittest.TestCase):
         self.assertTrue(sem_file.is_file())
         sem_data = json.loads(sem_file.read_text())
         self.assertEqual(len(sem_data["batch_receipts"]), 3)
+
+    def test_verified_cache_not_cleared_and_prompt_forbids_historical_ai(self):
+        # 1. Setup pending batch input
+        diff_data = {
+            "pending": [{"file": "f.json", "path": ["a", 0], "source": "원문"}],
+            "review": [],
+        }
+        (self.run_dir / "diff.json").write_text(json.dumps(diff_data), encoding="utf-8")
+        trans_data = [{"file": "f.json", "path": ["a", 0], "source": "원문", "translation": "初始译文"}]
+        (self.run_dir / "translations.json").write_text(json.dumps(trans_data), encoding="utf-8")
+
+        # 2. Pre-populate verified batch cache (receipt.json + result.json)
+        batch_dir = self.run_dir / "reviews" / "batches" / "pending_batch_0000"
+        batch_dir.mkdir(parents=True, exist_ok=True)
+        batch_input = [{"index": 0, "file": "f.json", "path": ["a", 0], "source": "원문", "translation": "初始译文"}]
+        rb.safe_write_json(batch_dir / "input.json", batch_input)
+        input_sha = rb.file_sha256(batch_dir / "input.json")
+        res_items = [{
+            "index": 0, "file": "f.json", "path": ["a", 0], "source": "원문",
+            "translation": "已验证译文", "verdict": "approved", "reason": "通过"
+        }]
+        rb.safe_write_json(batch_dir / "result.json", res_items)
+        receipt = {
+            "batch_idx": 0,
+            "batch_type": "pending",
+            "input_sha": input_sha,
+            "response_sha": rb.file_sha256(batch_dir / "result.json"),
+            "agent_name": "cached_worker",
+            "pane_id": "pane_cached",
+            "status": "success",
+            "item_count": 1,
+            "completed_at": 1000.0,
+        }
+        rb.safe_write_json(batch_dir / "receipt.json", receipt)
+
+        mock_driver = self._create_mock_driver()
+        mock_driver.create_workspace.return_value = ("ws_test", "pane_root")
+        mock_driver.get_agent_info.return_value = {"agent_status": "idle", "pane_id": "pane_root"}
+        mock_driver.get_agent_status.return_value = "idle"
+
+        ret = rb.orchestrate_review(
+            run_dir=self.run_dir,
+            driver=mock_driver,
+            batch_size=50,
+            max_workers=1,
+        )
+        self.assertEqual(ret, 0)
+        # Verified cache reused: driver.run_cmd MUST NOT have been called with /clear
+        clear_calls = [
+            call for call in mock_driver.run_cmd.call_args_list
+            if any("/clear" in str(arg) for arg in call[0])
+        ]
+        self.assertEqual(len(clear_calls), 0)
+        mock_driver.prompt_agent.assert_not_called()
+
+        # 3. Verify prompt contents for new unverified batches
+        new_batch_dir = self.run_dir / "reviews" / "batches" / "pending_batch_0001"
+        prompts_sent = []
+        def capture_prompt(name, text, timeout_sec=60):
+            prompts_sent.append(text)
+            p = new_batch_dir / "result.json"
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(json.dumps([{
+                "index": 0, "file": "f.json", "path": ["a", 0], "source": "원문",
+                "translation": "新译文", "verdict": "approved", "reason": "ok"
+            }], ensure_ascii=False), encoding="utf-8")
+
+        mock_driver.prompt_agent.side_effect = capture_prompt
+        diff_file = self.run_dir / "diff.json"
+        trans_file = self.run_dir / "translations.json"
+        draft_file = self.run_dir / "draft_translations.json"
+        rb.process_batch(
+            driver=mock_driver,
+            agent_name="new_worker",
+            pane_id="pane_root",
+            batch_dir=new_batch_dir,
+            batch_type="pending",
+            batch_idx=1,
+            batch_items=batch_input,
+            timeout_sec=60,
+            input_sha_pre=input_sha,
+            diff_file=diff_file,
+            diff_sha_pre=rb.file_sha256(diff_file),
+            trans_file=trans_file,
+            trans_sha_pre=rb.file_sha256(trans_file),
+            draft_file=draft_file,
+            draft_sha_pre=rb.file_sha256(draft_file),
+        )
+        self.assertEqual(len(prompts_sent), 1)
+        sent_prompt = prompts_sent[0]
+        self.assertIn("【检索范围与预算】", sent_prompt)
+        self.assertIn("禁止读取其它运行、其它批次、历史AI译文或校对输出作为术语依据", sent_prompt)
+        self.assertIn("禁止整份输出 context.json、translation_memory.json 或全库内容", sent_prompt)
+
+    def test_new_batch_clears_only_when_settled_and_aborts_on_failure(self):
+        case_dir = self.run_dir / "new_batch_test"
+        case_dir.mkdir(parents=True, exist_ok=True)
+        batch_dir = case_dir / "pending_batch_0000"
+        batch_input = [{"index": 0, "file": "f.json", "path": ["a", 0], "source": "원문", "translation": "译文"}]
+        rb.safe_write_json(batch_dir / "input.json", batch_input)
+        input_sha = rb.file_sha256(batch_dir / "input.json")
+        diff_file = case_dir / "diff.json"
+        diff_file.write_text("{}", encoding="utf-8")
+        trans_file = case_dir / "translations.json"
+        trans_file.write_text("[]", encoding="utf-8")
+        draft_file = case_dir / "draft.json"
+        draft_file.write_text("[]", encoding="utf-8")
+
+        mock_driver = self._create_mock_driver()
+
+        # Case 1: Worker not settled initially -> refuses prompt without calling /clear
+        mock_driver.get_agent_status.return_value = "running"
+        with patch("scripts.review_batches.wait_agent_until_settled", return_value="running"):
+            with self.assertRaises(RuntimeError) as cm:
+                rb.process_batch(
+                    driver=mock_driver,
+                    agent_name="busy_worker",
+                    pane_id="p1",
+                    batch_dir=batch_dir,
+                    batch_type="pending",
+                    batch_idx=0,
+                    batch_items=batch_input,
+                    timeout_sec=60,
+                    input_sha_pre=input_sha,
+                    diff_file=diff_file,
+                    diff_sha_pre=rb.file_sha256(diff_file),
+                    trans_file=trans_file,
+                    trans_sha_pre=rb.file_sha256(trans_file),
+                    draft_file=draft_file,
+                    draft_sha_pre=rb.file_sha256(draft_file),
+                )
+            self.assertIn("refusing prompt", str(cm.exception))
+            mock_driver.run_cmd.assert_not_called()
+            mock_driver.prompt_agent.assert_not_called()
+
+        # Case 2: Worker idle, but after /clear reset it fails to settle -> aborts without dispatching prompt
+        mock_driver.reset_mock()
+        mock_driver.get_agent_status.return_value = "idle"
+        with patch("scripts.review_batches.wait_agent_until_settled", return_value="error"):
+            with self.assertRaises(RuntimeError) as cm2:
+                rb.process_batch(
+                    driver=mock_driver,
+                    agent_name="reset_fail_worker",
+                    pane_id="p1",
+                    batch_dir=batch_dir,
+                    batch_type="pending",
+                    batch_idx=0,
+                    batch_items=batch_input,
+                    timeout_sec=60,
+                    input_sha_pre=input_sha,
+                    diff_file=diff_file,
+                    diff_sha_pre=rb.file_sha256(diff_file),
+                    trans_file=trans_file,
+                    trans_sha_pre=rb.file_sha256(trans_file),
+                    draft_file=draft_file,
+                    draft_sha_pre=rb.file_sha256(draft_file),
+                )
+            self.assertIn("Reviewer session reset not settled", str(cm2.exception))
+            # /clear was executed
+            mock_driver.run_cmd.assert_called_with(["agent", "prompt", "reset_fail_worker", "/clear"], timeout=30)
+            self.assertTrue((batch_dir / "session_reset.json").is_file())
+            # Actual prompt was NEVER dispatched
+            mock_driver.prompt_agent.assert_not_called()
+
+        # Case 3: Worker idle and reset settles -> proceeds to dispatch prompt
+        mock_driver.reset_mock()
+        mock_driver.get_agent_status.return_value = "idle"
+        with patch("scripts.review_batches.wait_agent_until_settled", return_value="idle"):
+            def fake_prompt(name, text, timeout_sec=60):
+                res_f = batch_dir / "result.json"
+                res_f.write_text(json.dumps([{
+                    "index": 0, "file": "f.json", "path": ["a", 0], "source": "원문",
+                    "translation": "译文", "verdict": "approved", "reason": "ok"
+                }], ensure_ascii=False), encoding="utf-8")
+            mock_driver.prompt_agent.side_effect = fake_prompt
+            res = rb.process_batch(
+                driver=mock_driver,
+                agent_name="settled_worker",
+                pane_id="p1",
+                batch_dir=batch_dir,
+                batch_type="pending",
+                batch_idx=0,
+                batch_items=batch_input,
+                timeout_sec=60,
+                input_sha_pre=input_sha,
+                diff_file=diff_file,
+                diff_sha_pre=rb.file_sha256(diff_file),
+                trans_file=trans_file,
+                trans_sha_pre=rb.file_sha256(trans_file),
+                draft_file=draft_file,
+                draft_sha_pre=rb.file_sha256(draft_file),
+            )
+            self.assertEqual(len(res["items"]), 1)
+            mock_driver.run_cmd.assert_called_with(["agent", "prompt", "settled_worker", "/clear"], timeout=30)
+            mock_driver.prompt_agent.assert_called_once()
 
 
 if __name__ == "__main__":
